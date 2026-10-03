@@ -1,10 +1,16 @@
+# Approval update — 2026-10-03 08:38 UTC
+
+The user approved a **cumulative CNY100 ceiling** for AutoDL server rental for this research project; spending beyond that requires a new approval. Cloud-browser operation is authorized. The first pilot remains internally capped at four GPU hours / CNY20 before evidence review. No new top-up, automatic recharge, paid disk expansion, or new legal agreement is authorized by this record. Account verification, actual instance quote, code-transfer readiness, and functioning stop controls remain prerequisites. No rental or GPU execution has occurred.
+
+The dated estimates below are the planning basis. The numerical ceiling is now approved; execution readiness and evidence gates remain mandatory.
+
 # GPU provider research and proposed exploratory budget
 
-Checked: 2026-10-03 UTC; AutoDL pricing corrected after direct official frontend-asset verification at approximately 07:33 UTC. Status: **proposal only; no numeric spending cap has been approved**. No rental, login, account creation, payment, model download to a paid GPU, or GPU experiment has been performed for this research.
+Checked: 2026-10-03 UTC; AutoDL pricing corrected after direct official frontend-asset verification at approximately 07:33 UTC. Status: **cumulative CNY100 ceiling approved at 08:38 UTC; execution readiness pending**. No rental, login, account creation, payment, model download to a paid GPU, or GPU experiment has been performed for this research.
 
 ## Current sequence and recommendation
 
-Finish cloud-based topic selection, code preparation, and CPU tests first. GPU execution is deferred to the user's Windows/AutoDL phase. An earlier computer-access attempt did not establish a usable remote executor; do not assume that any assistant can currently execute commands or shut down an AutoDL instance.
+Finish cloud-based topic selection, code preparation, and CPU tests first. GPU execution is deferred until cloud-browser AutoDL account and control readiness are verified. An earlier computer-access attempt did not establish a usable remote executor; do not assume that any assistant can currently execute commands or shut down an AutoDL instance.
 
 The leading candidate is **one AutoDL ordinary pay-as-you-go container with an RTX 5090 32GB**, conditional on the account's actual listing and compatible software. Proposed gate A: **at most 4 billable GPU hours and CNY 20 total**, whichever limit is reached first. This includes provisioning, environment setup, downloads while the GPU instance is running, inference, and any ancillary fees. No disk expansion or automatic renewal/recharge is proposed. Proposed total for early exploration: **CNY 100 and 28 GPU hours** across separately gated stages. This is an exploratory budget, **not a paper-completion budget** or prediction that full reproduction fits in 28 hours.
 
@@ -41,16 +47,16 @@ All prices below are public list/starting prices, not an account-specific checko
 
 The official dynamic page did not expose a verifiable concrete 5090 offer price during this pass. It is a host-priced marketplace: compute is billed per second and storage continuously, including stopped instances. CPU/RAM/disk/network charges and reliability are offer-specific. Do not turn third-party lowest-price trackers into an actual quote. [Pricing](https://vast.ai/pricing), [official billing FAQ](https://github.com/vast-ai/docs/blob/main/guides/reference/faq/billing.mdx)
 
-## Proposed staged budget, not approved
+## Internal staged budget within the approved CNY100 ceiling
 
 | Gate | Purpose | Maximum additional GPU hours | Maximum additional all-in cost | Release condition |
 |---|---|---:|---:|---|
-| A | Environment/SM120 compatibility, one model, 32–64-sample smoke test | 4 | CNY 20 | Actual quote and Windows execution/stop route verified; user approves this gate |
-| B | Full-KV plus the selected strong baseline on the agreed evaluation slice | 12 | CNY 40 | A passed; trustworthy quality/memory/time measurements; user approves continuation |
-| C | Two tiny research variants and a repeat | 12 | CNY 40 | B reproduced sufficiently; candidate merits testing; user approves continuation |
+| A | Environment/SM120 compatibility, one model, 32–64-sample smoke test | 4 | CNY 20 | Actual quote and approved cloud execution/stop route verified; cumulative budget respected |
+| B | Full-KV plus the selected strong baseline on the agreed evaluation slice | 12 | CNY 40 | A passed; trustworthy quality/memory/time measurements; internal evidence review supports continuation within the approved cumulative ceiling |
+| C | Two tiny research variants and a repeat | 12 | CNY 40 | B reproduced sufficiently; candidate merits testing; internal evidence review supports continuation within the approved cumulative ceiling |
 | Total | Early feasibility exploration, not a paper budget | 28 | CNY 100 | All gates are proposals; no automatic transition |
 
-At the corrected public ordinary-user rate of CNY 2.93/hour, compute-only estimates are A = CNY 11.72, B = CNY 35.16, C = CNY 35.16, total = CNY 82.04. These calculations do not assume membership; the approximate CNY 2.78/hour membership price is not used in the budget. The remaining allowance is headroom, not permission for add-ons. An optional proposed compute-rate ceiling is CNY 3.00/hour, subject to later approval. Taxes, service/payment/currency fees and any unavoidable attributable storage must fit inside each all-in cap. If the minimum required account top-up exceeds the approved cash-outlay limit, pause rather than depositing more. Existing balance does not eliminate the need for spending authorization.
+At the corrected public ordinary-user rate of CNY 2.93/hour, compute-only estimates are A = CNY 11.72, B = CNY 35.16, C = CNY 35.16, total = CNY 82.04. These calculations do not assume membership; the approximate CNY 2.78/hour membership price is not used in the budget. The remaining allowance is headroom, not permission for add-ons. An optional proposed compute-rate ceiling is CNY 3.00/hour, retained as the operational quote ceiling. Taxes, service/payment/currency fees and any unavoidable attributable storage must fit inside each all-in cap. If the minimum required account top-up exceeds the approved cash-outlay limit, pause rather than depositing more. Existing balance does not eliminate the need for spending authorization.
 
 Gate A permits **no paid disk expansion**. If ordinary free storage is insufficient, stop and resize the task or request a revised quote and authorization. No new recurring storage, annual/monthly reservation, auto-recharge, API bill, additional GPU, or provider substitution is covered by this proposal.
 
@@ -58,7 +64,7 @@ Gate A permits **no paid disk expansion**. If ordinary free storage is insuffici
 
 Nothing below is installed or tested. A local Python timeout or a killed inference process does **not** stop a paid GPU instance. A plan that cannot verify a provider-level stop path must not begin an unattended paid run.
 
-1. During the later Windows phase, verify an authorized control path to the actual instance and console. Record the instance ID, selected GPU/VRAM, host CPU/RAM, hourly quote, billing start time, storage fees and provider time zone.
+1. Before the GPU phase, verify an authorized control path to the actual instance and console. Record the instance ID, selected GPU/VRAM, host CPU/RAM, hourly quote, billing start time, storage fees and provider time zone.
 2. Immediately after provisioning, set the provider's scheduled shutdown and verify it in the console **before workload execution**. Proposed initial deadline: no later than 3h55m from billable start, leaving a five-minute operational margin within the 4h maximum. If configuration cannot be verified promptly, shut down manually; do not continue with a merely promised timer.
 3. Compute the earlier cost stop using the actual rate and conservative ancillary-fee reserve. Stop before either time or cost cap; proposed alert/stop trigger is 95% of the all-in cap, rather than waiting until the last cent. Account billing can lag, so elapsed-time accounting is also required.
 4. Add a job-level cleanup path that flushes results/logs and calls the provider-supported shutdown on both success and failure. Test the path on the authorized instance. AutoDL's documented command is /usr/bin/shutdown; a success-only shell `&& shutdown` is insufficient.
@@ -81,16 +87,16 @@ Illustrative derived calculation, not a GPU measurement: Qwen2.5-7B-Instruct has
 
 ## Account, activation, payment, and mandatory agreements
 
-- Service delivery is a remotely accessed Linux GPU container in the user's selected AutoDL account; the later Windows machine is the client/control environment, not the GPU itself. Exact account, region, instance, access method and authority to run/stop it are unresolved.
+- Service delivery is a remotely accessed Linux GPU container in the user's selected AutoDL account; the approved cloud browser is the planned control interface, not the GPU itself. Exact account, region, instance, access method and authority to run/stop it are unresolved.
 - AutoDL's public registration form requests a mobile number, verification code and password, and shows acceptance of the Service Agreement, Privacy Policy and Anti-Mining Agreement. No account registration is authorized by this research. Password creation/entry and sensitive identity/payment steps need the supported user handoff. [Registration page](https://autodl.com/register)
 - Verified official terms: [AutoDL Service Agreement](https://www.autodl.com/docs/agreements/), [Privacy Policy](https://www.autodl.com/docs/privacy_policy/), [Anti-Mining Agreement](https://www.autodl.com/docs/anti_mining/). Actual checkout may present additional terms; inspect and disclose them before approval. Do not claim these agreements have been accepted.
 - Official billing documentation currently lists WeChat/Alipay top-up and corporate remittance, with PayPal described as not yet available there. The minimum top-up, this user's available payment method, usable balance, refunds/withdrawals for ordinary prepaid balance and actual taxes/fees were **not verified**. Reserved-plan conversion refunds do not establish a general cash refund right. [Billing/top-up](https://www.autodl.com/docs/price/)
 - Real-name requirements depend on the selected product/feature. The **custom public-service/port exposure** feature explicitly requires real-name verification and a separate supplement; it is unnecessary for a private offline pilot and is excluded. Do not assume all ordinary containers require that feature. [Custom-service supplement](https://www.autodl.com/docs/service_agreement/), [identity-verification notice](https://api.autodl.com/docs/real_name_cert/)
 - No new API key or ongoing credential access is part of the budget proposal. Do not save credentials in this project.
 
-## Future gate-A approval wording: draft only, do not ask now
+## Original gate-A approval wording (historical, superseded by the CNY100 approval)
 
-Use only after the cloud topic/code work is ready, Windows access is verified, and bracketed account/order fields are actually known. If a material field remains unknown, gather it before asking; this draft does not itself authorize any action.
+This historical draft is superseded; any new order-level clarification should occur only after cloud topic/code work is ready, the approved control route is verified, and bracketed account/order fields are actually known. If a material field remains unknown, gather it before asking; this draft does not itself authorize any action.
 
 > 下一步拟在你的 AutoDL 账号［已核验账号］租一台普通按量容器：1 张 RTX 5090 32GB，［CPU/RAM］，使用自带免费磁盘。当前账号报价为 ¥［实际费率］/小时，按秒计费；本轮包括开机准备、计算及已列明杂费在内，最多 ¥20、最多 4 个计费 GPU 小时，先达到任一限制就结束，不扩容磁盘。费用从［已核验的现有余额／待你支付的具体充值金额及方式］扣除，不开自动充值或包月。服务器远程提供在［地区］，后续用你的 Windows 连接；已核验的停机安排是［具体控制台定时关机时间与备用关机方式］。使用需遵守［实际需新接受的协议链接］；［页面显示的退款或取消限制］。你同意这次最多 ¥20 的试跑，以及按上述限制结束并关机吗？
 
