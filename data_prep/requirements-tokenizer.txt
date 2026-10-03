@@ -1,0 +1,5 @@
+# CPU-only tokenizer/template rendering and canonical metric validation. No model packages.
+tokenizers==0.21.4
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+fuzzywuzzy==0.18.0
