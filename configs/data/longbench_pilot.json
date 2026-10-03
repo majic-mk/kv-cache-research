@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "seed": "echopress-longbench-context-pilot-v1-20261003",
+  "development_contexts_per_dataset": 8,
+  "heldout_contexts_per_dataset": 16,
+  "max_context_tokens": 32768,
+  "max_total_tokens_including_generation": 32768,
+  "max_new_tokens": 64,
+  "oversize_policy": "reject",
+  "chat_policy": "qwen-single-user-enable-thinking-false",
+  "tokenization_policy": "separate-frozen-context-and-query-segments",
+  "region_tokens": 2048,
+  "split_group": "sha256-of-original-context-utf8",
+  "evidence_kind": "natural",
+  "metric": "longbench-code-sim-fuzzywuzzy-0.18.0-difflib",
+  "min_context_tokens": 4096,
+  "presets": {
+    "smoke8k": {
+      "max_context_tokens": 8192,
+      "max_total_tokens_including_generation": 8192,
+      "splits": [
+        "development"
+      ],
+      "max_contexts_per_dataset_split": 2
+    },
+    "pilot16k": {
+      "max_context_tokens": 16384,
+      "max_total_tokens_including_generation": 16384,
+      "splits": [
+        "development",
+        "heldout"
+      ],
+      "max_contexts_per_dataset_split": null
+    }
+  }
+}
