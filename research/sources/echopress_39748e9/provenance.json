@@ -1,0 +1,136 @@
+{
+  "retrieved_utc": "2026-10-03",
+  "repository": "ljwljwljwljw/kvpress",
+  "branch": "echo-press",
+  "commit": "39748e9c8301944128eb2e681bfb074e9a2de860",
+  "tree": "7fb6af0b3212770127d6c8e334d34e8ad31dcee6",
+  "parent_commit": "327ed6f316cfadcff37a3e644a817f9ff58b8848",
+  "license": "Apache-2.0",
+  "method": "GitHub connector public read",
+  "files": [
+    {
+      "path": "kvpress/presses/echo_press.py",
+      "git_blob_sha": "a01124fd903b6a2e8a9ceccc5bdc5d8fc543f7b6",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/echo_press.py",
+      "local_sha256": "c1165408abec363b17201d56c4105873555b384b674819c7901df5d5c5c06b0b",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/echo_press_kernels.py",
+      "git_blob_sha": "3f8a5495ae06eb6fbff7790daa8b12a9befb661b",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/echo_press_kernels.py",
+      "local_sha256": "fe57293da95d10e552ff34fb5384c80b975fe856583192330b47b09f0c3f0830",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/kvzip_press.py",
+      "git_blob_sha": "3e6bd4d3966df084b7ab3f9ac7a11850c02708ec",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/kvzip_press.py",
+      "local_sha256": "41b7cbbef0f670136b53ad946d7b939daa16dda4d7974e329a26691d096d4598",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/kvzap_press.py",
+      "git_blob_sha": "f187f95f27dd8238b2efc135ff3bf3d8e7ba7a1e",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/kvzap_press.py",
+      "local_sha256": "f29f8b0b31e4efb57b5a43bc9d1254a4c7333bb261ce411c77ed467d8ea25eb7",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "tests/presses/test_echo_press.py",
+      "git_blob_sha": "044d071d0054d894d1812ce1a0dac4bc4ef5b710",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/tests/presses/test_echo_press.py",
+      "local_sha256": "1fbceb4b7d116a0e09226ba1a355d6a09705cdf277b00668bb474c9b3cf6d839",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "a5fb7be5f568c0ae66945c053d43ea080c668045",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/LICENSE",
+      "local_sha256": "312429cd7b3ef25c52b86a7c1eb7def37a4e1166b0a894328953e8fa3fece4f0",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "pyproject.toml",
+      "git_blob_sha": "91550b10737917595e5605997cd796b847411150",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/pyproject.toml",
+      "local_sha256": "08000260764c3af54393376129c7638e6be1ea7ffe0f9e7ff6bfea7015132351",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvzap/README.md",
+      "git_blob_sha": "81eb03fe24349c4144ce332b7e92eb76ceb4187e",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvzap/README.md",
+      "local_sha256": "6cfd31a1a7078ac81d2c9f02d88b0ed46fb6b63b38616c7869523ac12ddfc131",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "evaluation/evaluate.py",
+      "git_blob_sha": "02d50c7cf9b8d97e9c431a890e0e0f05b11b4350",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/evaluation/evaluate.py",
+      "local_sha256": "67b02d16d1425d1ec9cc662534a1ee3a624ba9e74467733192b665048c541540",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/compactor_press.py",
+      "git_blob_sha": "338ad7342511c09b68bc60679ffc74d5ac39a1d2",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/compactor_press.py",
+      "local_sha256": "37c41e5494ee7e0dfcba4bbe501e50433f6d45c3bddcb559a51ead773c7b7045",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/dms_press.py",
+      "git_blob_sha": "29634a30e71d4a1f3beee0e0f39d341a0219f891",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/dms_press.py",
+      "local_sha256": "284bad98b51906735fdf716c85bea7add9456296061c03b72d0bd0e5af34eaba",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/scorer_press.py",
+      "git_blob_sha": "ec2c325119a84578fa1c09159740a6837e5581fa",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/scorer_press.py",
+      "local_sha256": "39191c9fb161238a2c44b32df8852e7406c3026423cd198470a0be026b8dfc50",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/presses/fastkvzip_press.py",
+      "git_blob_sha": "c6897be4902b844d3400f7e5d733980f72fdc9e3",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/fastkvzip_press.py",
+      "local_sha256": "a2ea3552a739f5cf1927aa962dfd239e42dd6d52d04f06bd4c2847b1ff41d675",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/pipeline.py",
+      "git_blob_sha": "0e99d21d8d30b845e1129c7f336da9894087c484",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/pipeline.py",
+      "local_sha256": "5775878baee6a7b8e70936eee8a09fb4ddfc9fb780f7f3d446958e629d537b86",
+      "local_git_blob_verified": true
+    }
+  ],
+  "upstream_v055": {
+    "commit": "a13a1da31ab2b92671d9e26994d5bdbd69d9bd61",
+    "echo_parent_ahead_by": 5,
+    "commits_since_release": [
+      {
+        "sha": "e0f58eb7267521bf440ff661c61bde50555d6ad6",
+        "message": "Set KVgradPress chunk_size default to 256 \ud83e\udd16\ud83e\udd16\ud83e\udd16 (#286)"
+      },
+      {
+        "sha": "7331c23da9e6f1510d89ea651d0dea77a57b3252",
+        "message": "Fix MergingPress merge_fraction to rank within the eligible tokens \ud83e\udd16\ud83e\udd16\ud83e\udd16 (#287)\n\nThe fraction gate took the (1 - merge_fraction) quantile of the whole row after\nsetting threshold-rejected tokens to -inf. That quantile is a share of all\nevicted tokens, so the share of eligible tokens that merged depended on the\nrejection rate of the row. Rank within the eligible set of each row instead,\nfollowing the idiom of torch.nn.utils.prune.PruningContainer._combine_masks.\n\nAdds tests for the merged share at several rejection rates, for rows with\nheterogeneous rejection rates, and for merge_fraction=1.0.\n\nSigned-off-by: jg-codes <53511569+jg-codes@users.noreply.github.com>"
+      },
+      {
+        "sha": "8f893c8a35059a3d992ada7688121f6b60619bec",
+        "message": "Add DropKVPress"
+      },
+      {
+        "sha": "66c5b0903b3be742bcba6b96d9796bd561e58f2d",
+        "message": "Reuse query-state helper across remaining presses (#294)"
+      },
+      {
+        "sha": "327ed6f316cfadcff37a3e644a817f9ff58b8848",
+        "message": "Keep the Loogle key count when a prediction does not parse (#299)"
+      }
+    ]
+  }
+}
