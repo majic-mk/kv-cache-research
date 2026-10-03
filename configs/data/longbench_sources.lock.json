@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "id": "zai-org/LongBench",
+    "requested_alias": "THUDM/LongBench",
+    "revision": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672",
+    "archive": {
+      "filename": "data.zip",
+      "url": "https://huggingface.co/datasets/zai-org/LongBench/resolve/5e628be450b7e67fb7ae6e201bd6d8f7056f7672/data.zip",
+      "bytes": 113932529,
+      "sha256": "cb45b11a4133c6bc1d6a44b0f8e701335ff1e543195db1103472e575857f7f64"
+    },
+    "members": {
+      "lcc": {"path": "data/lcc.jsonl", "bytes": 7248719, "sha256": "a35809a88d899f61c116690b12f9e96d443238852cedc1a9fe48d85bff6f7aa1", "rows": 500},
+      "repobench-p": {"path": "data/repobench-p.jsonl", "bytes": 25309838, "sha256": "919a4439e2a84ebb25bacc39ac3b3269a7641af6e02ae205ed78d8c53dfe3568", "rows": 500}
+    },
+    "license": {
+      "reviewed_at_utc": "2026-10-03",
+      "hf_dataset_license": null,
+      "longbench_repository_code": "MIT",
+      "repobench_upstream_repository": "CC-BY-4.0; original-code licensing caveat",
+      "lcc_upstream_repository_code": "MIT; no explicit HF dataset license",
+      "use": "Private local research only; no redistribution clearance asserted",
+      "raw_or_tokenized_git_distribution": false
+    }
+  },
+  "benchmark_code": {"id": "THUDM/LongBench", "revision": "2e00731f8d0bff23dc4325161044d0ed8af94c1e", "provenance_file": "data_prep/sources/longbench/provenance.json"},
+  "tokenizer": {
+    "id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "license": "Apache-2.0",
+    "files": {
+      "tokenizer.json": {"bytes": 11422654, "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"},
+      "tokenizer_config.json": {"bytes": 9732, "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"}
+    }
+  }
+}
