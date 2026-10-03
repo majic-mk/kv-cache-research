@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kv-research-harness"
+version = "0.1.0"
+description = "Evidence-separated, CPU-tested reproducibility scaffolding for KV-cache research"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+kv-harness = "kv_harness.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kv_harness*"]
