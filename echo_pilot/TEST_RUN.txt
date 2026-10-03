@@ -1,0 +1,43 @@
+test_aliasing_deepcopy_rejected (test_contracts.CacheIsolationFixtureTests.test_aliasing_deepcopy_rejected) ... ok
+test_independent_query_clones_preserve_frozen_cache (test_contracts.CacheIsolationFixtureTests.test_independent_query_clones_preserve_frozen_cache) ... ok
+test_physical_storage_not_logical_payload (test_contracts.CacheIsolationFixtureTests.test_physical_storage_not_logical_payload) ... ok
+test_shared_backing_storage_counted_once (test_contracts.CacheIsolationFixtureTests.test_shared_backing_storage_counted_once) ... ok
+test_boolean_token_rejected (test_contracts.ContractTests.test_boolean_token_rejected) ... ok
+test_download_mode_rejected (test_contracts.ContractTests.test_download_mode_rejected) ... ok
+test_dry_run_does_not_import_ml_packages (test_contracts.ContractTests.test_dry_run_does_not_import_ml_packages) ... ok
+test_dry_run_evidence_marked_fixture_only (test_contracts.ContractTests.test_dry_run_evidence_marked_fixture_only) ... ok
+test_duplicate_question_id_rejected (test_contracts.ContractTests.test_duplicate_question_id_rejected) ... ok
+test_exact_floor_eviction_budget (test_contracts.ContractTests.test_exact_floor_eviction_budget) ... ok
+test_exact_right_truncation_and_region_clip (test_contracts.ContractTests.test_exact_right_truncation_and_region_clip) ... ok
+test_existing_output_is_not_overwritten (test_contracts.ContractTests.test_existing_output_is_not_overwritten) ... ok
+test_fixture_data_cannot_execute_as_real_experiment (test_contracts.ContractTests.test_fixture_data_cannot_execute_as_real_experiment) ... ok
+test_future_query_in_context_schema_rejected (test_contracts.ContractTests.test_future_query_in_context_schema_rejected) ... ok
+test_impossible_sink_recency_budget_rejected (test_contracts.ContractTests.test_impossible_sink_recency_budget_rejected) ... ok
+test_input_hash_tampering_rejected (test_contracts.ContractTests.test_input_hash_tampering_rejected) ... ok
+test_missing_prefix_rejected (test_contracts.ContractTests.test_missing_prefix_rejected) ... ok
+test_missing_question_suffix_rejected (test_contracts.ContractTests.test_missing_question_suffix_rejected) ... ok
+test_mutable_revision_rejected (test_contracts.ContractTests.test_mutable_revision_rejected) ... ok
+test_nonfinite_ratio_rejected (test_contracts.ContractTests.test_nonfinite_ratio_rejected) ... ok
+test_optional_import_error_is_actionable (test_contracts.ContractTests.test_optional_import_error_is_actionable) ... ok
+test_protection_overlap_not_double_counted (test_contracts.ContractTests.test_protection_overlap_not_double_counted) ... ok
+test_questions_change_cannot_change_context_hash (test_contracts.ContractTests.test_questions_change_cannot_change_context_hash) ... ok
+test_region_gap_rejected (test_contracts.ContractTests.test_region_gap_rejected) ... ok
+test_release_version_instead_of_commit_rejected (test_contracts.ContractTests.test_release_version_instead_of_commit_rejected) ... ok
+test_truncation_reject_is_default (test_contracts.ContractTests.test_truncation_reject_is_default) ... ok
+test_unknown_knob_rejected (test_contracts.ContractTests.test_unknown_knob_rejected) ... ok
+test_valid_fixture_config (test_contracts.ContractTests.test_valid_fixture_config) ... ok
+test_absent_cublas_config_rejected_before_gpu_import (test_contracts.DeterministicEnvironmentTests.test_absent_cublas_config_rejected_before_gpu_import) ... ok
+test_invalid_cublas_config_rejected (test_contracts.DeterministicEnvironmentTests.test_invalid_cublas_config_rejected) ... ok
+test_nondeterministic_explicit_mode_does_not_require_cublas (test_contracts.DeterministicEnvironmentTests.test_nondeterministic_explicit_mode_does_not_require_cublas) ... ok
+test_valid_cublas_config_recorded (test_contracts.DeterministicEnvironmentTests.test_valid_cublas_config_recorded) ... ok
+test_first_eos_stops_without_extra_forward (test_contracts.GenerationFixtureTests.test_first_eos_stops_without_extra_forward) ... ok
+test_greedy_absolute_positions_and_one_token_decode (test_contracts.GenerationFixtureTests.test_greedy_absolute_positions_and_one_token_decode) ... ok
+test_multiple_eos_ids (test_contracts.GenerationFixtureTests.test_multiple_eos_ids) ... ok
+test_output_limit_exact (test_contracts.GenerationFixtureTests.test_output_limit_exact) ... ok
+test_extra_unlocked_package_rejected (test_contracts.RuntimeGateFixtureTests.test_extra_unlocked_package_rejected) ... ok
+test_normalized_duplicate_packages_rejected (test_contracts.RuntimeGateFixtureTests.test_normalized_duplicate_packages_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.086s
+
+OK
