@@ -1,0 +1,1789 @@
+{
+  "evidence_type": "SYNTHETIC_EXACT_SCHEDULING_ENUMERATION_NOT_LLM_EXPERIMENT",
+  "duration_units": "arbitrary units; not milliseconds and not hardware measurements",
+  "source": "Exact arithmetic computation reproduced with explicit storage/output helpers",
+  "objective": "maximize the count of request completions <= deadline; tie-break by makespan",
+  "assumptions": [
+    "All three requests and both prefix states are available at time zero",
+    "One serial PCIe resource P and one serial GPU resource G can overlap",
+    "Each prefix is restored exactly once, either by load on P or recomputation on G",
+    "Each restored prefix is shared among its requests without additional copy cost",
+    "Each request has one unit-duration suffix on G after its prefix is ready",
+    "Tasks are non-preemptive and durations are fixed and known",
+    "Memory is sufficient; there are no capacity, eviction, batching or cancellation effects",
+    "Time zero is the earliest legal start; deadline equality counts as on time"
+  ],
+  "inputs": {
+    "prefix_durations": {
+      "A": {
+        "load": 4,
+        "recompute": 10
+      },
+      "B": {
+        "load": 2,
+        "recompute": 3
+      }
+    },
+    "requests": [
+      {
+        "id": "b",
+        "prefix": "B",
+        "deadline": 4
+      },
+      {
+        "id": "a1",
+        "prefix": "A",
+        "deadline": 6
+      },
+      {
+        "id": "a2",
+        "prefix": "A",
+        "deadline": 6
+      }
+    ]
+  },
+  "original_summary": {
+    "validSchedules": 52,
+    "optimum": {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 3,
+        "a1": 4,
+        "a2": 5
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "b": 4,
+        "a1": 5,
+        "a2": 6
+      },
+      "ontime": 3,
+      "makespan": 6
+    },
+    "allLoadBest": {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "a1": 4,
+        "a2": 5,
+        "b": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "a1": 5,
+        "a2": 6,
+        "b": 7
+      },
+      "ontime": 2,
+      "makespan": 7
+    },
+    "numberOptimal": 2
+  },
+  "valid_resource_order_counts": {
+    "A:load,B:recompute": 12,
+    "A:load,B:load": 12,
+    "A:recompute,B:load": 8,
+    "A:recompute,B:recompute": 20
+  },
+  "tests": {
+    "status": "PASS",
+    "schedule_invariants_checked": 52,
+    "assertions": [
+      "all durations and precedences valid",
+      "resources never overlap themselves",
+      "exact mode-count partition and 52 unique resource orders",
+      "two schedules achieve all deadlines",
+      "best all-load policy achieves 2/3",
+      "singleflight EDF achieves 1/3",
+      "mandatory-resource reservation matches the 3/3 oracle"
+    ]
+  },
+  "baseline_results": {
+    "shared_singleflight_edf": {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "b": 2,
+        "A": 2,
+        "a1": 6,
+        "a2": 7
+      },
+      "end": {
+        "B": 2,
+        "b": 3,
+        "A": 6,
+        "a1": 7,
+        "a2": 8
+      },
+      "ontime": 1,
+      "makespan": 8
+    },
+    "compulsory_load_reservation": {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 3,
+        "a1": 4,
+        "a2": 5
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "b": 4,
+        "a1": 5,
+        "a2": 6
+      },
+      "ontime": 3,
+      "makespan": 6
+    }
+  },
+  "conclusion": "The example defeats independent/EDF choices, but a simple shared-aware reservation baseline matches the oracle. It does not establish research novelty or LLM performance benefit.",
+  "schedules": [
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 3,
+        "a1": 4,
+        "a2": 5
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "b": 4,
+        "a1": 5,
+        "a2": 6
+      },
+      "ontime": 3,
+      "makespan": 6
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 3,
+        "a2": 4,
+        "a1": 5
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "b": 4,
+        "a2": 5,
+        "a1": 6
+      },
+      "ontime": 3,
+      "makespan": 6
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "a1": 4,
+        "a2": 5,
+        "b": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "a1": 5,
+        "a2": 6,
+        "b": 7
+      },
+      "ontime": 2,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "a2": 4,
+        "a1": 5,
+        "b": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "a2": 5,
+        "a1": 6,
+        "b": 7
+      },
+      "ontime": 2,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a1": 4,
+        "a2": 5,
+        "b": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "a1": 5,
+        "a2": 6,
+        "b": 7
+      },
+      "ontime": 2,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a2": 4,
+        "a1": 5,
+        "b": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "a2": 5,
+        "a1": 6,
+        "b": 7
+      },
+      "ontime": 2,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a1",
+        "a2",
+        "B",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 4,
+        "a2": 5,
+        "B": 6,
+        "b": 9
+      },
+      "end": {
+        "A": 4,
+        "a1": 5,
+        "a2": 6,
+        "B": 9,
+        "b": 10
+      },
+      "ontime": 2,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a2",
+        "a1",
+        "B",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 4,
+        "a1": 5,
+        "B": 6,
+        "b": 9
+      },
+      "end": {
+        "A": 4,
+        "a2": 5,
+        "a1": 6,
+        "B": 9,
+        "b": 10
+      },
+      "ontime": 2,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a1": 4,
+        "b": 5,
+        "a2": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "a1": 5,
+        "b": 6,
+        "a2": 7
+      },
+      "ontime": 1,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "B",
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a2": 4,
+        "b": 5,
+        "a1": 6
+      },
+      "end": {
+        "A": 4,
+        "B": 3,
+        "a2": 5,
+        "b": 6,
+        "a1": 7
+      },
+      "ontime": 1,
+      "makespan": 7
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "a1": 4,
+        "b": 6,
+        "a2": 7
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "a1": 5,
+        "b": 7,
+        "a2": 8
+      },
+      "ontime": 1,
+      "makespan": 8
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "a2": 4,
+        "b": 6,
+        "a1": 7
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "a2": 5,
+        "b": 7,
+        "a1": 8
+      },
+      "ontime": 1,
+      "makespan": 8
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "b": 2,
+        "A": 2,
+        "a1": 6,
+        "a2": 7
+      },
+      "end": {
+        "B": 2,
+        "b": 3,
+        "A": 6,
+        "a1": 7,
+        "a2": 8
+      },
+      "ontime": 1,
+      "makespan": 8
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "b": 2,
+        "A": 2,
+        "a2": 6,
+        "a1": 7
+      },
+      "end": {
+        "B": 2,
+        "b": 3,
+        "A": 6,
+        "a2": 7,
+        "a1": 8
+      },
+      "ontime": 1,
+      "makespan": 8
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a1",
+        "B",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 4,
+        "B": 5,
+        "b": 8,
+        "a2": 9
+      },
+      "end": {
+        "A": 4,
+        "a1": 5,
+        "B": 8,
+        "b": 9,
+        "a2": 10
+      },
+      "ontime": 1,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a1",
+        "B",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 4,
+        "B": 5,
+        "a2": 8,
+        "b": 9
+      },
+      "end": {
+        "A": 4,
+        "a1": 5,
+        "B": 8,
+        "a2": 9,
+        "b": 10
+      },
+      "ontime": 1,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a2",
+        "B",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 4,
+        "B": 5,
+        "b": 8,
+        "a1": 9
+      },
+      "end": {
+        "A": 4,
+        "a2": 5,
+        "B": 8,
+        "b": 9,
+        "a1": 10
+      },
+      "ontime": 1,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "recompute"
+      },
+      "po": [
+        "A"
+      ],
+      "go": [
+        "a2",
+        "B",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 4,
+        "B": 5,
+        "a1": 8,
+        "b": 9
+      },
+      "end": {
+        "A": 4,
+        "a2": 5,
+        "B": 8,
+        "a1": 9,
+        "b": 10
+      },
+      "ontime": 1,
+      "makespan": 10
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "b",
+        "A",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "b": 2,
+        "A": 3,
+        "a1": 13,
+        "a2": 14
+      },
+      "end": {
+        "B": 2,
+        "b": 3,
+        "A": 13,
+        "a1": 14,
+        "a2": 15
+      },
+      "ontime": 1,
+      "makespan": 15
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "b",
+        "A",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "b": 2,
+        "A": 3,
+        "a2": 13,
+        "a1": 14
+      },
+      "end": {
+        "B": 2,
+        "b": 3,
+        "A": 13,
+        "a2": 14,
+        "a1": 15
+      },
+      "ontime": 1,
+      "makespan": 15
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "b",
+        "A",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "b": 3,
+        "A": 4,
+        "a1": 14,
+        "a2": 15
+      },
+      "end": {
+        "B": 3,
+        "b": 4,
+        "A": 14,
+        "a1": 15,
+        "a2": 16
+      },
+      "ontime": 1,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "b",
+        "A",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "b": 3,
+        "A": 4,
+        "a2": 14,
+        "a1": 15
+      },
+      "end": {
+        "B": 3,
+        "b": 4,
+        "A": 14,
+        "a2": 15,
+        "a1": 16
+      },
+      "ontime": 1,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "b": 6,
+        "a1": 7,
+        "a2": 8
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "b": 7,
+        "a1": 8,
+        "a2": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "A",
+        "B"
+      ],
+      "go": [
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 4,
+        "b": 6,
+        "a2": 7,
+        "a1": 8
+      },
+      "end": {
+        "A": 4,
+        "B": 6,
+        "b": 7,
+        "a2": 8,
+        "a1": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "A": 2,
+        "a1": 6,
+        "b": 7,
+        "a2": 8
+      },
+      "end": {
+        "B": 2,
+        "A": 6,
+        "a1": 7,
+        "b": 8,
+        "a2": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "B": 0,
+        "A": 2,
+        "a1": 6,
+        "a2": 7,
+        "b": 8
+      },
+      "end": {
+        "B": 2,
+        "A": 6,
+        "a1": 7,
+        "a2": 8,
+        "b": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "A": 2,
+        "a2": 6,
+        "b": 7,
+        "a1": 8
+      },
+      "end": {
+        "B": 2,
+        "A": 6,
+        "a2": 7,
+        "b": 8,
+        "a1": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "load",
+        "B": "load"
+      },
+      "po": [
+        "B",
+        "A"
+      ],
+      "go": [
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "B": 0,
+        "A": 2,
+        "a2": 6,
+        "a1": 7,
+        "b": 8
+      },
+      "end": {
+        "B": 2,
+        "A": 6,
+        "a2": 7,
+        "a1": 8,
+        "b": 9
+      },
+      "ontime": 0,
+      "makespan": 9
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 10,
+        "a1": 11,
+        "a2": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "b": 11,
+        "a1": 12,
+        "a2": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "b": 10,
+        "a2": 11,
+        "a1": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "b": 11,
+        "a2": 12,
+        "a1": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a1": 10,
+        "b": 11,
+        "a2": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "a1": 11,
+        "b": 12,
+        "a2": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a1": 10,
+        "a2": 11,
+        "b": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "a1": 11,
+        "a2": 12,
+        "b": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a2": 10,
+        "b": 11,
+        "a1": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "a2": 11,
+        "b": 12,
+        "a1": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "load"
+      },
+      "po": [
+        "B"
+      ],
+      "go": [
+        "A",
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 0,
+        "a2": 10,
+        "a1": 11,
+        "b": 12
+      },
+      "end": {
+        "A": 10,
+        "B": 2,
+        "a2": 11,
+        "a1": 12,
+        "b": 13
+      },
+      "ontime": 0,
+      "makespan": 13
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "b": 13,
+        "a1": 14,
+        "a2": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "b": 14,
+        "a1": 15,
+        "a2": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "b": 13,
+        "a2": 14,
+        "a1": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "b": 14,
+        "a2": 15,
+        "a1": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "a1": 13,
+        "b": 14,
+        "a2": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "a1": 14,
+        "b": 15,
+        "a2": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "a1": 13,
+        "a2": 14,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "a1": 14,
+        "a2": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "a2": 13,
+        "b": 14,
+        "a1": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "a2": 14,
+        "b": 15,
+        "a1": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "B",
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "B": 10,
+        "a2": 13,
+        "a1": 14,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "B": 13,
+        "a2": 14,
+        "a1": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a1",
+        "B",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 10,
+        "B": 11,
+        "b": 14,
+        "a2": 15
+      },
+      "end": {
+        "A": 10,
+        "a1": 11,
+        "B": 14,
+        "b": 15,
+        "a2": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a1",
+        "B",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 10,
+        "B": 11,
+        "a2": 14,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "a1": 11,
+        "B": 14,
+        "a2": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a1",
+        "a2",
+        "B",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a1": 10,
+        "a2": 11,
+        "B": 12,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "a1": 11,
+        "a2": 12,
+        "B": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a2",
+        "B",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 10,
+        "B": 11,
+        "b": 14,
+        "a1": 15
+      },
+      "end": {
+        "A": 10,
+        "a2": 11,
+        "B": 14,
+        "b": 15,
+        "a1": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a2",
+        "B",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 10,
+        "B": 11,
+        "a1": 14,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "a2": 11,
+        "B": 14,
+        "a1": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "A",
+        "a2",
+        "a1",
+        "B",
+        "b"
+      ],
+      "start": {
+        "A": 0,
+        "a2": 10,
+        "a1": 11,
+        "B": 12,
+        "b": 15
+      },
+      "end": {
+        "A": 10,
+        "a2": 11,
+        "a1": 12,
+        "B": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "b",
+        "a1",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "b": 13,
+        "a1": 14,
+        "a2": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "b": 14,
+        "a1": 15,
+        "a2": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "b",
+        "a2",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "b": 13,
+        "a2": 14,
+        "a1": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "b": 14,
+        "a2": 15,
+        "a1": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "a1",
+        "b",
+        "a2"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "a1": 13,
+        "b": 14,
+        "a2": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "a1": 14,
+        "b": 15,
+        "a2": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "a1",
+        "a2",
+        "b"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "a1": 13,
+        "a2": 14,
+        "b": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "a1": 14,
+        "a2": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "a2",
+        "b",
+        "a1"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "a2": 13,
+        "b": 14,
+        "a1": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "a2": 14,
+        "b": 15,
+        "a1": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    },
+    {
+      "modes": {
+        "A": "recompute",
+        "B": "recompute"
+      },
+      "po": [],
+      "go": [
+        "B",
+        "A",
+        "a2",
+        "a1",
+        "b"
+      ],
+      "start": {
+        "B": 0,
+        "A": 3,
+        "a2": 13,
+        "a1": 14,
+        "b": 15
+      },
+      "end": {
+        "B": 3,
+        "A": 13,
+        "a2": 14,
+        "a1": 15,
+        "b": 16
+      },
+      "ontime": 0,
+      "makespan": 16
+    }
+  ]
+}
