@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "status": "cpu_contracts_and_fixtures_passed_gpu_runtime_not_run",
+  "checked_utc_date": "2026-10-03",
+  "unit_mock_tests": {
+    "command": "python -m unittest discover -s echo_pilot/tests -v",
+    "passed": 38,
+    "failed": 0,
+    "evidence_kind": "fixture_only"
+  },
+  "compileall": "passed",
+  "real_tokenized_input_contracts": {
+    "scope": "Schema and SHA256 validation only; temporary fixture environment lock, not runtime preflight",
+    "lcc_smoke8k_development_contexts": 2,
+    "repobench_p_smoke8k_development_contexts": 1,
+    "status": "validated_not_executed",
+    "pilot16k_contexts": {
+      "lcc.development": 7,
+      "lcc.heldout": 15,
+      "repobench-p.development": 6,
+      "repobench-p.heldout": 10
+    },
+    "config_dry_run_paths_validated": 6
+  },
+  "gpu_runtime_preflight": "not_run",
+  "model_weights_downloaded": false,
+  "model_inference": "not_run",
+  "runtime_dependencies_installed": "not_run",
+  "numerical_cuda_parity": "not_run",
+  "downstream_quality": "not_measured",
+  "latency": "not_measured",
+  "physical_memory_savings": "not_measured_masking_is_not_compaction",
+  "candidate_or_oracle_deployed": false,
+  "research_hypothesis": "unvalidated",
+  "limitations": [
+    "Optional runtime adapter is source-reviewed and fixture-tested, not a tested GPU implementation",
+    "Proposed GPU profile is not a resolved complete transitive wheel lock",
+    "No standalone runnable real experiment config exists until a real runtime package lock is frozen"
+  ],
+  "independent_recheck": {
+    "pilot_unit_mock_tests_passed": 38,
+    "shared_harness_tests_passed": 46,
+    "data_preparation_tests_passed": 15,
+    "compileall": "passed",
+    "scope": "CPU/source review only; no CUDA or model execution"
+  }
+}
