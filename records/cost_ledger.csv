@@ -1,0 +1,2 @@
+timestamp_utc,provider,resource,amount,currency,status,evidence
+2026-10-03T06:30:00Z,none,initialization,0,CNY,no_external_purchase,no_rental_or_paid_api_initiated
