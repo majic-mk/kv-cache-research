@@ -1,0 +1,149 @@
+{
+  "evidence_class": "synthetic_cpu_only",
+  "model_quality_claim": false,
+  "gpu_used": false,
+  "weights_downloaded": false,
+  "cases": {
+    "constructed_scale_shift": {
+      "first_chunk": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.5,
+        "exact_selected_pair_recall": 0.5,
+        "mean_absolute_score_error": 0.11249999701976776,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "physical_memory_measured": false
+      },
+      "scale_map_oracle": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.0,
+        "exact_selected_pair_recall": 1.0,
+        "mean_absolute_score_error": 0.0,
+        "retained_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "reference_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "physical_memory_measured": false
+      },
+      "rank_only_oracle": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.5,
+        "exact_selected_pair_recall": 0.5,
+        "mean_absolute_score_error": 0.11249999701976776,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "physical_memory_measured": false
+      },
+      "exact": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.0,
+        "exact_selected_pair_recall": 1.0,
+        "mean_absolute_score_error": 0.0,
+        "retained_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "reference_pairs_by_region": {
+          "0": 0,
+          "1": 4
+        },
+        "physical_memory_measured": false
+      }
+    },
+    "constructed_rank_failure": {
+      "first_chunk": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.5,
+        "exact_selected_pair_recall": 0.5,
+        "mean_absolute_score_error": 0.009999999776482582,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "physical_memory_measured": false
+      },
+      "scale_map_oracle": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.5,
+        "exact_selected_pair_recall": 0.5,
+        "mean_absolute_score_error": 0.009999999776482582,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "physical_memory_measured": false
+      },
+      "rank_only_oracle": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.0,
+        "exact_selected_pair_recall": 1.0,
+        "mean_absolute_score_error": 0.0,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "physical_memory_measured": false
+      },
+      "exact": {
+        "logical_pairs_retained": 4,
+        "total_pairs": 8,
+        "retention_disagreement_fraction": 0.0,
+        "exact_selected_pair_recall": 1.0,
+        "mean_absolute_score_error": 0.0,
+        "retained_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "reference_pairs_by_region": {
+          "0": 2,
+          "1": 2
+        },
+        "physical_memory_measured": false
+      }
+    }
+  },
+  "example_first_pass_ledger": {
+    "passes": 1,
+    "reconstruction_input_tokens": 2048,
+    "context_anchor_tokens": 2035,
+    "dense_causal_attention_pairs": 34872320,
+    "pass_input_tokens": [
+      2048
+    ]
+  }
+}
