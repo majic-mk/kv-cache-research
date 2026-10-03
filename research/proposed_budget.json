@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "researched_at_utc": "2026-10-03",
+  "status": "proposed_not_approved",
+  "numeric_spending_cap_approved": false,
+  "approved_spending_cap": null,
+  "rental_authorized": false,
+  "rental_created": false,
+  "payment_made": false,
+  "gpu_run_started": false,
+  "sequence": [
+    "cloud_topic_selection_and_code_CPU_tests",
+    "later_Windows_AutoDL_experiments_after_verification_and_approval"
+  ],
+  "currency": "CNY",
+  "budget_scope": "early_feasibility_exploration_not_paper_completion",
+  "provider_candidate": "AutoDL",
+  "product_candidate": "ordinary_pay_as_you_go_container_not_Pro",
+  "gpu": {
+    "model": "RTX 5090",
+    "count": 1,
+    "vram_gb_required": 32,
+    "minimum_vcpu_target": 8,
+    "preferred_host_ram_gb": 64
+  },
+  "public_quote": {
+    "compute_per_gpu_hour": 2.93,
+    "currency": "CNY",
+    "rate_type": "original_ordinary_user_not_member",
+    "evidence_type": "independently_retrieved_official_frontend_asset_not_account_checkout",
+    "url": "https://www.autodl.com/assets/index.ad3fe4aa.js",
+    "homepage_url": "https://www.autodl.com/home",
+    "retrieved_date_utc": "2026-10-03",
+    "asset_bytes": 19272,
+    "asset_sha256": "6fec1d1fa2951f016cc3499a49b64d56162ca0f55a3dc01a02e4c57e44b2bc63",
+    "normal_user_discount_factor": 1,
+    "member_level_3_discount_factor": 0.95,
+    "member_rate_before_display_rounding": 2.7835,
+    "approximate_member_rate": 2.78,
+    "membership_assumed": false,
+    "account_actual_quote": null,
+    "inventory_verified": false,
+    "correction": "Earlier 2.78/hour quote was incorrectly labeled ordinary-user; it is the approximate 95%-member price. Budget now uses 2.93/hour."
+  },
+  "proposed_compute_rate_ceiling_per_hour": 3.0,
+  "total_proposed_all_in_cap": 100,
+  "total_proposed_max_gpu_hours": 28,
+  "compute_only_estimate_at_public_rate": 82.04,
+  "gates": [
+    {
+      "id": "A",
+      "purpose": "compatibility_and_32_to_64_sample_smoke_test",
+      "proposed_incremental_all_in_cap": 20,
+      "proposed_max_billable_gpu_hours": 4,
+      "compute_only_estimate": 11.72,
+      "approval_status": "not_requested_not_approved",
+      "paid_disk_expansion_allowed": false,
+      "release_requires": [
+        "CPU_preparation_passed",
+        "Windows_execution_route_verified",
+        "account_quote_and_ancillary_fees_verified",
+        "provider_stop_path_verified",
+        "user_specific_gate_approval"
+      ]
+    },
+    {
+      "id": "B",
+      "purpose": "full_KV_and_selected_strong_baseline_reproduction_slice",
+      "proposed_incremental_all_in_cap": 40,
+      "proposed_max_billable_gpu_hours": 12,
+      "compute_only_estimate": 35.16,
+      "approval_status": "not_requested_not_approved",
+      "release_requires": [
+        "gate_A_passed",
+        "credible_quality_memory_latency_metrics",
+        "user_continuation_approval"
+      ]
+    },
+    {
+      "id": "C",
+      "purpose": "two_tiny_research_variants_and_one_repeat",
+      "proposed_incremental_all_in_cap": 40,
+      "proposed_max_billable_gpu_hours": 12,
+      "compute_only_estimate": 35.16,
+      "approval_status": "not_requested_not_approved",
+      "release_requires": [
+        "gate_B_passed",
+        "candidate_testing_justified",
+        "user_continuation_approval"
+      ]
+    }
+  ],
+  "all_in_includes": [
+    "billable_provisioning_and_setup",
+    "downloads_while_GPU_powered_on",
+    "GPU_experiments",
+    "attributable_storage",
+    "tax",
+    "service_fees",
+    "payment_or_currency_fees"
+  ],
+  "excluded_actions": [
+    "rent_or_pay_now",
+    "automatic_gate_transition",
+    "automatic_recharge",
+    "monthly_or_annual_reservation",
+    "extra_GPU",
+    "paid_disk_expansion_in_gate_A",
+    "new_recurring_storage",
+    "paid_external_model_API",
+    "silent_provider_substitution",
+    "public_service_port_exposure"
+  ],
+  "stop_plan": {
+    "status": "documented_proposal_not_implemented_or_tested",
+    "current_remote_execution_verified": false,
+    "provider_scheduled_shutdown_documented": true,
+    "scheduled_shutdown_source": "https://www.autodl.com/docs/migrate_instance/",
+    "in_container_shutdown_documented": true,
+    "in_container_command": "/usr/bin/shutdown",
+    "shutdown_command_source": "https://www.autodl.com/docs/save_money/",
+    "gate_A_proposed_provider_deadline_minutes_from_billable_start": 235,
+    "gate_A_billable_absolute_max_minutes": 240,
+    "proposed_cost_stop_fraction": 0.95,
+    "proposed_no_useful_progress_stop_minutes": 10,
+    "proposed_compatibility_failure_stop_minutes": 45,
+    "proposed_same_error_targeted_retries_max": 1,
+    "must_verify_stopped_in_provider_console": true,
+    "local_process_exit_is_not_provider_shutdown": true,
+    "must_stop_before_waiting_for_next_approval": true,
+    "unattended_run_without_verified_provider_stop_path_allowed": false
+  },
+  "checkout_unknowns": [
+    "actual_account_and_balance",
+    "current_GPU_inventory",
+    "exact_CPU_RAM_shape",
+    "exact_compute_quote",
+    "all_ancillary_fees_and_taxes",
+    "minimum_top_up_and_payment_method",
+    "ordinary_prepaid_balance_refund_rules",
+    "new_terms_presented",
+    "product_specific_identity_requirements",
+    "Windows_remote_control_access",
+    "actual_timer_and_backup_stop_execution"
+  ],
+  "verified_agreement_urls": [
+    "https://www.autodl.com/docs/agreements/",
+    "https://www.autodl.com/docs/privacy_policy/",
+    "https://www.autodl.com/docs/anti_mining/"
+  ],
+  "terms_accepted_for_this_task": false,
+  "subscription_quota_is_GPU_or_API_credit": false,
+  "sources": {
+    "AutoDL_billing": "https://api.autodl.com/docs/price/",
+    "AutoDL_storage": "https://api.autodl.com/docs/local_disk/",
+    "AutoDL_filesystem": "https://www.autodl.com/docs/env/",
+    "AutoDL_Pro_storage": "https://www.autodl.com/docs/instance_pro_data/",
+    "AutoDL_registration": "https://autodl.com/register",
+    "Runpod_shape": "https://www.runpod.io/product/cloud-gpus",
+    "Runpod_billing": "https://docs.runpod.io/accounts-billing/billing",
+    "Beam_shape": "https://www.beam.cloud/pricing",
+    "Vast_pricing": "https://vast.ai/pricing",
+    "PyTorch_support": "https://pytorch.org/blog/pytorch-2-7/",
+    "vLLM_install": "https://docs.vllm.ai/en/stable/getting_started/installation/gpu/",
+    "NVIDIA_compute_capability": "https://developer.nvidia.com/cuda/gpus",
+    "model_config": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/blob/main/config.json",
+    "OpenAI_quota": "https://learn.chatgpt.com/docs/pricing",
+    "AutoDL_public_pricing_asset": "https://www.autodl.com/assets/index.ad3fe4aa.js"
+  },
+  "pricing_last_verified_at_utc": "2026-10-03T07:33:00Z",
+  "pricing_verification_time_precision": "approximate_minute"
+}
