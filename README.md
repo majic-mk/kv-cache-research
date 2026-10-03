@@ -9,7 +9,7 @@ Status (2026-10-03): source-audited baseline pilot and CPU checks complete; **no
 - [EchoPress source-level audit](research/echo_calibration_audit.md)
 - [Pilot runner and limitations](echo_pilot/README.md) / [GPU installation preflight](echo_pilot/INSTALL.md)
 - [Pinned data preparation](data_prep/README.md) / [data and licensing audit](data_prep/PREP_REPORT.md)
-- [Proposed budget, not approved](research/gpu_budget.md)
+- [Budget estimates and cumulative CNY100 approval](research/gpu_budget.md)
 
 Validation so far: 46 harness tests, 38 pilot CPU/mock tests, 15 preprocessing tests in the pinned preprocessing environment, and 29 calibration arithmetic tests. These 128 checks are software evidence, not model-quality or GPU-performance results. The first future smoke set has three development contexts, with no held-out samples used for tuning.
 
