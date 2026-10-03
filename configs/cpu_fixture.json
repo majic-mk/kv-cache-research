@@ -1,0 +1,13 @@
+{
+  "status": "nonexperimental_cpu_plumbing_only",
+  "command": "python -m kv_harness cpu-fixture",
+  "units": 4,
+  "replicates": 2,
+  "warmups": 1,
+  "seed": 7,
+  "max_external_spend": {"amount": "0", "currency": "CNY"},
+  "gpu_hours": 0,
+  "model_calls": 0,
+  "paid_api_calls": 0,
+  "warning": "CLI defaults match this reference configuration. This file is not a launcher."
+}
