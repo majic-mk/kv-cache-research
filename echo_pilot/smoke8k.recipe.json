@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "awaiting_real_runtime_package_lock_not_an_execution_config",
+  "purpose": "First approved GPU compatibility smoke; no research conclusion",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "backend_commit": "39748e9c8301944128eb2e681bfb074e9a2de860",
+  "data_manifest": "configs/data/longbench_pilot.manifest.json",
+  "preset": "smoke8k",
+  "split": "development",
+  "separate_invocations": [
+    {"task": "lcc", "contexts": 2, "arms": ["fullkv", "echo", "kvzip", "kvzip_echo_partition"], "eviction_ratios": [0.5]},
+    {"task": "repobench-p", "contexts": 1, "arms": ["fullkv", "echo", "kvzip", "kvzip_echo_partition"], "eviction_ratios": [0.5]}
+  ],
+  "config_generator": "python -m echo_pilot make-config",
+  "required_before_execution": [
+    "Approved GPU compute and separately staged pinned checkpoint/config/tokenizer",
+    "Installed and compatibility-checked dependency profile with full real packages.lock.json",
+    "Verified preprocessing SHA256 and recorded local-origin preprocessing revision",
+    "Clean committed actual runtime checkout",
+    "CUBLAS_WORKSPACE_CONFIG=:4096:8 set before Python launch",
+    "Successful dry-run and runtime preflight"
+  ],
+  "runtime": "not_run",
+  "speedup_or_memory_savings_claim": false
+}
