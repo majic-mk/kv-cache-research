@@ -1,0 +1,32 @@
+{
+  "status": "planning_only_unapproved_not_executable",
+  "direction": "pending_research_decision",
+  "allow_gpu_execution": false,
+  "allow_paid_api": false,
+  "authorized_gpu_hours": 0,
+  "authorized_external_spend": {"amount": "0", "currency": "CNY"},
+  "model_pin": null,
+  "dataset_pin": null,
+  "tokenizer_pin": null,
+  "author_implementation_pin": null,
+  "evaluator_pin": null,
+  "proposed_smoke_design_not_power_calculation": {
+    "independent_contexts": 8,
+    "questions_per_context": [1, 5],
+    "paired_seeds": [0, 1, 2],
+    "method_order": "seeded_randomized_within_pair",
+    "warmup_rounds": 3,
+    "evidence_required": "real_model"
+  },
+  "required_before_launch": [
+    "Research direction, strong baselines and stop criteria agreed",
+    "All actual immutable revisions resolved and independently verified",
+    "Dataset and model use/license/access requirements checked",
+    "CPU instrumentation tests and author-code review passed",
+    "Real model adapter implemented and full-cache baseline reproduced",
+    "Held-out contexts and context-cluster bootstrap plan specified",
+    "Logical masking and physical compaction distinguished",
+    "Specific rental provider, hardware, duration, total price and payment approved",
+    "Cost ledger updated with approved commitment and actual receipts"
+  ]
+}
