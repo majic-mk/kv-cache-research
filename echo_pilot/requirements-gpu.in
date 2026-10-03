@@ -1,0 +1,8 @@
+# Proposed reproducible top-level profile, NOT installed or compatibility-tested.
+# Resolve all transitives to a hash-locked file on the approved GPU environment.
+# The author tree, not its reused 0.5.5 version, is the immutable algorithm pin.
+torch==2.9.1
+transformers==5.2.0
+numpy==2.2.6
+peft==0.20.0
+kvpress @ git+https://github.com/ljwljwljwljw/kvpress.git@39748e9c8301944128eb2e681bfb074e9a2de860
