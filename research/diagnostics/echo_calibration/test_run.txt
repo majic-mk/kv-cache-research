@@ -1,0 +1,34 @@
+test_actual_first_input_budget (test_reference.BudgetTests.test_actual_first_input_budget) ... ok
+test_ledger_token_equality_not_compute_equality (test_reference.BudgetTests.test_ledger_token_equality_not_compute_equality) ... ok
+test_reject_empty_and_bad_lengths (test_reference.BudgetTests.test_reject_empty_and_bad_lengths) ... ok
+test_short_context (test_reference.BudgetTests.test_short_context) ... ok
+test_small_budget_author_max_one_can_exceed_budget (test_reference.BudgetTests.test_small_budget_author_max_one_can_exceed_budget) ... ok
+test_bad_scope_and_bounds (test_reference.CalibrationTests.test_bad_scope_and_bounds) ... ok
+test_first_exact_and_prefix_unchanged (test_reference.CalibrationTests.test_first_exact_and_prefix_unchanged) ... ok
+test_layer_head_granularity (test_reference.CalibrationTests.test_layer_head_granularity) ... ok
+test_no_later_chunk_skips_map (test_reference.CalibrationTests.test_no_later_chunk_skips_map) ... ok
+test_anchor_support_and_ties (test_reference.DiagnosticTests.test_anchor_support_and_ties) ... ok
+test_global_count_and_sink (test_reference.DiagnosticTests.test_global_count_and_sink) ... ok
+test_invalid_regions (test_reference.DiagnosticTests.test_invalid_regions) ... ok
+test_rank_oracle_preserves_region_histograms (test_reference.DiagnosticTests.test_rank_oracle_preserves_region_histograms) ... ok
+test_reject_impossible_sink_budget (test_reference.DiagnosticTests.test_reject_impossible_sink_budget) ... ok
+test_report_scale_fixture_improves_logical_selection (test_reference.DiagnosticTests.test_report_scale_fixture_improves_logical_selection) ... ok
+test_scale_oracle_repairs_scale_not_rank (test_reference.DiagnosticTests.test_scale_oracle_repairs_scale_not_rank) ... ok
+test_scale_oracle_ties_do_not_fabricate_rank (test_reference.DiagnosticTests.test_scale_oracle_ties_do_not_fabricate_rank) ... ok
+test_stable_ties_explicitly_differ_from_torch_contract (test_reference.DiagnosticTests.test_stable_ties_explicitly_differ_from_torch_contract) ... ok
+test_all_tied_source (test_reference.QuantileMapTests.test_all_tied_source) ... ok
+test_empty_evaluation_values (test_reference.QuantileMapTests.test_empty_evaluation_values) ... ok
+test_independent_heads (test_reference.QuantileMapTests.test_independent_heads) ... ok
+test_interpolation_and_clipping (test_reference.QuantileMapTests.test_interpolation_and_clipping) ... ok
+test_left_tied_maximum_is_not_largest_target (test_reference.QuantileMapTests.test_left_tied_maximum_is_not_largest_target) ... ok
+test_left_tied_minimum (test_reference.QuantileMapTests.test_left_tied_minimum) ... ok
+test_monotone_and_target_bounded_random_fixture (test_reference.QuantileMapTests.test_monotone_and_target_bounded_random_fixture) ... ok
+test_reject_degenerate_anchor (test_reference.QuantileMapTests.test_reject_degenerate_anchor) ... ok
+test_reject_invalid_shapes (test_reference.QuantileMapTests.test_reject_invalid_shapes) ... ok
+test_reject_nonfinite_any_argument (test_reference.QuantileMapTests.test_reject_nonfinite_any_argument) ... ok
+test_separately_sorted_not_paired_regression (test_reference.QuantileMapTests.test_separately_sorted_not_paired_regression) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.049s
+
+OK
