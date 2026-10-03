@@ -1,13 +1,28 @@
-# KV research reproducibility harness
+# KV Cache Research
+
+Status (2026-10-03): source-audited baseline pilot and CPU checks complete; **no GPU/model experiment or scientific improvement established**.
+
+## Project entry points
+
+- [Current main/backup hypotheses and rejection gates](research/narrow_alternatives.md)
+- [Literature comparison](research/direction_comparison.md)
+- [EchoPress source-level audit](research/echo_calibration_audit.md)
+- [Pilot runner and limitations](echo_pilot/README.md) / [GPU installation preflight](echo_pilot/INSTALL.md)
+- [Pinned data preparation](data_prep/README.md) / [data and licensing audit](data_prep/PREP_REPORT.md)
+- [Proposed budget, not approved](research/gpu_budget.md)
+
+Validation so far: 46 harness tests, 38 pilot CPU/mock tests, 15 preprocessing tests in the pinned preprocessing environment, and 29 calibration arithmetic tests. These 128 checks are software evidence, not model-quality or GPU-performance results. The first future smoke set has three development contexts, with no held-out samples used for tuning.
+
+The main hypothesis concerns regional quantile-calibration transfer in reusable KV compression. The baseline uses masked dense caches, so retained-token ratios **do not demonstrate physical memory savings**. The proposed complex intervention has not been implemented; first establish whether simpler explanations and controls eliminate the observed problem.
+
+## Reproducibility harness
 
 Development status: CPU-tested infrastructure only. There is no trained model run,
 GPU experiment, deployed server, novel KV policy, or validated performance claim in
-this package. Topic selection and author-code reproduction are separate research
+this package. Author-code GPU reproduction and hypothesis validation remain separate research
 gates. Nothing here rents compute or calls a paid API.
 
-The harness stays neutral while the research direction is audited. Existing
-`research/` and `records/` material is preserved. The historical status record may
-describe an earlier execution attempt; it is not the harness test report.
+The harness stays method-neutral. See the linked validation records for the precise tested scope of each component.
 
 ## Run locally without installation
 
@@ -65,7 +80,7 @@ interpreted as an algorithm comparison. Fixture outputs are ignored by Git.
    on independent contexts with paired controls
 
 `configs/gpu_pilot.template.json` is an inert planning document with zero authorized
-GPU hours/spend and unresolved source pins. There is deliberately no GPU launcher.
+GPU hours/spend and unresolved source pins. It does not launch or rent a server. The separate `echo_pilot` runner requires an actual frozen GPU environment lock, staged checkpoint, clean checkout and explicit execution flag.
 
 ## Contracts and limitations
 
