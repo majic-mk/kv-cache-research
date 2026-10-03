@@ -1,0 +1,54 @@
+{
+  "status": "passed_cpu_only",
+  "tests": {
+    "command": "data_prep/local/venv/bin/python -m unittest discover -s data_prep/tests -v",
+    "passed": 15,
+    "skipped": 0
+  },
+  "real_source_rows": 1000,
+  "frozen_superset_contexts": 48,
+  "artifact_files_hash_verified": 30,
+  "frozen_superset_byte_identical_after_rebuild": true,
+  "full_context_roundtrip_rows": 1000,
+  "selected_segmented_equals_monolithic_chat_tokenization": true,
+  "manifest_sha256": "b65d04dd86d433141cc24e749caba860c5fece976130795337b1388b1b915dbf",
+  "source_lock_sha256": "3ab28301267156bb228c9460e259f2fc44b4f90120b6fccbda2c635f76b56871",
+  "preprocessor_sha256": "91b8fb48c1c3723c9de3a9ebba49c66bb01ddf895190286353f88e299ad57136",
+  "presets": {
+    "pilot16k": {
+      "context_count": 38,
+      "split_counts": {
+        "lcc": {
+          "development": 7,
+          "heldout": 15
+        },
+        "repobench-p": {
+          "development": 6,
+          "heldout": 10
+        }
+      }
+    },
+    "smoke8k": {
+      "context_count": 3,
+      "split_counts": {
+        "lcc": {
+          "development": 2
+        },
+        "repobench-p": {
+          "development": 1
+        }
+      }
+    }
+  },
+  "model_inference": false,
+  "model_weights_downloaded": false,
+  "gpu_used": false,
+  "remaining_limitations": [
+    "No benchmark model predictions or quality result",
+    "Unknown blanket dataset redistribution rights; raw/tokenized data ignored",
+    "No repository-level independence or model-training contamination guarantee",
+    "GPU runtime compatibility and measured peak memory not tested"
+  ],
+  "all_raw_tokenized_artifacts_git_ignored": true,
+  "presets_budget_and_frozen_subset_checks": true
+}
