@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0",
   "researched_at_utc": "2026-10-03",
-  "status": "proposed_not_approved",
-  "numeric_spending_cap_approved": false,
-  "approved_spending_cap": null,
-  "rental_authorized": false,
+  "status": "budget_approved_execution_readiness_pending",
+  "numeric_spending_cap_approved": true,
+  "approved_spending_cap": 100,
+  "rental_authorized": true,
   "rental_created": false,
   "payment_made": false,
   "gpu_run_started": false,
   "sequence": [
     "cloud_topic_selection_and_code_CPU_tests",
-    "later_Windows_AutoDL_experiments_after_verification_and_approval"
+    "cloud_browser_AutoDL_readiness_then_evidence_gated_experiments_within_approved_total_cap"
   ],
   "currency": "CNY",
   "budget_scope": "early_feasibility_exploration_not_paper_completion",
@@ -49,18 +49,18 @@
   "gates": [
     {
       "id": "A",
-      "purpose": "compatibility_and_32_to_64_sample_smoke_test",
+      "purpose": "GPU_compatibility_and_3_development_context_smoke_before_expansion",
       "proposed_incremental_all_in_cap": 20,
       "proposed_max_billable_gpu_hours": 4,
       "compute_only_estimate": 11.72,
-      "approval_status": "not_requested_not_approved",
+      "approval_status": "within_approved_cumulative_budget_subject_to_internal_readiness_and_evidence_gate",
       "paid_disk_expansion_allowed": false,
       "release_requires": [
         "CPU_preparation_passed",
-        "Windows_execution_route_verified",
+        "approved_control_route_verified",
         "account_quote_and_ancillary_fees_verified",
         "provider_stop_path_verified",
-        "user_specific_gate_approval"
+        "cumulative_actual_cost_plus_max_next_stage_liability_within_CNY100"
       ]
     },
     {
@@ -69,11 +69,11 @@
       "proposed_incremental_all_in_cap": 40,
       "proposed_max_billable_gpu_hours": 12,
       "compute_only_estimate": 35.16,
-      "approval_status": "not_requested_not_approved",
+      "approval_status": "within_approved_cumulative_budget_subject_to_internal_readiness_and_evidence_gate",
       "release_requires": [
         "gate_A_passed",
         "credible_quality_memory_latency_metrics",
-        "user_continuation_approval"
+        "cumulative_actual_cost_plus_max_next_stage_liability_within_CNY100"
       ]
     },
     {
@@ -82,11 +82,11 @@
       "proposed_incremental_all_in_cap": 40,
       "proposed_max_billable_gpu_hours": 12,
       "compute_only_estimate": 35.16,
-      "approval_status": "not_requested_not_approved",
+      "approval_status": "within_approved_cumulative_budget_subject_to_internal_readiness_and_evidence_gate",
       "release_requires": [
         "gate_B_passed",
         "candidate_testing_justified",
-        "user_continuation_approval"
+        "cumulative_actual_cost_plus_max_next_stage_liability_within_CNY100"
       ]
     }
   ],
@@ -140,7 +140,7 @@
     "ordinary_prepaid_balance_refund_rules",
     "new_terms_presented",
     "product_specific_identity_requirements",
-    "Windows_remote_control_access",
+    "approved_cloud_browser_control_access",
     "actual_timer_and_backup_stop_execution"
   ],
   "verified_agreement_urls": [
@@ -168,5 +168,20 @@
     "AutoDL_public_pricing_asset": "https://www.autodl.com/assets/index.ad3fe4aa.js"
   },
   "pricing_last_verified_at_utc": "2026-10-03T07:33:00Z",
-  "pricing_verification_time_precision": "approximate_minute"
+  "pricing_verification_time_precision": "approximate_minute",
+  "approval": {
+    "status": "approved_total_cap",
+    "currency": "CNY",
+    "cumulative_total_cap": 100,
+    "confirmed_at_utc": "2026-10-03T08:38:42Z",
+    "scope": "AutoDL server rental for this KV Cache project including associated fees",
+    "over_cap": "request new approval before spending",
+    "internal_first_gate": {
+      "gpu_hours": 4,
+      "total_cny": 20
+    },
+    "payment_constraints": "existing balance only; no new top-up, auto-recharge or paid disk expansion authorized",
+    "readiness": "do not start until account, exact quote, code transfer and stop controls verified"
+  },
+  "rental_ready": false
 }
