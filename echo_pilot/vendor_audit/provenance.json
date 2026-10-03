@@ -1,0 +1,34 @@
+{
+  "commit": "39748e9c8301944128eb2e681bfb074e9a2de860",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "kvpress/presses/base_press.py",
+      "git_blob_sha": "5c73ee0fa70268536c5d1575daa1371862f1430b",
+      "local_sha256": "b37e5d08bce40ef90cd3dde1e9853ed7fa3fdc9996d42942a2dc6da0fd16fe1a",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/presses/base_press.py",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/attention_patch.py",
+      "git_blob_sha": "270ad9e6f32807b5c9f8f869d0d4e230343fd562",
+      "local_sha256": "ef4f809fc64df458d630b1dc25325caa0826ba92fac662bfbbf03ec1b4926472",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/attention_patch.py",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/__init__.py",
+      "git_blob_sha": "e3c34001816d4982c29bc465f97f26847b593569",
+      "local_sha256": "42b40f3f5968b33f7117f1dd63e25a604c3371916eea3f8c2381a3caeb59ef73",
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/__init__.py",
+      "local_git_blob_verified": true
+    },
+    {
+      "path": "kvpress/utils.py",
+      "git_blob_sha": "460d39fd0a2396bdd994eaba644f4bd4c3b3b9ae",
+      "local_sha256": "6ca2ade35cb237eae312366e1be9c2d1559ffb329eea33c4649ecf50d04971a5",
+      "local_git_blob_verified": true,
+      "source_url": "https://github.com/ljwljwljwljw/kvpress/blob/39748e9c8301944128eb2e681bfb074e9a2de860/kvpress/utils.py"
+    }
+  ]
+}
