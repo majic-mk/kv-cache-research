@@ -1,0 +1,135 @@
+{
+  "scope": "24 unchanged original clean-audit files plus two immutable supplemental minimal-only test files. Historical scripts retain original paths; they are evidence, not a portable replay launcher.",
+  "files": [
+    {
+      "path": "AUDIT_REPORT.json",
+      "bytes": 2911,
+      "sha256": "584996b4fa3b57fdee955513c807acfdb59759957176a120d503115d45381491"
+    },
+    {
+      "path": "COMPACT_MINIMAL_RESTORATION_MAP.json",
+      "bytes": 24736,
+      "sha256": "88fdd5ad4079d94d9dcc27803b731ea8eac3c14ffb80a63d81b17717df92a983"
+    },
+    {
+      "path": "COMPACT_REPRODUCIBILITY_ADDENDUM.md",
+      "bytes": 5840,
+      "sha256": "b3c2f9f984638006a8e91d8863f0c7a8e5e23debc3c614f1b241ec047fe88565"
+    },
+    {
+      "path": "COMPACT_RESTORATION_RECEIPT.json",
+      "bytes": 3397,
+      "sha256": "c63b4ce619716e70c1640a2151cf628f2ad9d47cbb8e07432612138b8a99e195"
+    },
+    {
+      "path": "COMPACT_TEST_RECEIPT.json",
+      "bytes": 891,
+      "sha256": "2af17a44bef211708ba913a8edccd2b916031aac45ed156b323d2a4112f3c424"
+    },
+    {
+      "path": "REPRODUCIBILITY_ADDENDUM.md",
+      "bytes": 8199,
+      "sha256": "13e2348227273f1ff9c8e014c0d7f7c88eb10a50e3e0c5d5b55f9f7bae28dc63"
+    },
+    {
+      "path": "assembly.json",
+      "bytes": 237,
+      "sha256": "8441e7ea6ab02e1a56215db07c5ca7965f9f594586c7c8819c7e06fbf1d15741"
+    },
+    {
+      "path": "attempt06_stdlib_helpers.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "attempt06_stdlib_helpers.stdout",
+      "bytes": 1122,
+      "sha256": "d5ab015de2d8dc39ec9107a2ab4aeb9bfe1db7b8c132116fa41c1935a7102114"
+    },
+    {
+      "path": "check_stdlib_helpers.py",
+      "bytes": 2552,
+      "sha256": "73e8a9efe6191096290b1bddbd990bf810203e76aa746f6f162462366a0e199d"
+    },
+    {
+      "path": "compact_check_01/result.json",
+      "bytes": 388,
+      "sha256": "c60a4eef6d3cd34aba56553b8aa6947675ba62275b80e350aa61e645e0b7e931"
+    },
+    {
+      "path": "compact_check_01/tests.log",
+      "bytes": 8106,
+      "sha256": "459b47aaee664677becf9feedfb99639525470c54427e2dcb1c7529f7ca0bf96"
+    },
+    {
+      "path": "compact_runner.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "compact_runner.stdout",
+      "bytes": 362,
+      "sha256": "8a4aaf283bd2de043ec2c7fd4715d825e3f0fd456256fb47ce6908dacc8fe016"
+    },
+    {
+      "path": "locked_original_contract_tests.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "locked_original_contract_tests.stdout",
+      "bytes": 611,
+      "sha256": "b95cf3f7bb27446657607aace64207319e1003b0b576851709873a1ef8c257dc"
+    },
+    {
+      "path": "minimal_only/MINIMAL_ONLY_CLEAN_TEST_RECEIPT.json",
+      "bytes": 2763,
+      "sha256": "544fe9b0d153fa701a4e41d07fa94994d729a1507792c7f0c12d84da61b60535"
+    },
+    {
+      "path": "minimal_only/check_01/tests.log",
+      "bytes": 8106,
+      "sha256": "9770b08be83aff315e5eb971c05da14c8c2b4407005aff7d02c479fc274ae3d3"
+    },
+    {
+      "path": "missing_reference_paths.json",
+      "bytes": 13678,
+      "sha256": "98d09dda1eba96487aa85dc80bd8566098f707d7e49dcddc92049cbe0c5755df"
+    },
+    {
+      "path": "prepare_checks.py",
+      "bytes": 2163,
+      "sha256": "4f2316de741e9ea0c1a1cda70314045320de69c36bdf6e4a2c9d4f564d2aed79"
+    },
+    {
+      "path": "prepare_compact_audit.py",
+      "bytes": 4125,
+      "sha256": "2867ecd0a63f257d296418c81c2dc1899fdb237407ebbe0be1416c22228e3cea"
+    },
+    {
+      "path": "run_bounded_checks.py",
+      "bytes": 2521,
+      "sha256": "29f9f1853411977e983610c684306fd54afec77e4861b8d5bdbb07c8db32d176"
+    },
+    {
+      "path": "run_compact_once.py",
+      "bytes": 2447,
+      "sha256": "ff92ca1f70892cd0a577611ed539c9eef880473d7e78631dbd55d0eeeb77aa5c"
+    },
+    {
+      "path": "stdlib_test_receipt.json",
+      "bytes": 1018,
+      "sha256": "9427e8c4b75835088cc4ad72a7e788b8bb1fc846c904ed6bb7a6fd6b2d33bcfd"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 375,
+      "sha256": "004520f853dfd5cb7b723b02ae69bff700af010ce30b9b3524a60831f81d40d3"
+    },
+    {
+      "path": "verify_extract.py",
+      "bytes": 2306,
+      "sha256": "c2b094a6d4c4c3ca10b10c5ce6df516c2ee835303cbeb803258d68e3377d155c"
+    }
+  ]
+}

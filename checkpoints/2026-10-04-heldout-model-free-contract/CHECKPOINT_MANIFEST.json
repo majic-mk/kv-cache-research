@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-04",
+  "repository": "majic-mk/kv-cache-research",
+  "expected_visibility": "private",
+  "repository_path": "checkpoints/2026-10-04-heldout-model-free-contract",
+  "archives": [
+    {
+      "file": "KV_Heldout_Compact_Minimal_Closure_20261004.zip",
+      "bytes": 650931,
+      "sha256": "49962291184e7f2ff512df75944bc4e3e459a524029de865527da3c36c094321"
+    },
+    {
+      "file": "MODEL_FREE_AUDIT_EVIDENCE_20261004.zip",
+      "bytes": 34295,
+      "sha256": "9f63bcb2b616c4d2a0734a1a5ac8fc6f98d69ef2906de2c3e27072432ac4961d"
+    }
+  ],
+  "original_preparation": {
+    "library_file_id": "libfile_f58eb350a8e88191bc9f044e60b720d5",
+    "version": 2,
+    "filename": "KV_Revision_Heldout_Preparation_20261004.zip",
+    "bytes": 1352147,
+    "sha256": "e5082fff952bebabdfe7e1eda763bcc1e157e82c6ff479ee9e60a6872027febe",
+    "manifest_sha256": "88fc16e3be1f77ab0ffeee0ad37af6f38407404e9d255c55243d6391994a27c0"
+  },
+  "minimal_closure": {
+    "files": 82,
+    "bytes": 3407075,
+    "selection": "Exact minimal-only ZIP independently clean-tested once; all 82 hashes verified before/after, zero missing/borrowed/extra files.",
+    "manifest_sha256": "aac71f752bfd322c799b46b9da37d7d34826c98e200237a90254d108f4d03653"
+  },
+  "actual_test_result": "73/73 standard-library tests pass for the exact delivered 82-file minimal ZIP; separately bound supplemental receipt, no model/backend or provider execution. Earlier full-history audit remains unchanged.",
+  "older_CPU_inference_portability": "Not portable unchanged: original asset path/inode/device/mtime/size/symlink identities, occupied outputs and exclusive attempt claim are enforced. Guards are unchanged.",
+  "backend_status": "Unimplemented/unqualified/locked; STOP-for-now. No new-cohort outcome, no-crop/compression/GPU result or novel-method claim.",
+  "CI_pass_claimed": false,
+  "new_execution_authorized": false,
+  "previous_checkpoint_bytes_changed": false,
+  "minimal_only_test_receipt": {
+    "file": "MINIMAL_ONLY_CLEAN_TEST_RECEIPT.json",
+    "bytes": 2763,
+    "sha256": "544fe9b0d153fa701a4e41d07fa94994d729a1507792c7f0c12d84da61b60535",
+    "test_log_sha256": "9770b08be83aff315e5eb971c05da14c8c2b4407005aff7d02c479fc274ae3d3"
+  }
+}

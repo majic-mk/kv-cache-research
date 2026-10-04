@@ -1,0 +1,78 @@
+{
+  "status": "PASS_EXACT_MINIMAL_ONLY_82_FILE_ZIP",
+  "audit_kind": "One clean model-free packaging-target check; not a retry",
+  "archive": {
+    "filename": "KV_Heldout_Compact_Minimal_Closure_20261004.zip",
+    "bytes": 650931,
+    "sha256": "49962291184e7f2ff512df75944bc4e3e459a524029de865527da3c36c094321"
+  },
+  "external_manifest": {
+    "filename": "MINIMAL_CLOSURE_MANIFEST.json",
+    "sha256": "aac71f752bfd322c799b46b9da37d7d34826c98e200237a90254d108f4d03653"
+  },
+  "safe_zip_entry_count": 82,
+  "all_82_payload_sizes_and_hashes_verified_before_and_after": true,
+  "files_added_to_extracted_tree": [],
+  "all_65_source_dependency_hashes_verified": true,
+  "missing_dependencies": [],
+  "additional_reference_files_borrowed": 0,
+  "command": {
+    "cwd": "research/reconstructed/revision_heldout_compact_contract_20261004",
+    "argv": [
+      "python",
+      "-B",
+      "check_model_free.py",
+      "--output",
+      "<fresh external results directory>"
+    ]
+  },
+  "test_count": 73,
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_supervised_test_seconds": 1.751012761000311,
+  "total_extraction_verification_test_seconds": 1.8169379989994923,
+  "earlier_audit_supervised_tests_seconds": 2.444583014003001,
+  "aggregate_supervised_test_seconds": 4.195595775003312,
+  "sampled_process_tree_peak_RSS_bytes_including_supervisor": 94429184,
+  "minimum_free_disk_bytes": 8137875456,
+  "limits": {
+    "outer_timeout_seconds": 60,
+    "supervisor_stop_seconds_including_extraction_verification": 50,
+    "process_tree_RSS_bytes": 1073741824,
+    "per_process_address_space_bytes": 1073741824,
+    "minimum_free_disk_bytes": 5000000000,
+    "automatic_retries": 0
+  },
+  "original_runner_receipt": {
+    "status": "PASSED",
+    "returncode": 0,
+    "evidence_kind": "model_free_source_contract_tests",
+    "wall_seconds": 1.7191204789996846,
+    "wall_limit_seconds": 60,
+    "address_space_limit_bytes": 1073741824,
+    "disk_floor_bytes": 5000000000,
+    "child_max_rss_bytes": 68341760,
+    "disk_free_after": 8137953280,
+    "model_calls": 0,
+    "provider_actions": 0,
+    "execution_authorized": false
+  },
+  "test_log": {
+    "path": "check_01/tests.log",
+    "bytes": 8106,
+    "sha256": "9770b08be83aff315e5eb971c05da14c8c2b4407005aff7d02c479fc274ae3d3"
+  },
+  "scope": {
+    "Torch_imports": 0,
+    "model_constructions": 0,
+    "model_calls": 0,
+    "installs": 0,
+    "downloads": 0,
+    "provider_actions": 0,
+    "experimental_source_edits": 0,
+    "guard_changes": 0,
+    "prior_addenda_changed": false,
+    "backend_execution_still_locked": true
+  },
+  "coverage_update": "This supplemental receipt establishes the exact minimal ZIP passes independently. Earlier fuller-tree receipts and addenda remain historical and unchanged."
+}
