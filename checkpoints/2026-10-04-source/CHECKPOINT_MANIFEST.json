@@ -1,0 +1,41 @@
+{
+  "checkpoint_date": "2026-10-04",
+  "repository": "majic-mk/kv-cache-research",
+  "expected_visibility": "private",
+  "repository_path": "checkpoints/2026-10-04-source",
+  "delivery_scope": "Additive source and bounded preparation-evidence archives; not an expanded source-tree sync, all-history push, or full raw-science archive.",
+  "archives": [
+    {
+      "file": "KV_Main_V7_Source_Only_20261004.zip",
+      "bytes": 2980165,
+      "sha256": "12df98838856cfe7e81772e6ee8c63d2c43ed2c53cfec0acd80c064153878825",
+      "purpose": "Historical main-v7 source/docs/configuration/test/reference-metadata subset; excludes raw binary results and Git history bundle.",
+      "source_library_file_id": "libfile_720dc25a6108819181ce77e9d2fadf63",
+      "source_library_version": 7
+    },
+    {
+      "file": "KV_Revision_V2_Preparation_20261004.zip",
+      "bytes": 1616536,
+      "sha256": "5dd05c19d29868e66c344b4e5e7411e17f2b849b0b02718ffe81a4cf925c1d2b",
+      "purpose": "Revision-v2 input/baseline preparation with completed tiny native correctness evidence; preserves prior v1 content and all native attempts.",
+      "source_library_file_id": "libfile_eb47ac747be081918af5c0edb54c6808",
+      "source_library_version": 2
+    }
+  ],
+  "main_v7_original": {
+    "archive_bytes": 28671376,
+    "archive_sha256": "5a25079b1917b6283c9f884551dfd0d329ff05e146972f12304fdcea252c1e1a",
+    "source_commit": "a60fac3abe9cba48105092d3e7dd792a241b3313",
+    "source_subset_files": 515
+  },
+  "native_scope": "Eight finite correctness groups on a 24,832-parameter locally random Qwen3 model with synthetic gates; no pretrained 4B, actual-v2-input result, GPU result or model-quality claim.",
+  "excluded": [
+    "model weights",
+    "environments",
+    "large raw scientific data",
+    "main-v7 Git bundle",
+    "active unfinished revision pilot review"
+  ],
+  "raw_science_preservation": "Separate Library archives; source references remain in the checkpoint documents.",
+  "validation_for_this_delivery": "Archive SHA-256 and ZIP integrity; historical-byte and per-file manifests. No tests/models/GPU executed for upload."
+}
