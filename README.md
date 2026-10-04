@@ -1,5 +1,17 @@
 # KV Cache Research
 
+## Current status (2026-10-04)
+
+Current source and reproducibility records are preserved in [the held-out model-free contract checkpoint](checkpoints/2026-10-04-heldout-model-free-contract/). The latest contract/backend remains **source-only, locked and STOP-for-now**; the constructed cohort has no model outcome. The exact 82-file minimal source ZIP passed all 73 standard-library tests in a fresh, bounded reconstruction. That verification is not inference readiness, a GPU result or a validated new method.
+
+The original Full/compressed/GPU pilot remains failed and closed. The separate one-history reformulated-query diagnostic succeeded within its declared scope; it does not reverse that failure. The older CPU inference snapshot is **not portable unchanged** because its guards bind original asset paths, inodes, symlink identities, occupied outputs and an exclusive attempt claim. See the new checkpoint's reproducibility addenda; guards and old evidence are preserved.
+
+Earlier archives: [CPU engineering through attempt06](checkpoints/2026-10-04-cpu-attempt06-source/) and [main-v7/revision-v2 source](checkpoints/2026-10-04-source/). These are archival deliveries, not a full Git-history sync or CI pass.
+
+## Historical scaffold and direction
+
+The remaining sections are preserved historical documentation from 2026-10-03. The calibration hypothesis, pre-model status and planning steps below are not the current active research direction.
+
 Status (2026-10-03): source-audited baseline pilot and CPU checks complete; **no GPU/model experiment or scientific improvement established**.
 
 ## Project entry points
