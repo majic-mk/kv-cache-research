@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-04",
+  "repository": "majic-mk/kv-cache-research",
+  "expected_visibility": "private",
+  "path": "checkpoints/2026-10-04-cpu-attempt06-source",
+  "archive": {
+    "archive": "KV_CPU_Engineering_Through_Attempt06_Source_20261004.zip",
+    "bytes": 1947480,
+    "sha256": "9646bd399b959e4dfe92f69979eb73cca15924e99de289900bba6fcaaa447de4",
+    "source_files": 346,
+    "source_uncompressed_bytes": 7131949,
+    "excluded_files": 1352,
+    "manifest_sha256": "6a8adb27d8ab8c0fea491a8be4a485cbd85738cb66f0652d06fcab9c290f283c",
+    "zip_integrity_and_every_selected_byte_hash_verified": true
+  },
+  "source_packages": [
+    {
+      "role": "complete_attempt06_terminal_raw",
+      "library_file_id": "libfile_454225933afc8191b2c5ee4369b72c84",
+      "version": 0,
+      "filename": "KV_CPU_TemporalScope_Attempt6_20261004.zip",
+      "bytes": 32057975,
+      "sha256": "6f4d45cc977d757603a9ac6a676aa569700d86d55abb57a9500dd9cc711e5086"
+    },
+    {
+      "role": "cumulative_checkpoint",
+      "library_file_id": "libfile_df6d73c95c28819181e8c3418427c3ec",
+      "version": 9,
+      "filename": "KV_Revision_CPU_PreRun_20261004.zip",
+      "bytes": 49203670,
+      "sha256": "5f51377d4f48af69e0113f0c34b1a67baed9bdd2e339841aa45a2189b66f01e8"
+    },
+    {
+      "role": "complete_per_run_raw",
+      "library_file_id": "libfile_7e6d9a3442b0819185da082a80ec79e6",
+      "version": 0,
+      "filename": "KV_CPU_AuthorBudget_Attempt5_20261004.zip",
+      "bytes": 60156346,
+      "sha256": "3e91c5f49a10c90675cfdee400018b9bce33db00a31c14031b92acdab8b412da"
+    },
+    {
+      "role": "diagnostic_pre_run",
+      "library_file_id": "libfile_312e7b1cb2648191901af09ed972ccbc",
+      "version": 0,
+      "filename": "KV_CPU_TemporalScope_Diagnostic_PreRun_20261004.zip",
+      "bytes": 106440,
+      "sha256": "cffaad45772a021993959992bd0563f80b37fe3849255f107d83c3fb5ee7d15e"
+    }
+  ],
+  "current_terminal_source_manifest_sha256": "6bda10d2e65703c9fc25e82933426f0dfb8af35475411beeedf112c8186d01e4",
+  "current_protocol_sha256": "0994865179a5c7f6560571a679e2326810a93c34287aa1cf3e7105a80e0bb468",
+  "scope": "Source/configuration/test/documentation/provenance plus bounded terminal summaries through attempt06. Large raw evidence is in pinned private Library dependencies, not this ZIP.",
+  "scientific_status": "Original pilot failed and closed; file-paging/process-local trim engineering passed; original Full answer failed even with author budget; separate single reformulated-query diagnostic passed. No no-crop, compression/eviction, GPU or novel-method result.",
+  "source_bytes_preserved": true,
+  "fully_expanded_git_tree": false,
+  "all_git_history_synchronized": false,
+  "CI_pass_claimed": false,
+  "new_execution_authorized": false
+}

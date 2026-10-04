@@ -1,0 +1,83 @@
+{
+  "scope": "Official external artifact identities copied from frozen acquisition/verification receipts. Payloads are excluded; no new asset download, rehash or model execution performed while packaging.",
+  "base_model": {
+    "repository": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "total_asset_bytes": 8060896487,
+    "files": [
+      {
+        "path": "config.json",
+        "bytes": 727,
+        "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/config.json"
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 238,
+        "sha256": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/generation_config.json"
+      },
+      {
+        "path": "merges.txt",
+        "bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/merges.txt"
+      },
+      {
+        "path": "model-00001-of-00003.safetensors",
+        "bytes": 3957900840,
+        "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00001-of-00003.safetensors"
+      },
+      {
+        "path": "model-00002-of-00003.safetensors",
+        "bytes": 3987450520,
+        "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00002-of-00003.safetensors"
+      },
+      {
+        "path": "model-00003-of-00003.safetensors",
+        "bytes": 99630640,
+        "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model-00003-of-00003.safetensors"
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "bytes": 32819,
+        "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/model.safetensors.index.json"
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer.json"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 9377,
+        "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer_config.json"
+      },
+      {
+        "path": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/vocab.json"
+      }
+    ]
+  },
+  "trained_static_gate": {
+    "repository": "ngocbh/TrimKV-Qwen3-4B-Instruct-2507",
+    "revision": "89112809f83d05c3058eadcab4104abde5721b81",
+    "path": "trimkv_weights.pth",
+    "bytes": 94725981,
+    "sha256": "a43e83cbd2612924a722206f15777f36d1457fa8dadb7dbe5761d6f54c01037a",
+    "official_url": "https://huggingface.co/ngocbh/TrimKV-Qwen3-4B-Instruct-2507/resolve/89112809f83d05c3058eadcab4104abde5721b81/trimkv_weights.pth"
+  },
+  "source_receipts": [
+    "prior_cpu_v9/outputs/revision_cpu_model_assets_20261004/acquisition_complete.json",
+    "prior_cpu_v9/research/reconstructed/revision_baseline_contracts_20261004/phase2_static_gate_verification/verification.json"
+  ],
+  "safe_restoration": "Verify exact bytes and SHA-256; avoid pickle/object fallback. Artifact presence does not authorize an inference run."
+}
