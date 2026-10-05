@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-05",
+  "scope": "Explicit allowlist of completed non-security CPU topic-screen evidence; unchanged original bytes",
+  "file_count": 36,
+  "files": [
+    {
+      "path": "author_limitations_screen_20261005/REPORT.md",
+      "bytes": 15462,
+      "sha256": "4fddc35cfc38a8453e0fc45e183c1b6d3a3a7e9bae510a8b2d77b3a506147cae",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "author_limitations_screen_20261005/phase_falsifier.py",
+      "bytes": 6658,
+      "sha256": "ba53426f697cf4a45fad584251d00985c2858c2f6aa9b07c141812edc26eac7d",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "author_limitations_screen_20261005/protocol.json",
+      "bytes": 4906,
+      "sha256": "9acec1c1691bdf822556f3d10fecd8b1c9650c49c69953ff56249f8187a22d0e",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "author_limitations_screen_20261005/results/result.json",
+      "bytes": 3056,
+      "sha256": "ba24d17d715cff2258b6ef23d9cfb778b2f694b7efa13ddf59c8ed84caa9d5da",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "author_limitations_screen_20261005/results/saved_array_audit.json",
+      "bytes": 331,
+      "sha256": "70d7fc1302ac06ff67c198cd905c318b309ec62aa8b9f3b5fc2a50561cf6aaac",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "author_limitations_screen_20261005/run.log",
+      "bytes": 3056,
+      "sha256": "ba24d17d715cff2258b6ef23d9cfb778b2f694b7efa13ddf59c8ed84caa9d5da",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/REPORT.md",
+      "bytes": 14296,
+      "sha256": "46d7e2e5be3f8765dbbac7579b48659fd289b41a2e72fa0c34d2c5640a1be231",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/allocation_audit.json",
+      "bytes": 836,
+      "sha256": "02375028d11a0ffdaac1164fe85b5e8633ba351a561132f96146f12ce4903864",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_contract_check.py",
+      "bytes": 5073,
+      "sha256": "0419b04d96a53a4f0059bcd7b690a4939298509c6f5f9ed3904ae973b752dc21",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_contract_native_geometry.py",
+      "bytes": 5121,
+      "sha256": "a6cd632275b48d4e459e2cabcef05522bb3e949c1a6859d4d8f5d079ba5d6669",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_protocol.json",
+      "bytes": 2281,
+      "sha256": "8be62ca55940d13beeb180d269b4e2e5adbd1625b24d80de628b964c9c60ffe2",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_protocol_native_geometry.json",
+      "bytes": 2558,
+      "sha256": "f5cc558c9717691693546db7599b7f23511267764bb8f20c7869850c5ee76beb",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_results/result.json",
+      "bytes": 1870,
+      "sha256": "9c0c84591b27c9c1d4bdf6cd0fab0f04bbbf5728f212acb9b63f8cdc860b11d1",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_results_native_geometry/result.json",
+      "bytes": 1864,
+      "sha256": "dbe34df69268e772006c45b4e3de91e0b25649509d1729d93fce089ba4bbfbb6",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_run.log",
+      "bytes": 1870,
+      "sha256": "9c0c84591b27c9c1d4bdf6cd0fab0f04bbbf5728f212acb9b63f8cdc860b11d1",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/tensor_run_native_geometry.log",
+      "bytes": 1864,
+      "sha256": "dbe34df69268e772006c45b4e3de91e0b25649509d1729d93fce089ba4bbfbb6",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/saved_array_audit.json",
+      "bytes": 305,
+      "sha256": "4c75a90eab066e32011e4aa2b187a7245ba8e60ecfe6c258c1106f60e077540a",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/recover_diagnostic_arrays.py",
+      "bytes": 1635,
+      "sha256": "844cbd4e5fc1db6e99f745f5165083712c69925d610ca1b7ecf44eb2b720526e",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/diagnostic_recovery.json",
+      "bytes": 160,
+      "sha256": "9a21767589f2fb45ae604c1792ad79b1344ed90d495b20dc979f3a42459fed57",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/kernel_controls/REPORT.md",
+      "bytes": 18424,
+      "sha256": "14676fcebbe1a1b2787011412577e610eea279bfef01177a045b9ec364af260e",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "yakv_scratch_dataflow_screen_20261005/sources/grid_receipt.json",
+      "bytes": 716,
+      "sha256": "e560d8a836890678a4db503dc9da84301bfc5533b11aa73c1ed32c5699e9d840",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "codebook_attention_gap_review_20261005/REPORT.md",
+      "bytes": 13610,
+      "sha256": "e77a279f74a7e3ef3a24255969b4948669a47e844df9f27bb228ee4d3dff8253",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "oasis_probe_fetch_comparison_20261005/FINAL_COMPARISON.md",
+      "bytes": 10515,
+      "sha256": "8c6a636b35b76141baac1da178aba9941a0e4a84e59582ab25af3bab26c712ba",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "oasis_probe_fetch_comparison_20261005/COST_INEQUALITY.md",
+      "bytes": 4839,
+      "sha256": "c5d2a96e31cdb726d41b58e9036f1490353c0243fa4d067f0ad5d7b02dee1ad3",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "oasis_probe_fetch_comparison_20261005/REVIEW_CHECKLIST.md",
+      "bytes": 1548,
+      "sha256": "53c4370786af44d01053e48b8fd6192af3fcc7d6adbc83091d533d8f91d77476",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "prefetch_union_horizon_screen_20261005/REPORT.md",
+      "bytes": 12763,
+      "sha256": "de08e566b569311cc7e959dcaf3e1ebfa877dee2f87ff9464710f43230a4a133",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/REPORT.md",
+      "bytes": 15018,
+      "sha256": "84c07c094f944f5aecf3bfc7ccaa03728b7f1975cbaecff6fcfec04ef5f326ed",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/accounting.json",
+      "bytes": 1313,
+      "sha256": "42bf15e1715caa4b56b989aaeb455fcdfb3b9d05942289143b863c66fb5343da",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/audit_groups.py",
+      "bytes": 1653,
+      "sha256": "f6b56fb4dc6f6171c062cc7c4e2059aecc7d932f0293f0faa0f06e1858315423",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/audit_run.log",
+      "bytes": 638,
+      "sha256": "8e16f57e6d7c5f885db6cb87ebf49c37f0c45b676dc8ec17f75d1fa3acfff115",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/group_memory_audit.json",
+      "bytes": 5234,
+      "sha256": "48e6ff056a75127a8695c7e0f8f24e02a785eb6e12e4eada9ec7a759e4ffd631",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/qwen_top4_group_audit.json",
+      "bytes": 4626,
+      "sha256": "c437f921aea6cbb5f4750eb9336e5a0e805b371ef0c115b6f10179237b2c4718",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/prior_designs/comparison_report.md",
+      "bytes": 15436,
+      "sha256": "788fd86c65fea22654da9c30a00a89623d82fbfb9c5b056ae63f6eea855577b2",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/sources/EVIDENCE_MAP.json",
+      "bytes": 1275,
+      "sha256": "b67f28ff122bb0b591d375cadcf77790d213e93f52bdf79991e846d5b61e8224",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/sources/Qwen2.5-7B_geometry.json",
+      "bytes": 522,
+      "sha256": "00f1f5683714e4ab84383772e1ed47123f4cd9307c716f9335b54d8291ebee39",
+      "selection": "unchanged completed source/report evidence"
+    },
+    {
+      "path": "dustin_scoring_plane_admission_20261005/sources/CompressKV_scores__Qwen2.5-7B-Instruct_head_idx.json",
+      "bytes": 3071,
+      "sha256": "bca94aeb02fffd63e5ba14a9b261c175028f3fa1035e5e6e7385f1f7d82ca812",
+      "selection": "unchanged completed source/report evidence"
+    }
+  ]
+}

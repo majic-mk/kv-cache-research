@@ -1,0 +1,59 @@
+{
+  "library_file_id": "libfile_abff8f5b9ffc819192c9e439d9490596",
+  "version": 1,
+  "filename": "KV_CPU_Topic_Screens_2026-10-05_Private_Evidence.zip",
+  "bytes": 3515497,
+  "sha256": "82eddb675e9c7da8937eff1220a12bf65b0025e8c757656f248ece3fd04c1bd8",
+  "purpose": "User-owned private evidence archive. Raw CPU arrays and the pinned author EDEN codebook are omitted from GitHub and preserved here.",
+  "deferred_inputs_and_arrays": [
+    {
+      "archive_member": "frozen_initial/author_limitations_screen_20261005/results/controls_arrays.npz",
+      "bytes": 20612,
+      "sha256": "78573eb7dbc0bc87ac9122e8dfa9caeba96b4c7ef6964b2b07082af115ee1178",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "frozen_initial/author_limitations_screen_20261005/results/native_arrays.npz",
+      "bytes": 268764,
+      "sha256": "123a8c1fc83887957eb2e0c8e51589d249cab559ab3670bf300b8bf2f82e169c",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "frozen_initial/author_limitations_screen_20261005/results/yarn4_arrays.npz",
+      "bytes": 1002683,
+      "sha256": "e31ae2e349c555ec1bf556fff4bb2cc34b3450b6de8281cb2e35de9a10ac062e",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "screens/yakv_scratch_dataflow_screen_20261005/sources/EDEN2-256.pt",
+      "bytes": 3238,
+      "sha256": "7f6fae561c7634ad63281038a23956043271388f383f8fa3425aacdd49f00fdc",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "screens/yakv_scratch_dataflow_screen_20261005/tensor_results/arrays.npz",
+      "bytes": 646532,
+      "sha256": "64b8959e8f646470bc8c9d03c01959ec554498769c44d9e47dd32200e4647edb",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "screens/yakv_scratch_dataflow_screen_20261005/tensor_results/diagnostic_control_arrays.npz",
+      "bytes": 49066,
+      "sha256": "9f68ee72b905806a4cbd5171b59cb81e2ac96eb4f9715880a6a55aa56ee5410c",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "screens/yakv_scratch_dataflow_screen_20261005/tensor_results_native_geometry/arrays.npz",
+      "bytes": 1408868,
+      "sha256": "1da35542f3e6051274777ea67c066946f3e3b47406c0fadde2e7af301115ab1a",
+      "included_in_github_source_zip": false
+    },
+    {
+      "archive_member": "screens/yakv_scratch_dataflow_screen_20261005/tensor_results_native_geometry/diagnostic_control_arrays.npz",
+      "bytes": 251242,
+      "sha256": "8db8ccc3a4b692594a891d41a755e60ca308a5c5f22c13d247b347f1e8985bdd",
+      "included_in_github_source_zip": false
+    }
+  ],
+  "archive_access": "Access remains governed by the existing private Library file; no sharing permission is changed."
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-05",
+  "repository": "majic-mk/kv-cache-research",
+  "expected_visibility": "private",
+  "repository_path": "checkpoints/2026-10-05-cpu-topic-screens",
+  "prior_remote_commit": "11563755c7c1310b8271bbeac109837b5ef5ecea",
+  "source_members": 36,
+  "source_uncompressed_bytes": 184403,
+  "upload_files_except_this_manifest": [
+    {
+      "file": "EARLIER_RESOURCE_SCREEN_SUMMARY.md",
+      "bytes": 2718,
+      "sha256": "2a24662ff5ae1bca176e703d26ac25a74293f9832caf785e0e4c29f7fb51bb42"
+    },
+    {
+      "file": "EVIDENCE_ARCHIVE_REFERENCE.json",
+      "bytes": 2747,
+      "sha256": "9fee7b49e424b4c949f85553f920f85e2c196e4315e2240abf6a8215e463dd60"
+    },
+    {
+      "file": "KV_CPU_Topic_Screens_Source_2026-10-05.zip",
+      "bytes": 84720,
+      "sha256": "eb49cf0f1cc39a67fc6a8b18f10aa8da37ff340e0a30db930628dfabd2f90c27"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2668,
+      "sha256": "83a3c23e4f61b4681c8df14d5d7ff1d48a30538a1115b4f1d869c047fec2ddb9"
+    },
+    {
+      "file": "RESTORE_AND_SCOPE.md",
+      "bytes": 3200,
+      "sha256": "fdb8e422204224a23cca83bcfe4bda8f2d45409aef4bc4cd8e4928e192051401"
+    },
+    {
+      "file": "SOURCE_SELECTION_MANIFEST.json",
+      "bytes": 9550,
+      "sha256": "fc98deec99473fa2799c6b50cc1bad839c1d8367b92166efa4bd3c0e1f570b46"
+    }
+  ],
+  "validation": {
+    "zip_crc_and_member_hashes": "PASS",
+    "python_syntax": "PASS",
+    "json_parse": "PASS",
+    "saved_protocol_and_script_hash_bindings": "PASS",
+    "common_credential_and_signed_url_scan": "PASS"
+  },
+  "new_research_execution": false,
+  "GPU_or_native_validation": false,
+  "CI_pass_claimed": false,
+  "paper_ready_novelty_claimed": false,
+  "whole_project_zero_fees_claimed": false,
+  "old_repository_files_must_remain_unchanged": true,
+  "evidence_archive_library_file_id": "libfile_abff8f5b9ffc819192c9e439d9490596",
+  "evidence_archive_version": 1,
+  "evidence_archive_sha256": "82eddb675e9c7da8937eff1220a12bf65b0025e8c757656f248ece3fd04c1bd8"
+}
