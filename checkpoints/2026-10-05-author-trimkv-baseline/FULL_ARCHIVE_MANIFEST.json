@@ -1,0 +1,2820 @@
+{
+  "format_version": 1,
+  "hash_algorithm": "SHA256",
+  "classification": "private engineering provenance",
+  "files": [
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/child_stderr.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/child_stderr.log",
+      "size_bytes": 7961,
+      "sha256": "17392b8e4f3dfd13929f78868e6edc594241b96d014b8ebc1a807cc983b9ec1a",
+      "mtime_ns": 1791206064421573400,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/child_stdout.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/child_stdout.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1791206061212527005,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/guard_receipt.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/guard_receipt.json",
+      "size_bytes": 4407,
+      "sha256": "b706d98d04936cfd632dc28e154f49910a3d80ba006db21f58e8b50cc008adb0",
+      "mtime_ns": 1791206064841552229,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/resource_samples.jsonl",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/resource_samples.jsonl",
+      "size_bytes": 197303,
+      "sha256": "431eaa8b45d7633f576099b03dcc72d7cbf141cc7482ea4b825c0639f794976a",
+      "mtime_ns": 1791206064827351864,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/result.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/result.json",
+      "size_bytes": 8374,
+      "sha256": "acbb16858388cb45b03779411dddb417f5e59306aa3e1a79ffa90b8e732906db",
+      "mtime_ns": 1791206064418614290,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt1/verified_inputs.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt1/verified_inputs.json",
+      "size_bytes": 8253,
+      "sha256": "3952c4381cdd6a42046ba6c7622c70a7b74397f97373de0ccd1871aa6bfb8e2c",
+      "mtime_ns": 1791206061212527005,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/child_stderr.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/child_stderr.log",
+      "size_bytes": 2104,
+      "sha256": "fabb6b7ee6ba347450dc3bafebf7e2b6e39aa6bf0adb434ec0a7424287da3d9e",
+      "mtime_ns": 1791207230966472996,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/child_stdout.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/child_stdout.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1791207224051655459,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/guard_receipt.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/guard_receipt.json",
+      "size_bytes": 6760,
+      "sha256": "c516b08969a135d31c422668286ac12d9905745709c5ef65062c8c0ab6a20cc8",
+      "mtime_ns": 1791207231698981837,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/resource_samples.jsonl",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/resource_samples.jsonl",
+      "size_bytes": 581284,
+      "sha256": "5fce0ae031fff18f2f24489056b71ebb3da0815aa22a97f426cd7f8e7d5551bc",
+      "mtime_ns": 1791207231694184280,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/result.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/result.json",
+      "size_bytes": 3826,
+      "sha256": "3c7b561994470851fc0a72cf20f0ec111756d4aac254aa0e57525f2c4e9e24ee",
+      "mtime_ns": 1791207230965017636,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/trace.jsonl.gz",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/trace.jsonl.gz",
+      "size_bytes": 22767783,
+      "sha256": "ef6cdfd2954a584cbc8cd761509a0461a49820c5a24f2a2232e381cf446d58da",
+      "mtime_ns": 1791207230962175017,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt2/verified_inputs.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt2/verified_inputs.json",
+      "size_bytes": 15795,
+      "sha256": "a935cd97f984812b12b39014b2961e0e442565710ee28139cf4ba2f51d03e3c5",
+      "mtime_ns": 1791207224051655459,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/child_stderr.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/child_stderr.log",
+      "size_bytes": 1085,
+      "sha256": "2280ef87f3ad9d43fb2cd56421fa90c99f16bc6b01f81ee51d3c66a7f9005769",
+      "mtime_ns": 1791209387231319532,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/child_stdout.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/child_stdout.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1791209382866968355,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/guard_receipt.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/guard_receipt.json",
+      "size_bytes": 8807,
+      "sha256": "dc9916c4c3149363a58be01985488c2dd61d6be4147328e2b21fea86cc32af38",
+      "mtime_ns": 1791209387946220503,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/resource_samples.jsonl",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/resource_samples.jsonl",
+      "size_bytes": 415820,
+      "sha256": "a8121d5d3567eb4a06e912bb0e128ef36b4d99a9a3136fac9d9d97f7c9d46073",
+      "mtime_ns": 1791209387929367880,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/result.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/result.json",
+      "size_bytes": 2828,
+      "sha256": "37700324288141271cc60659e4d17ed759971a30443b9b2d2f7d85faff6c5bec",
+      "mtime_ns": 1791209387229740771,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/trace.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/trace.tkv3",
+      "size_bytes": 3136951,
+      "sha256": "4e8d09f4d76a4e1b1ea406b3462f12abc5d3e44d507fec00733e3d3f9763fbe7",
+      "mtime_ns": 1791209387225358939,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt3/verified_inputs.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt3/verified_inputs.json",
+      "size_bytes": 26123,
+      "sha256": "931c676685eac4cfd1328557e589449804f2fa4ec3f59067f161ae76a94effec",
+      "mtime_ns": 1791209382866968355,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/child_stderr.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/child_stderr.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1791211242810363882,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/child_stdout.log",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/child_stdout.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1791211242810363882,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/guard_receipt.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/guard_receipt.json",
+      "size_bytes": 12708,
+      "sha256": "8d41ca213f57a18454e93b01b920792923f4101cd5a7f873d0e14c6a37828571",
+      "mtime_ns": 1791211249550325889,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/resource_samples.jsonl",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/resource_samples.jsonl",
+      "size_bytes": 583748,
+      "sha256": "7dc4ae760324bda9dc3b181ede35a435eaf14dd8b32c51085065fe3630a08866",
+      "mtime_ns": 1791211249524898070,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/result.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/result.json",
+      "size_bytes": 61490,
+      "sha256": "e6818865f68cd616928b90d038a13e5640f214283b6671346b65964caf8a0520",
+      "mtime_ns": 1791211248698462182,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/trace.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/trace.tkv3",
+      "size_bytes": 4314510,
+      "sha256": "5434e0f4d5240db16a53f301ba5570c9ad05eb05b1f27cf17e8c54c457a20acd",
+      "mtime_ns": 1791211248688887487,
+      "mode": 420
+    },
+    {
+      "archive_path": "attempts/trimkv_phase_a_author_parity_20261005_attempt4/verified_inputs.json",
+      "source_path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/verified_inputs.json",
+      "size_bytes": 40159,
+      "sha256": "ff3aa4466288c99ff295a7213940b4479fe759da11f0ac2bd0778d7cff3aab2f",
+      "mtime_ns": 1791211242810363882,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_bitwise_check_20261005/result.json",
+      "source_path": "/tmp/trimkv_phase_a_bitwise_check_20261005/result.json",
+      "size_bytes": 12145,
+      "sha256": "8c4b9a5d43bc4ad99e8802be36a2b57012d600f768b97adec9489e81abc1af47",
+      "mtime_ns": 1791210512315658625,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_bitwise_check_20261005/trace.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_bitwise_check_20261005/trace.tkv3",
+      "size_bytes": 10735,
+      "sha256": "f79c06d8af76dc018dc2ef62ce3dd55801fea7f7d118810aa9cf0d49ea7748be",
+      "mtime_ns": 1791210512311594475,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/capped.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/capped.tkv3",
+      "size_bytes": 748,
+      "sha256": "fb4d8b20a2cc853206947c8575e62b03086c2d333e09d89cd75b6c8c23b2c3f7",
+      "mtime_ns": 1791208738391528439,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/chunk_hash_corruption.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/chunk_hash_corruption.tkv3",
+      "size_bytes": 4237,
+      "sha256": "6ed0b620b77a02f412a7b28282d534558fdd91b8d40407fbd797296d297ba2bc",
+      "mtime_ns": 1791208738385971955,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/collision.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/collision.tkv3",
+      "size_bytes": 738,
+      "sha256": "5f474c213310e0b755864f5d1de3a793229874bc178426b0141f315e24de20ce",
+      "mtime_ns": 1791208738391333487,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/frame_checksum_corruption.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/frame_checksum_corruption.tkv3",
+      "size_bytes": 4237,
+      "sha256": "5e947a55a29a76efd2e614d33da700353db5406d95c9867f6560de22186b89ab",
+      "mtime_ns": 1791208738385862661,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/missing_footer.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/missing_footer.tkv3",
+      "size_bytes": 3864,
+      "sha256": "3f460804275abaed873ac34bfbf818bac22d93153ecfb3b7e407c50cb3f556a9",
+      "mtime_ns": 1791208738390048917,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/result.json",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/result.json",
+      "size_bytes": 1325,
+      "sha256": "26d39d256baf592e02fbe0ed339d10e1b1e84c4005c815784d788fc136d02cd0",
+      "mtime_ns": 1791208738391969913,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/roundtrip.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/roundtrip.tkv3",
+      "size_bytes": 4237,
+      "sha256": "8767723283eace1b2486130423a7fccda0eeaa8fc6a697045f0177880fc17af2",
+      "mtime_ns": 1791208738381206674,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/tensor_collision.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/tensor_collision.tkv3",
+      "size_bytes": 823,
+      "sha256": "5a99b87d083e167396d046aac874da10217e590334e2b5fdc29ca277e2c81dc0",
+      "mtime_ns": 1791208738391438014,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/trailing_bytes.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/trailing_bytes.tkv3",
+      "size_bytes": 4242,
+      "sha256": "9154dea55a57dbf46ad5626a0c593e3174941f783cf77d8ed90455bac8e9e819",
+      "mtime_ns": 1791208738390726195,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/truncated_frame_header.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/truncated_frame_header.tkv3",
+      "size_bytes": 3871,
+      "sha256": "3ab262007ec867951c181b00600225f8b01759be27b88fa56b38e1c26b0ac702",
+      "mtime_ns": 1791208738390271051,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/truncated_frame_payload.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/truncated_frame_payload.tkv3",
+      "size_bytes": 4232,
+      "sha256": "74f21d40c1d32d4e7a87e92f52917c48576d49e7bda4e89fb6422139c9f119fe",
+      "mtime_ns": 1791208738390469239,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/unknown_row_reference.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/unknown_row_reference.tkv3",
+      "size_bytes": 4241,
+      "sha256": "78c422208391cd0a6e2422d2814b2fc32c21af050e1bdd9c67c97ac90d9233a4",
+      "mtime_ns": 1791208738386085706,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/unknown_tensor_reference.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/unknown_tensor_reference.tkv3",
+      "size_bytes": 4240,
+      "sha256": "09eae6388029fc7b2719ae5a4671497981673c0f80a08148ba0d8720f37f66b6",
+      "mtime_ns": 1791208738389358410,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/wrong_dtype.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/wrong_dtype.tkv3",
+      "size_bytes": 4237,
+      "sha256": "f959221ca06441695da52ac9a882e7d5e9655f44ef5163c52fe9460fdfac6615",
+      "mtime_ns": 1791208738388929997,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/wrong_expected_inventory.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/wrong_expected_inventory.tkv3",
+      "size_bytes": 4237,
+      "sha256": "c70e606b0e41b1bc612759245f972c9bd2291dd85075d5d528a169640a3e19b2",
+      "mtime_ns": 1791208738389769928,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/wrong_finite_flag.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/wrong_finite_flag.tkv3",
+      "size_bytes": 4236,
+      "sha256": "2699a630b3a4245ad38325882329151d7efaf5cc4fb499b78210dda088517717",
+      "mtime_ns": 1791208738389068455,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/wrong_row_order.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/wrong_row_order.tkv3",
+      "size_bytes": 4237,
+      "sha256": "578e1e265356fc58ad96d3eeea988c870470a5791364ebdd39b7567adb14dfd8",
+      "mtime_ns": 1791208738389229647,
+      "mode": 420
+    },
+    {
+      "archive_path": "checks/trimkv_phase_a_serializer_check_20261005/wrong_tensor_length.tkv3",
+      "source_path": "/tmp/trimkv_phase_a_serializer_check_20261005/wrong_tensor_length.tkv3",
+      "size_bytes": 4237,
+      "sha256": "b5087f978cd9e73ba429b8bb60bfb032acca6dc21b2941d534180c5dfcfed523",
+      "mtime_ns": 1791208738386194169,
+      "mode": 420
+    },
+    {
+      "archive_path": "licenses/CPython-3.12.14-LICENSE.txt",
+      "source_path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/LICENSE.txt",
+      "size_bytes": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "mtime_ns": 1788486253000000000,
+      "mode": 420
+    },
+    {
+      "archive_path": "licenses/Jinja2-3.1.6-LICENSE.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "size_bytes": 1475,
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+      "mtime_ns": 1791097810122933327,
+      "mode": 420
+    },
+    {
+      "archive_path": "licenses/MarkupSafe-3.0.3-LICENSE.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "size_bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "mtime_ns": 1791097809732373182,
+      "mode": 420
+    },
+    {
+      "archive_path": "licenses/Torch-2.9.1-THIRD-PARTY-LICENSES.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch-2.9.1+cpu.dist-info/licenses/LICENSE",
+      "size_bytes": 499846,
+      "sha256": "776e43288ab54330aa1d942737754b0edef0e7a07b62b736b595136ca5ccae88",
+      "mtime_ns": 1791097752621688656,
+      "mode": 420
+    },
+    {
+      "archive_path": "licenses/Transformers-5.19.0.dev0-LICENSE.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers-5.19.0.dev0.dist-info/licenses/LICENSE",
+      "size_bytes": 11418,
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "mtime_ns": 1791097834315190092,
+      "mode": 420
+    },
+    {
+      "archive_path": "reference_sources/torch/_tensor_docs.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/_tensor_docs.py",
+      "size_bytes": 144493,
+      "sha256": "a06db021c657b303c73ec30b4899eaff4b6be50dffedb94193bd1ab90538e6c6",
+      "mtime_ns": 1791097749966636664,
+      "mode": 420
+    },
+    {
+      "archive_path": "reference_sources/torch/include/c10/core/Contiguity.h",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/include/c10/core/Contiguity.h",
+      "size_bytes": 9785,
+      "sha256": "02aea559b5001cb828acaea8155ba29174e17e644a0f997162043844815591e5",
+      "mtime_ns": 1791097750809524658,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/records/cost_ledger.csv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/records/cost_ledger.csv",
+      "size_bytes": 164,
+      "sha256": "5c4a9f18b50520a6cf4afc4d0fac28bbcf12d8dab0043cb1250f0c2bbb67688b",
+      "mtime_ns": 1791097026820322275,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/hybrid_cache_source_screen_20261005.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/hybrid_cache_source_screen_20261005.md",
+      "size_bytes": 15359,
+      "sha256": "890adca1fe1baff4d5e736b34807983df76d1aa62ad813c7322d3e2ee7cc5f45",
+      "mtime_ns": 1791203676257268373,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/hybrid_cache_source_screen_20261005_sources.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/hybrid_cache_source_screen_20261005_sources.json",
+      "size_bytes": 3448,
+      "sha256": "0d63767c823f005a750dcb3aa3746a15195be65ae5af5d704bd0e7870dba20ff",
+      "mtime_ns": 1791203676889276392,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/FREEZE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/FREEZE.json",
+      "size_bytes": 3465,
+      "sha256": "0f2485635a96e726c0b684727a6b064f9d4c1662f4579724f93b876a507c1451",
+      "mtime_ns": 1791203778629345666,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/ID_RANKING.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/ID_RANKING.tsv",
+      "size_bytes": 37655,
+      "sha256": "50799cfcaa57d340d2ef46e14409e27e1dc978da3615a0ba172fd301a69ea2b5",
+      "mtime_ns": 1791203798502819088,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/OVERLAP_CHECK.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/OVERLAP_CHECK.json",
+      "size_bytes": 290,
+      "sha256": "33a31ffeadfbb8543a0258ffe784011037c37843618a3688dcce1a84affc33fd",
+      "mtime_ns": 1791203891055988840,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PHASE_A_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PHASE_A_PROTOCOL.json",
+      "size_bytes": 7246,
+      "sha256": "1f935fe10da6f6812e1b07278bbf60a4498ec2449efac0b953d10193ac5d221f",
+      "mtime_ns": 1791204145435205056,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PHASE_B_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PHASE_B_PROTOCOL.json",
+      "size_bytes": 8672,
+      "sha256": "9bd4f59da21a35a9a2552e3eac01ccd7ce470d7dfe1d82503de4eae3310b73d8",
+      "mtime_ns": 1791204471327344800,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PROMPT_SOURCE_METADATA.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/PROMPT_SOURCE_METADATA.json",
+      "size_bytes": 367,
+      "sha256": "85c92b03961685153d9cf84dd87b43592df14606cacc47de17ebdefe42445d3a",
+      "mtime_ns": 1791204023925668545,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/REPORT.md",
+      "size_bytes": 25075,
+      "sha256": "780f66c1550bc2bb20e4f8c50ab7a6363ac6b6532f60712289a6f992fc54a523",
+      "mtime_ns": 1791204471323344750,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SELECTED_CANONICAL_RECORD_SHA256.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SELECTED_CANONICAL_RECORD_SHA256.tsv",
+      "size_bytes": 148,
+      "sha256": "91ae1da6904c92754df64a9a20c1ea723af583fac9f8d10098f49e8ec460b3d7",
+      "mtime_ns": 1791203833111258164,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SELECTION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SELECTION.json",
+      "size_bytes": 1990,
+      "sha256": "70a4975f7004bbc01a9f7820b2a5b2c41979e908c319c46b38c7e95190ea9026",
+      "mtime_ns": 1791203832815254410,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SHA256SUMS",
+      "size_bytes": 1114,
+      "sha256": "299d2f200b91d8acef285876008c5b6e7aa667bd9d1302d0352ae6d2664d5abb",
+      "mtime_ns": 1791204471335450548,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SOURCE_HASH_CHECKS.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SOURCE_HASH_CHECKS.tsv",
+      "size_bytes": 5418,
+      "sha256": "d648fc8ea80aa0193f088cee32d3866d514e079ad636f5e403a2ccebec768de5",
+      "mtime_ns": 1791204445051011752,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SOURCE_MANIFEST.tsv",
+      "size_bytes": 6546,
+      "sha256": "f2a474439f459f9cf37e06885b9ab250432ea44b3b7ad12d5f20baa80cc9b4c8",
+      "mtime_ns": 1791204444980135585,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/TIMING_NOTE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/TIMING_NOTE.json",
+      "size_bytes": 663,
+      "sha256": "85ea69945721ed6a861477c6cea7eb0f739510c104f2c2af25ce063d0efa3517",
+      "mtime_ns": 1791204023822317172,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/VALIDATION.json",
+      "size_bytes": 2105,
+      "sha256": "b475b12827e2033c7c930ab9f9de96227212191348d7773253c633b947596df9",
+      "mtime_ns": 1791204445057578348,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_completion_20261005/PROVENANCE_CORRECTION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_completion_20261005/PROVENANCE_CORRECTION.json",
+      "size_bytes": 6299,
+      "sha256": "da22cbffdef56b8683cbb920a55460ddac66d5c61a68a5814e38caa91beeb266",
+      "mtime_ns": 1791212772248120457,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_completion_20261005/PROVENANCE_CORRECTION.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_completion_20261005/PROVENANCE_CORRECTION.md",
+      "size_bytes": 1898,
+      "sha256": "f7a2f2581b2976fd3c8887f440aa748b20543f6a15f6b824b18ae239cd5d2b21",
+      "mtime_ns": 1791212772248177042,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_completion_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_completion_20261005/REPORT.md",
+      "size_bytes": 3856,
+      "sha256": "daea4e6833d806af4476b8b4ea41ed36ebcbb9a4e2b2bde074f15f2df4f9307f",
+      "mtime_ns": 1791211619446203027,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_completion_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_completion_20261005/SHA256SUMS",
+      "size_bytes": 167,
+      "sha256": "a48cee0f822053609f08e45efafe5c560fde36ba1e75b87f5cd368b7672e4b64",
+      "mtime_ns": 1791211619446313854,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_completion_20261005/VERIFIED_COMPLETION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_completion_20261005/VERIFIED_COMPLETION.json",
+      "size_bytes": 10163,
+      "sha256": "a4f4ebb4a9cf7d899c5af9f1f4fce3bf9df9a9de8dba0cc121381d58e7d7da90",
+      "mtime_ns": 1791211619446077939,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/ATTEMPT_CLAIM.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/ATTEMPT_CLAIM.json",
+      "size_bytes": 297,
+      "sha256": "d283031c2cad781ad67f2a1bbe46ca59fcdcad588da6ad5da1c53720c75f891a",
+      "mtime_ns": 1791206061212367155,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/EXTRACTION_RECEIPT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/EXTRACTION_RECEIPT.json",
+      "size_bytes": 2482,
+      "sha256": "c26a0626981999d461dcce5df74ff4709ef2162e6d8422b9431abe2bf98f3ffd",
+      "mtime_ns": 1791204637195427092,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/INTENDED_LAUNCH.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/INTENDED_LAUNCH.txt",
+      "size_bytes": 544,
+      "sha256": "4c2dd4a68537cb9dd384c634ec816b23b1be2704c2ddfb4908fe7c15a92be515",
+      "mtime_ns": 1791205757860708088,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/READINESS.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/READINESS.md",
+      "size_bytes": 9354,
+      "sha256": "f99e03017c1459a1c2017e29ce14e15f9c4a0f7f56f45f06feb49e7e413fc743",
+      "mtime_ns": 1791205574025081910,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/SHA256SUMS",
+      "size_bytes": 1834,
+      "sha256": "eb826792f7b929879bbfdca32d6743f70507a991ee9cbe346b4b66347c7671a8",
+      "mtime_ns": 1791205757861916933,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/STATIC_VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/STATIC_VALIDATION.json",
+      "size_bytes": 2776,
+      "sha256": "21a96cbd762a208bf678203b1ee62445e32ddbaf1318f4dac4664fd6abea0ada",
+      "mtime_ns": 1791205757806284979,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/author_static_adapter.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/author_static_adapter.py",
+      "size_bytes": 21125,
+      "sha256": "a566664113273de992f35d010e13ca2c75ead13479e4dc0afa3619de463b309a",
+      "mtime_ns": 1791205574024385515,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "size_bytes": 11408,
+      "sha256": "fda89abdd8c147ffd6f50e03d5e880995fe7dffd178bc3c64d9109fa286fd8f8",
+      "mtime_ns": 1791205757860601919,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/run_phase_a_guard.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/run_phase_a_guard.py",
+      "size_bytes": 43992,
+      "sha256": "20536ff47cb1f1f8579cea1c5ba930b77f623cda781f892651709b5cca453a84",
+      "mtime_ns": 1791205660774195008,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/scalar_oracle.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/scalar_oracle.py",
+      "size_bytes": 7172,
+      "sha256": "b7f4671bd40d8ae09f6934beb200b09f1c73fb8d8fbd4e535b7becd433a8c9f6",
+      "mtime_ns": 1791204797656157168,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "size_bytes": 7246,
+      "sha256": "1f935fe10da6f6812e1b07278bbf60a4498ec2449efac0b953d10193ac5d221f",
+      "mtime_ns": 1791205757767130216,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PREP_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PREP_REPORT.md",
+      "size_bytes": 25075,
+      "sha256": "780f66c1550bc2bb20e4f8c50ab7a6363ac6b6532f60712289a6f992fc54a523",
+      "mtime_ns": 1791205757767221654,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "size_bytes": 6546,
+      "sha256": "f2a474439f459f9cf37e06885b9ab250432ea44b3b7ad12d5f20baa80cc9b4c8",
+      "mtime_ns": 1791205757767270737,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "size_bytes": 6150,
+      "sha256": "f0caf7603a415e9bc5c82c63661c97125f22d1afb3116549ec71261a6b4e9e89",
+      "mtime_ns": 1791205757767375184,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/REPLAY_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/REPLAY_REPORT.md",
+      "size_bytes": 22323,
+      "sha256": "37e811fa5a70cdfcda9418d5e9b3869c1752ad830a385d72f4ff6fac354b8394",
+      "mtime_ns": 1791205757767331288,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/RetentionGate.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/RetentionGate.exact.py",
+      "size_bytes": 1802,
+      "sha256": "71ba60d206b37279c3c0f8bce6558fcef70160d420b67f7b400d7ff928160ed6",
+      "mtime_ns": 1791204637195160131,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/TrimKVCache.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/TrimKVCache.exact.py",
+      "size_bytes": 11084,
+      "sha256": "6815beaef692ed88bb3deacd6b30f73c503d4f0e849b7e7db4f3e3d63b4e8015",
+      "mtime_ns": 1791204637187979377,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/trimkv_cache_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/trimkv_cache_utils.py",
+      "size_bytes": 52019,
+      "sha256": "bb3013d5ff53a8264218b48bafa513c608ad3919d2c6d4172fb248a8b656cae5",
+      "mtime_ns": 1791204637187853788,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "size_bytes": 44642,
+      "sha256": "9fdec3ee6e28177e6805715df41663d30f6662cb600cbee6f401a6c51dc7486c",
+      "mtime_ns": 1791204637194958258,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/source_reference.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/source_reference.py",
+      "size_bytes": 15471,
+      "sha256": "138849d7ce37c60af9025f666a9f9a17d9420d94a6dcdcd5a5b607eae40d3477",
+      "mtime_ns": 1791204797655038553,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/test_author_semantics.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/test_author_semantics.py",
+      "size_bytes": 32000,
+      "sha256": "dc40cd506b722692180b9ec2206b4d70f8297871672c2d70a0e1e39a94be95f0",
+      "mtime_ns": 1791205574024916211,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_20261005/trace_schema.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_20261005/trace_schema.py",
+      "size_bytes": 4252,
+      "sha256": "421c40f01eb09f957210e4fcfa1a5389eb72e626dcbc1cfbdc61d46257ecc0bb",
+      "mtime_ns": 1791205511169610754,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/ATTEMPT_CLAIM.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/ATTEMPT_CLAIM.json",
+      "size_bytes": 434,
+      "sha256": "d6fe216c6f0b7f495e202ba8e853a74f6a7e97d9d7348c7eddb1662df3a818c5",
+      "mtime_ns": 1791207224051441277,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/EXTRACTION_RECEIPT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/EXTRACTION_RECEIPT.json",
+      "size_bytes": 2482,
+      "sha256": "c26a0626981999d461dcce5df74ff4709ef2162e6d8422b9431abe2bf98f3ffd",
+      "mtime_ns": 1791206438606274878,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/INTENDED_LAUNCH.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/INTENDED_LAUNCH.txt",
+      "size_bytes": 640,
+      "sha256": "4a28b802dab389a379b332fc59def7cafca519a95a20d42d451f03ebcda12bc2",
+      "mtime_ns": 1791206907828301362,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/READINESS.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/READINESS.md",
+      "size_bytes": 14404,
+      "sha256": "e1ff3d782c4b67b686c4b4532c616125a0a5aff2356a1bb3f42448143e1a66ff",
+      "mtime_ns": 1791206746260772953,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/SCRATCH_PROVENANCE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/SCRATCH_PROVENANCE.json",
+      "size_bytes": 2503,
+      "sha256": "1f126807d93396a19d08e4a940aaaf1142a27c0f40c54f4581c159426494ef71",
+      "mtime_ns": 1791206438608742233,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/SHA256SUMS",
+      "size_bytes": 2817,
+      "sha256": "61729ee690178dc285b8cd5b545a227322e544ff6a544bceb66a7968791a5b4a",
+      "mtime_ns": 1791206907830144611,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/STATIC_VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/STATIC_VALIDATION.json",
+      "size_bytes": 5137,
+      "sha256": "e068c00980a0d5969b7aa1578add643be818de1edcbf012d605a6f20487d1b42",
+      "mtime_ns": 1791206907793319225,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/author_static_adapter.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/author_static_adapter.py",
+      "size_bytes": 21125,
+      "sha256": "a566664113273de992f35d010e13ca2c75ead13479e4dc0afa3619de463b309a",
+      "mtime_ns": 1791206438606108247,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "size_bytes": 20038,
+      "sha256": "d9eb3cff4ccc48f9a4d212710b80de192dd7dd24add99940f7708907043ff10e",
+      "mtime_ns": 1791206907828209544,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/run_phase_a_guard.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/run_phase_a_guard.py",
+      "size_bytes": 58285,
+      "sha256": "cd2c31ffa64a90de216ae41458b8ac4d7498f1e71e71dd1fab8d246e76eae236",
+      "mtime_ns": 1791206820531470781,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/scalar_oracle.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/scalar_oracle.py",
+      "size_bytes": 7172,
+      "sha256": "b7f4671bd40d8ae09f6934beb200b09f1c73fb8d8fbd4e535b7becd433a8c9f6",
+      "mtime_ns": 1791206438606205553,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/scratch_policy.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/scratch_policy.py",
+      "size_bytes": 15493,
+      "sha256": "e5eeb7f6758ecc0e62835dec9dc6082048d9399d34b9e52735477412538e683e",
+      "mtime_ns": 1791206577865983600,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "size_bytes": 7246,
+      "sha256": "1f935fe10da6f6812e1b07278bbf60a4498ec2449efac0b953d10193ac5d221f",
+      "mtime_ns": 1791206438607183131,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PREP_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PREP_REPORT.md",
+      "size_bytes": 25075,
+      "sha256": "780f66c1550bc2bb20e4f8c50ab7a6363ac6b6532f60712289a6f992fc54a523",
+      "mtime_ns": 1791206438606449289,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "size_bytes": 6546,
+      "sha256": "f2a474439f459f9cf37e06885b9ab250432ea44b3b7ad12d5f20baa80cc9b4c8",
+      "mtime_ns": 1791206438606721188,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "size_bytes": 6150,
+      "sha256": "f0caf7603a415e9bc5c82c63661c97125f22d1afb3116549ec71261a6b4e9e89",
+      "mtime_ns": 1791206438607255670,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/REPLAY_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/REPLAY_REPORT.md",
+      "size_bytes": 22323,
+      "sha256": "37e811fa5a70cdfcda9418d5e9b3869c1752ad830a385d72f4ff6fac354b8394",
+      "mtime_ns": 1791206438606879596,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/RetentionGate.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/RetentionGate.exact.py",
+      "size_bytes": 1802,
+      "sha256": "71ba60d206b37279c3c0f8bce6558fcef70160d420b67f7b400d7ff928160ed6",
+      "mtime_ns": 1791206438606951644,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/TrimKVCache.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/TrimKVCache.exact.py",
+      "size_bytes": 11084,
+      "sha256": "6815beaef692ed88bb3deacd6b30f73c503d4f0e849b7e7db4f3e3d63b4e8015",
+      "mtime_ns": 1791206438606806266,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/attempt1_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/attempt1_guard_receipt.json",
+      "size_bytes": 4407,
+      "sha256": "b706d98d04936cfd632dc28e154f49910a3d80ba006db21f58e8b50cc008adb0",
+      "mtime_ns": 1791206746260576327,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/attempt1_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/attempt1_result.json",
+      "size_bytes": 8374,
+      "sha256": "acbb16858388cb45b03779411dddb417f5e59306aa3e1a79ffa90b8e732906db",
+      "mtime_ns": 1791206746260500844,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "size_bytes": 2355,
+      "sha256": "8205b16956fb264841ecd8644784a0d157f87df79b17c16825dc1163433ce5d8",
+      "mtime_ns": 1791206438608608642,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_instantiator.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_instantiator.py",
+      "size_bytes": 5510,
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "mtime_ns": 1791206438607799677,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_remote_module.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_remote_module.py",
+      "size_bytes": 31286,
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "mtime_ns": 1791206438607883393,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_shutil.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_shutil.py",
+      "size_bytes": 56198,
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "mtime_ns": 1791206438607649983,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_tempfile.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_tempfile.py",
+      "size_bytes": 32386,
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "mtime_ns": 1791206438607362621,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_template.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/runtime_template.py",
+      "size_bytes": 3463,
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "mtime_ns": 1791206438607978886,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/trimkv_cache_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/trimkv_cache_utils.py",
+      "size_bytes": 52019,
+      "sha256": "bb3013d5ff53a8264218b48bafa513c608ad3919d2c6d4172fb248a8b656cae5",
+      "mtime_ns": 1791206438607039075,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "size_bytes": 44642,
+      "sha256": "9fdec3ee6e28177e6805715df41663d30f6662cb600cbee6f401a6c51dc7486c",
+      "mtime_ns": 1791206438606611483,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/source_reference.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/source_reference.py",
+      "size_bytes": 15471,
+      "sha256": "138849d7ce37c60af9025f666a9f9a17d9420d94a6dcdcd5a5b607eae40d3477",
+      "mtime_ns": 1791206438605883961,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/test_author_semantics.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/test_author_semantics.py",
+      "size_bytes": 30514,
+      "sha256": "314fc0840c02011b4a626f83ff4943b45d41a4d5be057d4ec66d275d4e942d18",
+      "mtime_ns": 1791206577888132610,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/trace_schema.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/trace_schema.py",
+      "size_bytes": 4252,
+      "sha256": "dfc92f7e6edd37e6967c7bf132cbf4d2a68c920614bb7add8859a978981892ba",
+      "mtime_ns": 1791206577888274974,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/ATTEMPT_CLAIM.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/ATTEMPT_CLAIM.json",
+      "size_bytes": 2005,
+      "sha256": "1868c5eeb153e1274bcc1df9f2fcbd83b129d427c635cca141005fe4c86ba5b6",
+      "mtime_ns": 1791209382866768185,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/CODEC_CHECK_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/CODEC_CHECK_MANIFEST.json",
+      "size_bytes": 1587,
+      "sha256": "715dffdff733c0b808e12d0c76dcc7fdcbfd46209a959e877262fc8b80e12a3b",
+      "mtime_ns": 1791208456552680734,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/EVIDENCE_BOUND.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/EVIDENCE_BOUND.md",
+      "size_bytes": 15607,
+      "sha256": "c29effd4e10e0fb7a374b1fc1bdd6e8e71ed6ce212f9ec90728bfcd6b1f6df7f",
+      "mtime_ns": 1791208263161640638,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/EXTRACTION_RECEIPT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/EXTRACTION_RECEIPT.json",
+      "size_bytes": 2482,
+      "sha256": "c26a0626981999d461dcce5df74ff4709ef2162e6d8422b9431abe2bf98f3ffd",
+      "mtime_ns": 1791208121369834638,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/INTENDED_LAUNCH.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/INTENDED_LAUNCH.txt",
+      "size_bytes": 625,
+      "sha256": "00ba26ee3aafee95f3c3afd9500fa8710e51a16ddd5e1431dcc1a887fb5cc0eb",
+      "mtime_ns": 1791209023904811023,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/READINESS.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/READINESS.md",
+      "size_bytes": 9581,
+      "sha256": "02c24d9496272d5cb972ba1e2bbca1e79ab1184733f8594bbfc835df78b52536",
+      "mtime_ns": 1791208940250362797,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SCRATCH_PROVENANCE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SCRATCH_PROVENANCE.json",
+      "size_bytes": 2503,
+      "sha256": "1f126807d93396a19d08e4a940aaaf1142a27c0f40c54f4581c159426494ef71",
+      "mtime_ns": 1791208121369687346,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SHA256SUMS",
+      "size_bytes": 3862,
+      "sha256": "8ff75dac0cca210a49ca83c723f302d811bd3819d47180ea41bf832105acce52",
+      "mtime_ns": 1791209023907278348,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SOURCE_BOUND.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/SOURCE_BOUND.json",
+      "size_bytes": 6717,
+      "sha256": "c89aca5c8c496d06cf8b0a95e7c404271ca894278791d45cd051016eb41ded1a",
+      "mtime_ns": 1791208263161941429,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/STATIC_VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/STATIC_VALIDATION.json",
+      "size_bytes": 5829,
+      "sha256": "325100aa48b723a21b6f893fe007a82e9abd66ddcb9dd4d9b690fdef6e5e3191",
+      "mtime_ns": 1791209023866633214,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+      "size_bytes": 24552,
+      "sha256": "2378944d3a76fa0f5b3eae296b5a0ce2a233302a6ae6e3c125778c0b54d1a55b",
+      "mtime_ns": 1791209505546858919,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/author_static_adapter.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/author_static_adapter.py",
+      "size_bytes": 21125,
+      "sha256": "a566664113273de992f35d010e13ca2c75ead13479e4dc0afa3619de463b309a",
+      "mtime_ns": 1791208121369569159,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/evidence_codec.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/evidence_codec.py",
+      "size_bytes": 16195,
+      "sha256": "03ff37ede9adb969eadc11c59ac5ac9e3aa3b96912b8c8656de1feca0f596d69",
+      "mtime_ns": 1791208242159000290,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "size_bytes": 30944,
+      "sha256": "a31b342b699e50d8b215c2c66bc20b84846385cd190a980d1b640f420a5f77ae",
+      "mtime_ns": 1791209023904697853,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/reconstruct_evidence.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/reconstruct_evidence.py",
+      "size_bytes": 1964,
+      "sha256": "d8cad8a808f8bf6baa18354d6c932d1c834f0be608889f4bc77c55c78c3260e3",
+      "mtime_ns": 1791208541246135006,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/run_phase_a_guard.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/run_phase_a_guard.py",
+      "size_bytes": 66690,
+      "sha256": "d46ee46dc164ae9e41956b1a9caff87ed0723abf60cfcfc8a2080a025e7f840f",
+      "mtime_ns": 1791208860891860819,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/scalar_oracle.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/scalar_oracle.py",
+      "size_bytes": 7172,
+      "sha256": "b7f4671bd40d8ae09f6934beb200b09f1c73fb8d8fbd4e535b7becd433a8c9f6",
+      "mtime_ns": 1791208121369764002,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/scratch_policy.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/scratch_policy.py",
+      "size_bytes": 15489,
+      "sha256": "ee15a3f4999c08801b5ad9c73fe2bddd9a90f0717e07f624a56f966d27d5252f",
+      "mtime_ns": 1791207918675496804,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/INDEPENDENT_FINAL_SOURCE_BOUND.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/INDEPENDENT_FINAL_SOURCE_BOUND.md",
+      "size_bytes": 8632,
+      "sha256": "527ddf3b63b4f1ef24f92c4a05fd4653f0f6b03c29c7fa2744f976514f18d6ab",
+      "mtime_ns": 1791209023866113003,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/INDEPENDENT_SOURCE_BOUND_REVIEW.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/INDEPENDENT_SOURCE_BOUND_REVIEW.md",
+      "size_bytes": 12417,
+      "sha256": "bd7503412cdd84fd8615b8c6040601e743d281023bf9ae52848facfdeff7cb8a",
+      "mtime_ns": 1791209023866192212,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "size_bytes": 7246,
+      "sha256": "1f935fe10da6f6812e1b07278bbf60a4498ec2449efac0b953d10193ac5d221f",
+      "mtime_ns": 1791208121371038145,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PREP_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PREP_REPORT.md",
+      "size_bytes": 25075,
+      "sha256": "780f66c1550bc2bb20e4f8c50ab7a6363ac6b6532f60712289a6f992fc54a523",
+      "mtime_ns": 1791208121370074909,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "size_bytes": 6546,
+      "sha256": "f2a474439f459f9cf37e06885b9ab250432ea44b3b7ad12d5f20baa80cc9b4c8",
+      "mtime_ns": 1791208121370240828,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "size_bytes": 6150,
+      "sha256": "f0caf7603a415e9bc5c82c63661c97125f22d1afb3116549ec71261a6b4e9e89",
+      "mtime_ns": 1791208121371113558,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/REPLAY_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/REPLAY_REPORT.md",
+      "size_bytes": 22323,
+      "sha256": "37e811fa5a70cdfcda9418d5e9b3869c1752ad830a385d72f4ff6fac354b8394",
+      "mtime_ns": 1791208121370573127,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/RetentionGate.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/RetentionGate.exact.py",
+      "size_bytes": 1802,
+      "sha256": "71ba60d206b37279c3c0f8bce6558fcef70160d420b67f7b400d7ff928160ed6",
+      "mtime_ns": 1791208121370870423,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/TrimKVCache.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/TrimKVCache.exact.py",
+      "size_bytes": 11084,
+      "sha256": "6815beaef692ed88bb3deacd6b30f73c503d4f0e849b7e7db4f3e3d63b4e8015",
+      "mtime_ns": 1791208121370307778,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt1_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt1_guard_receipt.json",
+      "size_bytes": 4407,
+      "sha256": "b706d98d04936cfd632dc28e154f49910a3d80ba006db21f58e8b50cc008adb0",
+      "mtime_ns": 1791208121369995930,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt1_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt1_result.json",
+      "size_bytes": 8374,
+      "sha256": "acbb16858388cb45b03779411dddb417f5e59306aa3e1a79ffa90b8e732906db",
+      "mtime_ns": 1791208121370505826,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt2_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt2_guard_receipt.json",
+      "size_bytes": 6760,
+      "sha256": "c516b08969a135d31c422668286ac12d9905745709c5ef65062c8c0ab6a20cc8",
+      "mtime_ns": 1791209023866306393,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt2_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/attempt2_result.json",
+      "size_bytes": 3826,
+      "sha256": "3c7b561994470851fc0a72cf20f0ec111756d4aac254aa0e57525f2c4e9e24ee",
+      "mtime_ns": 1791209023866274676,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/codec_check_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/codec_check_result.json",
+      "size_bytes": 1325,
+      "sha256": "26d39d256baf592e02fbe0ed339d10e1b1e84c4005c815784d788fc136d02cd0",
+      "mtime_ns": 1791209023866239333,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "size_bytes": 2355,
+      "sha256": "8205b16956fb264841ecd8644784a0d157f87df79b17c16825dc1163433ce5d8",
+      "mtime_ns": 1791208121370376552,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_instantiator.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_instantiator.py",
+      "size_bytes": 5510,
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "mtime_ns": 1791208121371181070,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_remote_module.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_remote_module.py",
+      "size_bytes": 31286,
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "mtime_ns": 1791208121370799437,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_shutil.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_shutil.py",
+      "size_bytes": 56198,
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "mtime_ns": 1791208121371254310,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_tempfile.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_tempfile.py",
+      "size_bytes": 32386,
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "mtime_ns": 1791208121370694820,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_template.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/runtime_template.py",
+      "size_bytes": 3463,
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "mtime_ns": 1791208121370439466,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/trimkv_cache_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/trimkv_cache_utils.py",
+      "size_bytes": 52019,
+      "sha256": "bb3013d5ff53a8264218b48bafa513c608ad3919d2c6d4172fb248a8b656cae5",
+      "mtime_ns": 1791208121370945356,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "size_bytes": 44642,
+      "sha256": "9fdec3ee6e28177e6805715df41663d30f6662cb600cbee6f401a6c51dc7486c",
+      "mtime_ns": 1791208121370155449,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/source_reference.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/source_reference.py",
+      "size_bytes": 15471,
+      "sha256": "138849d7ce37c60af9025f666a9f9a17d9420d94a6dcdcd5a5b607eae40d3477",
+      "mtime_ns": 1791208121369321317,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/test_author_semantics.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/test_author_semantics.py",
+      "size_bytes": 30514,
+      "sha256": "314fc0840c02011b4a626f83ff4943b45d41a4d5be057d4ec66d275d4e942d18",
+      "mtime_ns": 1791208121369445934,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/test_evidence_codec.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/test_evidence_codec.py",
+      "size_bytes": 11943,
+      "sha256": "bfcc26adb7c8bdef03767a90030bc861810a06acba46c3abc4da696bcea8bd96",
+      "mtime_ns": 1791208456516310377,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/trace_schema.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/trace_schema.py",
+      "size_bytes": 4368,
+      "sha256": "cf4e9888eeb9d3429a9207ad730af2df6bf84674b92d692806aa788a8e63554a",
+      "mtime_ns": 1791208242159135322,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/ATTEMPT_CLAIM.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/ATTEMPT_CLAIM.json",
+      "size_bytes": 5369,
+      "sha256": "b873a0b3babd53fc54ae7bac7baf75d363c14f410bd1508fb75699cf29570078",
+      "mtime_ns": 1791211242810101769,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/BITWISE_CHECK_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/BITWISE_CHECK_MANIFEST.json",
+      "size_bytes": 2009,
+      "sha256": "bdb599f17928446146186321729435af1ec6a5e851c99d220f08becbdc9973b6",
+      "mtime_ns": 1791210305521130820,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/CODEC_CHECK_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/CODEC_CHECK_MANIFEST.json",
+      "size_bytes": 1587,
+      "sha256": "715dffdff733c0b808e12d0c76dcc7fdcbfd46209a959e877262fc8b80e12a3b",
+      "mtime_ns": 1791209917191510844,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/EVIDENCE_BOUND.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/EVIDENCE_BOUND.md",
+      "size_bytes": 15607,
+      "sha256": "c29effd4e10e0fb7a374b1fc1bdd6e8e71ed6ce212f9ec90728bfcd6b1f6df7f",
+      "mtime_ns": 1791209917191892657,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/EXTRACTION_RECEIPT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/EXTRACTION_RECEIPT.json",
+      "size_bytes": 2482,
+      "sha256": "c26a0626981999d461dcce5df74ff4709ef2162e6d8422b9431abe2bf98f3ffd",
+      "mtime_ns": 1791209917192911397,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/INTENDED_LAUNCH.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/INTENDED_LAUNCH.txt",
+      "size_bytes": 625,
+      "sha256": "1cb3a165346e79fa4788166959f6cd8cf025f379b85a497b43e036c48dfc07ab",
+      "mtime_ns": 1791210822416219045,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/LAYOUT_CHANGE_PROOF.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/LAYOUT_CHANGE_PROOF.json",
+      "size_bytes": 2099,
+      "sha256": "f362849f9709f02a0b0fef1ce2f4015d21620002966fa1caf80adac0d73551e5",
+      "mtime_ns": 1791210698921937438,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/LAYOUT_PROVENANCE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/LAYOUT_PROVENANCE.json",
+      "size_bytes": 1041,
+      "sha256": "b361be3718773d13c1ac5bb5e0a72937db7d703b1fdcc1a1278ef64e6df5a26e",
+      "mtime_ns": 1791210305511204508,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/POST_V3_VERIFICATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/POST_V3_VERIFICATION.json",
+      "size_bytes": 632,
+      "sha256": "3019ca1612bc3bcb9d9dc7552bba03c3871a42642ebe998e5dc0ea425addd3fa",
+      "mtime_ns": 1791210305511281113,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/READINESS.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/READINESS.md",
+      "size_bytes": 6158,
+      "sha256": "c0738ce94176e713e472bc8f2a9d87954490d4794dba82a73d5c7eaa08590c6c",
+      "mtime_ns": 1791210698933857207,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SCRATCH_PROVENANCE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SCRATCH_PROVENANCE.json",
+      "size_bytes": 2503,
+      "sha256": "1f126807d93396a19d08e4a940aaaf1142a27c0f40c54f4581c159426494ef71",
+      "mtime_ns": 1791209917192744606,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SHA256SUMS",
+      "size_bytes": 4812,
+      "sha256": "2c6f2a859e9684d51bd1d28ebbae34c0430010315e7ec74a457e9fc6b62c8606",
+      "mtime_ns": 1791210822419409696,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SOURCE_BOUND.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/SOURCE_BOUND.json",
+      "size_bytes": 6717,
+      "sha256": "c89aca5c8c496d06cf8b0a95e7c404271ca894278791d45cd051016eb41ded1a",
+      "mtime_ns": 1791209917191969112,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/STATIC_VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/STATIC_VALIDATION.json",
+      "size_bytes": 6045,
+      "sha256": "e1c89cef52552460e5e7fe15c4894448c8b4224b824d81ed077235c6809fd5d1",
+      "mtime_ns": 1791210822375432277,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+      "size_bytes": 24552,
+      "sha256": "02945da0a1b2c4cad3b0bddfbb3739e637b7eba0d82b5739d0c2283355b11af4",
+      "mtime_ns": 1791211407268977188,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/author_static_adapter.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/author_static_adapter.py",
+      "size_bytes": 21125,
+      "sha256": "a566664113273de992f35d010e13ca2c75ead13479e4dc0afa3619de463b309a",
+      "mtime_ns": 1791209917192425187,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/bitwise_bytes.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/bitwise_bytes.py",
+      "size_bytes": 1238,
+      "sha256": "78cff3212ab721b9d04a0bf8e12ef7a6979e8071760575f4594953b38ce56799",
+      "mtime_ns": 1791209917199446426,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/evidence_codec.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/evidence_codec.py",
+      "size_bytes": 16195,
+      "sha256": "03ff37ede9adb969eadc11c59ac5ac9e3aa3b96912b8c8656de1feca0f596d69",
+      "mtime_ns": 1791209917192327620,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "size_bytes": 43913,
+      "sha256": "173a928ab6c852a705a0a71738f98cec3c197f8a8a9831b1c05a2d16a6ba2150",
+      "mtime_ns": 1791210822416102260,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/reconstruct_evidence.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/reconstruct_evidence.py",
+      "size_bytes": 1964,
+      "sha256": "d8cad8a808f8bf6baa18354d6c932d1c834f0be608889f4bc77c55c78c3260e3",
+      "mtime_ns": 1791209917192187450,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/run_phase_a_guard.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/run_phase_a_guard.py",
+      "size_bytes": 79844,
+      "sha256": "0a23c0a1a3df68e8cc5b94524e7f8bf8fe738fa2107895261b46dece2754ccee",
+      "mtime_ns": 1791210599994028658,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/scalar_oracle.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/scalar_oracle.py",
+      "size_bytes": 7172,
+      "sha256": "b7f4671bd40d8ae09f6934beb200b09f1c73fb8d8fbd4e535b7becd433a8c9f6",
+      "mtime_ns": 1791209917192837887,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/scratch_policy.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/scratch_policy.py",
+      "size_bytes": 15489,
+      "sha256": "ee15a3f4999c08801b5ad9c73fe2bddd9a90f0717e07f624a56f966d27d5252f",
+      "mtime_ns": 1791209917192253138,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/INDEPENDENT_FINAL_SOURCE_BOUND.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/INDEPENDENT_FINAL_SOURCE_BOUND.md",
+      "size_bytes": 8632,
+      "sha256": "527ddf3b63b4f1ef24f92c4a05fd4653f0f6b03c29c7fa2744f976514f18d6ab",
+      "mtime_ns": 1791209917194959072,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/INDEPENDENT_SOURCE_BOUND_REVIEW.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/INDEPENDENT_SOURCE_BOUND_REVIEW.md",
+      "size_bytes": 12417,
+      "sha256": "bd7503412cdd84fd8615b8c6040601e743d281023bf9ae52848facfdeff7cb8a",
+      "mtime_ns": 1791209917193225218,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PHASE_A_PROTOCOL.json",
+      "size_bytes": 7246,
+      "sha256": "1f935fe10da6f6812e1b07278bbf60a4498ec2449efac0b953d10193ac5d221f",
+      "mtime_ns": 1791209917194506803,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PREP_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PREP_REPORT.md",
+      "size_bytes": 25075,
+      "sha256": "780f66c1550bc2bb20e4f8c50ab7a6363ac6b6532f60712289a6f992fc54a523",
+      "mtime_ns": 1791209917193326160,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/PREP_SOURCE_MANIFEST.tsv",
+      "size_bytes": 6546,
+      "sha256": "f2a474439f459f9cf37e06885b9ab250432ea44b3b7ad12d5f20baa80cc9b4c8",
+      "mtime_ns": 1791209917193752841,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/REPLAY_ADAPTER_CONTRACT.json",
+      "size_bytes": 6150,
+      "sha256": "f0caf7603a415e9bc5c82c63661c97125f22d1afb3116549ec71261a6b4e9e89",
+      "mtime_ns": 1791209917194573673,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/REPLAY_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/REPLAY_REPORT.md",
+      "size_bytes": 22323,
+      "sha256": "37e811fa5a70cdfcda9418d5e9b3869c1752ad830a385d72f4ff6fac354b8394",
+      "mtime_ns": 1791209917194078069,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/RetentionGate.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/RetentionGate.exact.py",
+      "size_bytes": 1802,
+      "sha256": "71ba60d206b37279c3c0f8bce6558fcef70160d420b67f7b400d7ff928160ed6",
+      "mtime_ns": 1791209917194321875,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/TrimKVCache.exact.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/TrimKVCache.exact.py",
+      "size_bytes": 11084,
+      "sha256": "6815beaef692ed88bb3deacd6b30f73c503d4f0e849b7e7db4f3e3d63b4e8015",
+      "mtime_ns": 1791209917193817107,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt1_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt1_guard_receipt.json",
+      "size_bytes": 4407,
+      "sha256": "b706d98d04936cfd632dc28e154f49910a3d80ba006db21f58e8b50cc008adb0",
+      "mtime_ns": 1791209917193154732,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt1_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt1_result.json",
+      "size_bytes": 8374,
+      "sha256": "acbb16858388cb45b03779411dddb417f5e59306aa3e1a79ffa90b8e732906db",
+      "mtime_ns": 1791209917194008174,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt2_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt2_guard_receipt.json",
+      "size_bytes": 6760,
+      "sha256": "c516b08969a135d31c422668286ac12d9905745709c5ef65062c8c0ab6a20cc8",
+      "mtime_ns": 1791209917193400211,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt2_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt2_result.json",
+      "size_bytes": 3826,
+      "sha256": "3c7b561994470851fc0a72cf20f0ec111756d4aac254aa0e57525f2c4e9e24ee",
+      "mtime_ns": 1791209917193681904,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt3_guard_receipt.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt3_guard_receipt.json",
+      "size_bytes": 8807,
+      "sha256": "dc9916c4c3149363a58be01985488c2dd61d6be4147328e2b21fea86cc32af38",
+      "mtime_ns": 1791210698924882404,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt3_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/attempt3_result.json",
+      "size_bytes": 2828,
+      "sha256": "37700324288141271cc60659e4d17ed759971a30443b9b2d2f7d85faff6c5bec",
+      "mtime_ns": 1791210698924819350,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/bitwise_check_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/bitwise_check_result.json",
+      "size_bytes": 12145,
+      "sha256": "8c4b9a5d43bc4ad99e8802be36a2b57012d600f768b97adec9489e81abc1af47",
+      "mtime_ns": 1791210698924687562,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/codec_check_result.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/codec_check_result.json",
+      "size_bytes": 1325,
+      "sha256": "26d39d256baf592e02fbe0ed339d10e1b1e84c4005c815784d788fc136d02cd0",
+      "mtime_ns": 1791209917193082063,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_generated_non_scriptable_expected.py",
+      "size_bytes": 2355,
+      "sha256": "8205b16956fb264841ecd8644784a0d157f87df79b17c16825dc1163433ce5d8",
+      "mtime_ns": 1791209917193884118,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_instantiator.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_instantiator.py",
+      "size_bytes": 5510,
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "mtime_ns": 1791209917194664570,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_remote_module.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_remote_module.py",
+      "size_bytes": 31286,
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "mtime_ns": 1791209917194243538,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_shutil.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_shutil.py",
+      "size_bytes": 56198,
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "mtime_ns": 1791209917194808216,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_tempfile.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_tempfile.py",
+      "size_bytes": 32386,
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "mtime_ns": 1791209917194147654,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_template.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/runtime_template.py",
+      "size_bytes": 3463,
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "mtime_ns": 1791209917193946191,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/trimkv_cache_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/trimkv_cache_utils.py",
+      "size_bytes": 52019,
+      "sha256": "bb3013d5ff53a8264218b48bafa513c608ad3919d2c6d4172fb248a8b656cae5",
+      "mtime_ns": 1791209917194388706,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/snapshots/trimkv_modeling_qwen3.py",
+      "size_bytes": 44642,
+      "sha256": "9fdec3ee6e28177e6805715df41663d30f6662cb600cbee6f401a6c51dc7486c",
+      "mtime_ns": 1791209917193471158,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/source_reference.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/source_reference.py",
+      "size_bytes": 15471,
+      "sha256": "138849d7ce37c60af9025f666a9f9a17d9420d94a6dcdcd5a5b607eae40d3477",
+      "mtime_ns": 1791209917192042542,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_author_semantics.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_author_semantics.py",
+      "size_bytes": 30560,
+      "sha256": "abbcb3496db73047844130ede02da690683605c7062846ce05faee611f528534",
+      "mtime_ns": 1791209917219857830,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_bitwise_helper.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_bitwise_helper.py",
+      "size_bytes": 12342,
+      "sha256": "19b9920b4fc14e5a6eae0c42b4a2c92cdb52f23925e45fe649f7dc14d2abe346",
+      "mtime_ns": 1791210305510521502,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_evidence_codec.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/test_evidence_codec.py",
+      "size_bytes": 11943,
+      "sha256": "bfcc26adb7c8bdef03767a90030bc861810a06acba46c3abc4da696bcea8bd96",
+      "mtime_ns": 1791209917191686527,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/trace_schema.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/trace_schema.py",
+      "size_bytes": 4444,
+      "sha256": "f2d3932a0568c4b567eccb48764376c5a5e80f63af06e147ee520f94fd178d32",
+      "mtime_ns": 1791209917220015627,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REPORT.md",
+      "size_bytes": 16069,
+      "sha256": "3fcae1592016ad8766234e9d1e82898d4ed601c03e829b88159f1141efcbf216",
+      "mtime_ns": 1791205978134248603,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REVIEWED_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REVIEWED_MANIFEST.json",
+      "size_bytes": 11408,
+      "sha256": "fda89abdd8c147ffd6f50e03d5e880995fe7dffd178bc3c64d9109fa286fd8f8",
+      "mtime_ns": 1791205835569541437,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REVIEWED_SOURCE_PINS.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/REVIEWED_SOURCE_PINS.tsv",
+      "size_bytes": 6969,
+      "sha256": "751324aff1dfced30e72c3b511a31ef8b25f3b2560e2c00d961ae3744a7a38e5",
+      "mtime_ns": 1791205835569659995,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/SHA256SUMS",
+      "size_bytes": 420,
+      "sha256": "a62f28171d31a0832425cf72f234b6cb4ea1f2a06caa0134af62e1fcc2e69808",
+      "mtime_ns": 1791206017965527669,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/STATIC_CHECKS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/STATIC_CHECKS.json",
+      "size_bytes": 14593,
+      "sha256": "d520df423d1c661fbc4cfcfcecf87f478b1e67753b8b2aa0057b717b1e769e65",
+      "mtime_ns": 1791205835569360324,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/VERDICT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_20261005/VERDICT.json",
+      "size_bytes": 3008,
+      "sha256": "9630f910dd0c9ae89394504d4182184ffe74e43aa4edab2d62ea616961ae33b2",
+      "mtime_ns": 1791206017965285115,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/REPORT.md",
+      "size_bytes": 11511,
+      "sha256": "c066dfd5d7e922150581df861a2c5c0fcfcc0f97c28896c7a55ff7a6507b274f",
+      "mtime_ns": 1791207132600929999,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/REVIEWED_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/REVIEWED_MANIFEST.json",
+      "size_bytes": 20038,
+      "sha256": "d9eb3cff4ccc48f9a4d212710b80de192dd7dd24add99940f7708907043ff10e",
+      "mtime_ns": 1791207015348640625,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/SHA256SUMS",
+      "size_bytes": 425,
+      "sha256": "8b8a44ebaf1cf8e924d884f0dc5f72f4219adde61e9b408af5303af0462c44c2",
+      "mtime_ns": 1791207175471783556,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/STATIC_CHECKS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/STATIC_CHECKS.json",
+      "size_bytes": 26502,
+      "sha256": "592093990c5e0ded8f149741d53b82e64937aee0d8ec37996328d79efc3f3fde",
+      "mtime_ns": 1791207015347441090,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/V1_FAILURE_EVIDENCE_PINS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/V1_FAILURE_EVIDENCE_PINS.json",
+      "size_bytes": 1465,
+      "sha256": "3a52f9a10669cff635266d7fd01a1cf2d5684800fff531bc8ecb795bb930dfb8",
+      "mtime_ns": 1791207015348724551,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/VERDICT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v2_20261005/VERDICT.json",
+      "size_bytes": 3059,
+      "sha256": "7cb8116da6630dc8f9d97521f2d23b1b5c640017fa2474948aebff1e4af75dc1",
+      "mtime_ns": 1791207175471479480,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/CODEC_CHECK_REVIEW.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/CODEC_CHECK_REVIEW.json",
+      "size_bytes": 1787,
+      "sha256": "887b61060536647baed842745224ac2d471f9b08434d25358821e950d72b0fc1",
+      "mtime_ns": 1791208660582285210,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/PRIOR_ARTIFACT_PINS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/PRIOR_ARTIFACT_PINS.json",
+      "size_bytes": 5988,
+      "sha256": "2a43d35c2cb913d8476618815fef560ec48cec147e9ab20a7bd13a5e7d3a0423",
+      "mtime_ns": 1791209111688242108,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/REPORT.md",
+      "size_bytes": 14941,
+      "sha256": "dea5055ec3f3be62e1ef39fddb333c45970e25aec1c354185a5e844d3cc7f8c9",
+      "mtime_ns": 1791209284220050564,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/REVIEWED_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/REVIEWED_MANIFEST.json",
+      "size_bytes": 30944,
+      "sha256": "a31b342b699e50d8b215c2c66bc20b84846385cd190a980d1b640f420a5f77ae",
+      "mtime_ns": 1791209111688111822,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/SHA256SUMS",
+      "size_bytes": 510,
+      "sha256": "6c00bf45e51f2ec3fc80029de121552eded3b0d6728d409bec678841c89f30da",
+      "mtime_ns": 1791209330660889313,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/STATIC_CHECKS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/STATIC_CHECKS.json",
+      "size_bytes": 35172,
+      "sha256": "4e3ae29343ec12bb5fbfeaec63da4c7c7ecbf9c75168f4809454de9546f8f3d5",
+      "mtime_ns": 1791209111687993154,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/VERDICT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v3_20261005/VERDICT.json",
+      "size_bytes": 3377,
+      "sha256": "c7f4b64f3fede632a22b9733214d0bbbab5f367f671b901ff076fe2f4fd2e590",
+      "mtime_ns": 1791209330660563133,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/BITWISE_CHECK_REVIEW.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/BITWISE_CHECK_REVIEW.json",
+      "size_bytes": 2503,
+      "sha256": "dc10da0bb9ec835bd0702a6cb3e125f5ccc914be1c6916f2b3d42a0618892dbc",
+      "mtime_ns": 1791210436907279131,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/MAIN_TEST_DIFF.patch",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/MAIN_TEST_DIFF.patch",
+      "size_bytes": 1199,
+      "sha256": "50a011c3ddb8c6952290dfb8dcd211f1512ca4d7fed902be3a9bb18e0e501d29",
+      "mtime_ns": 1791210924085910392,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/PRIOR_ARTIFACT_PINS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/PRIOR_ARTIFACT_PINS.json",
+      "size_bytes": 7702,
+      "sha256": "b0a9081151f795647d9fb61b57a4f2377d1f81d47d897b640e04d8bd5ccaba0c",
+      "mtime_ns": 1791210924263723243,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/REPORT.md",
+      "size_bytes": 13218,
+      "sha256": "9d3afd556b38594aab2c3e34f8cba1c8055aeb6ea22967806b971710ab0aa7c1",
+      "mtime_ns": 1791211136083461374,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/REVIEWED_MANIFEST.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/REVIEWED_MANIFEST.json",
+      "size_bytes": 43913,
+      "sha256": "173a928ab6c852a705a0a71738f98cec3c197f8a8a9831b1c05a2d16a6ba2150",
+      "mtime_ns": 1791210924263476883,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/SHA256SUMS",
+      "size_bytes": 689,
+      "sha256": "fac3ca77254c0c00379f8a5394bb4209ffa53f05417c181d33fb33fb199f9722",
+      "mtime_ns": 1791211180239901800,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/STATIC_CHECKS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/STATIC_CHECKS.json",
+      "size_bytes": 47459,
+      "sha256": "f32b260a9e374efb8fdfad1e58ce887525d091c77e136b1d6ef878d79e9fade9",
+      "mtime_ns": 1791210924263373017,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/TRACE_BRIDGE_DIFF.patch",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/TRACE_BRIDGE_DIFF.patch",
+      "size_bytes": 1746,
+      "sha256": "09adba9e2c336b5893f73dc4dd208bd9617a62011cbf6125043606b85c8fe726",
+      "mtime_ns": 1791210924086125935,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/VERDICT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_preexecution_review_v4_20261005/VERDICT.json",
+      "size_bytes": 3381,
+      "sha256": "5cd34e4c3ac6a3419c8a2dfccd5b340c668e2cc0a9eced000faa1c7c517f4c76",
+      "mtime_ns": 1791211180239311584,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/AUDIT_COST_LEDGER.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/AUDIT_COST_LEDGER.json",
+      "size_bytes": 2059,
+      "sha256": "3a7a82638916a8daaedb8157517288338f616de995aa49ab30bfaafd2ae6eeeb",
+      "mtime_ns": 1791212726637045064,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_AFTER_POSTRUN.pyc",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_AFTER_POSTRUN.pyc",
+      "size_bytes": 24552,
+      "sha256": "02945da0a1b2c4cad3b0bddfbb3739e637b7eba0d82b5739d0c2283355b11af4",
+      "mtime_ns": 1791212303017665688,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_BEFORE_MATCHING_FROZEN.pyc",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_BEFORE_MATCHING_FROZEN.pyc",
+      "size_bytes": 24552,
+      "sha256": "2378944d3a76fa0f5b3eae296b5a0ce2a233302a6ae6e3c125778c0b54d1a55b",
+      "mtime_ns": 1791212303017557175,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_PROVENANCE.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_PROVENANCE.json",
+      "size_bytes": 33460,
+      "sha256": "aa8c5f5d349dd56f25c4e8919ee76bafa7079ab10c6e8a9f95f39c58d22d92a6",
+      "mtime_ns": 1791212303017504897,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_WRITE_CONFIRMATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/CACHE_WRITE_CONFIRMATION.json",
+      "size_bytes": 1014,
+      "sha256": "de6f64b280a23969998b88957cceb431fd8cce643f15dab532b3a45aac29d4cd",
+      "mtime_ns": 1791212726636733737,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT.json",
+      "size_bytes": 665,
+      "sha256": "d67f1ba0f2ab789c9418deb5b7a4a96a384a3c43ddc3a21c1127e2eeeb6db90d",
+      "mtime_ns": 1791211852871102873,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT_FINAL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT_FINAL.json",
+      "size_bytes": 4833,
+      "sha256": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491",
+      "mtime_ns": 1791212406634256878,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT_RESOLVED.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/INDEPENDENT_AUDIT_RESOLVED.json",
+      "size_bytes": 508,
+      "sha256": "0a167b7c825bb8795acd4025f965747de85b32b96232613cdb43de47acfa1c15",
+      "mtime_ns": 1791212342183904709,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/POST_RUN_BYTECODE_ADDENDUM.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/POST_RUN_BYTECODE_ADDENDUM.md",
+      "size_bytes": 1988,
+      "sha256": "7d875fe55ce8b733c1621cc547767b33b39eeb8ed0d3faf007985a79b5a731d6",
+      "mtime_ns": 1791212898869683858,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/SHA256SUMS",
+      "size_bytes": 1289,
+      "sha256": "2474450e0c09d921dc361ae5ca3e8edd2bef2ce2623abdc1b1cfc041128a3889",
+      "mtime_ns": 1791213006942613060,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/TERMINAL_AUDIT_REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/TERMINAL_AUDIT_REPORT.md",
+      "size_bytes": 11365,
+      "sha256": "a881e6a75ebc817bbee536798a753fbecf924b87638879ce5913ec5c68a11349",
+      "mtime_ns": 1791212898241675903,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/TERMINAL_VERDICT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/TERMINAL_VERDICT.json",
+      "size_bytes": 4215,
+      "sha256": "a2189b310fc05441bcf92710507043fcf0bca7d2e71f99a1853d8da8ac6a57fa",
+      "mtime_ns": 1791213006942077165,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit.py",
+      "size_bytes": 14217,
+      "sha256": "970cbb7932f19c5d1e16d487ccd8dd13925d0d1c86f69da43d55a0334e80d44a",
+      "mtime_ns": 1791211803975927897,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit_final.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit_final.py",
+      "size_bytes": 15292,
+      "sha256": "72d4a7fa75027c933f00e2f6b8cdd0679b2538c67ff1863225804c20b54cb4b1",
+      "mtime_ns": 1791212405404182018,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit_resolved.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_terminal_review_20261005/read_only_audit_resolved.py",
+      "size_bytes": 15290,
+      "sha256": "4599b9f43727b8bbc32df6143c350242e6f93d3fef403e11c31eb4c5bd12fb60",
+      "mtime_ns": 1791212303017809084,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_trace_bound_review_20261005_1345/FINAL_SOURCE_BOUND.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_trace_bound_review_20261005_1345/FINAL_SOURCE_BOUND.md",
+      "size_bytes": 8632,
+      "sha256": "527ddf3b63b4f1ef24f92c4a05fd4653f0f6b03c29c7fa2744f976514f18d6ab",
+      "mtime_ns": 1791208384379178349,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_phase_a_trace_bound_review_20261005_1345/SOURCE_BOUND_REVIEW.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_phase_a_trace_bound_review_20261005_1345/SOURCE_BOUND_REVIEW.md",
+      "size_bytes": 12417,
+      "sha256": "bd7503412cdd84fd8615b8c6040601e743d281023bf9ae52848facfdeff7cb8a",
+      "mtime_ns": 1791208061709528483,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_PINS.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_PINS.json",
+      "size_bytes": 17910,
+      "sha256": "0abe590a84f3c8e1612f9a0be1ce4b7e891fe60a38b7d9b94288b41b4fde6ed0",
+      "mtime_ns": 1791204899540729561,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_PIN_LIST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_PIN_LIST.tsv",
+      "size_bytes": 16880,
+      "sha256": "484c2f98c230a11c89a7202ea1fbc8f267435a62d6456f43e9cbb455349084a4",
+      "mtime_ns": 1791204899536729510,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_RECEIPT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_RECEIPT.json",
+      "size_bytes": 834,
+      "sha256": "0734e16c487cfc7ea2373aca9f2e8d22c4049eee20e2dd47c810b22f4dbc2ac8",
+      "mtime_ns": 1791205076711490965,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/INPUT_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/INPUT_CONTRACT.json",
+      "size_bytes": 4498,
+      "sha256": "95f5d635ec7064eeff504a9d4a566304ea61a0a07cf0eb1c57b164d96c9fa5c8",
+      "mtime_ns": 1791205076706990274,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PINNED_WHEEL_SOURCES.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PINNED_WHEEL_SOURCES.txt",
+      "size_bytes": 797,
+      "sha256": "7842e3708cd83bf1c7658d1ad94ad3e757a5f7ebd497a2f903acdbd51d7f7cbc",
+      "mtime_ns": 1791204614264016586,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PRELAUNCH_REVIEW.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PRELAUNCH_REVIEW.md",
+      "size_bytes": 2749,
+      "sha256": "28a4eef696bb62e1d763e3aa66e2890714ec7a4836f10ed05ad020f21ee17c20",
+      "mtime_ns": 1791204899546689688,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PRELAUNCH_SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PRELAUNCH_SHA256SUMS",
+      "size_bytes": 580,
+      "sha256": "2d807a5e6e3cda2b0de149228cd2ae6e2f2ec227fc52ef56b84235e921d51b99",
+      "mtime_ns": 1791204899548940963,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PROTOCOL.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PROTOCOL.json",
+      "size_bytes": 4041,
+      "sha256": "82bddac2aa52dc40b23dbf8ceeb6be17acdda339de54ce7c15bb198f6ca37496",
+      "mtime_ns": 1791204823999922478,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PYTHON_BINARY_SHA256.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/PYTHON_BINARY_SHA256.txt",
+      "size_bytes": 143,
+      "sha256": "5083b2f110d5705790aba2596380ad011ff6a79bae8cda6c430c1b9823d67f17",
+      "mtime_ns": 1791204614301156422,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/REPORT.md",
+      "size_bytes": 5537,
+      "sha256": "e4c1903185e5dc32c78f15f22ddac1503f68a4cd0ad8139e103c57d97584c102",
+      "mtime_ns": 1791205076712741057,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/RUNTIME_RECORD_CHECKS.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/RUNTIME_RECORD_CHECKS.tsv",
+      "size_bytes": 18436,
+      "sha256": "e8b9173260b4fba26e62f8fc03895f5a04c655f0ffd27f2798f9ba360c797b77",
+      "mtime_ns": 1791204614205155206,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/SHA256SUMS",
+      "size_bytes": 3321,
+      "sha256": "061975f1b951455c3cf21853a7c967c7343c8fa5e115276fd3776e979a4b8863",
+      "mtime_ns": 1791205076722990477,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/SOURCE_PROVENANCE.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/SOURCE_PROVENANCE.tsv",
+      "size_bytes": 2194,
+      "sha256": "167b69a6ab8d90843135faa2fb02c916bd8233f645ab65575fe2d1a4f674c758",
+      "mtime_ns": 1791204823995773558,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/prepare_inputs.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/prepare_inputs.py",
+      "size_bytes": 13981,
+      "sha256": "a7c12371a86116dec0b4a95fd74046449e98f58e27838c053705a500faf681fd",
+      "mtime_ns": 1791204824001007537,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.chat.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.chat.txt",
+      "size_bytes": 15971,
+      "sha256": "3ff4e7040ba55951b0600aa7fa2cb1fe2b6e6a288eb77f0d1ce36e1f94deaa1b",
+      "mtime_ns": 1791204935174958099,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.ids.json",
+      "size_bytes": 29937,
+      "sha256": "1818ccddf9c2872ceda7cbece3e98d7bc62cacf2a9dd1b68e0a015df4edca96b",
+      "mtime_ns": 1791204935171939363,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.positions.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.positions.json",
+      "size_bytes": 30565,
+      "sha256": "146107f401b3de519aef0d4c6fc1fd3541083058e1b6a15f8865493bc8b78854",
+      "mtime_ns": 1791204935172876351,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.history.txt",
+      "size_bytes": 15855,
+      "sha256": "815179cb2e9c7737e02fead4bff0bba9390c7125721388020f0c62ed5ae6c78a",
+      "mtime_ns": 1791204935171553813,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.ids.json",
+      "size_bytes": 30224,
+      "sha256": "baa369132e63e05d41374cc58acc2e2cf3c34bac05adc9a0fb6de96b9308bf3d",
+      "mtime_ns": 1791204935175820945,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.prompt.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.prompt.txt",
+      "size_bytes": 15921,
+      "sha256": "f0530c220fcb4c506549aacd59e21bbea096699927fc61680000c5b8f27c48c7",
+      "mtime_ns": 1791204935174883957,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.ids.json",
+      "size_bytes": 290,
+      "sha256": "d1186a5248730b5c473792a81c1abdc308e5a5f6ca7e58ce0800e4a22d982f55",
+      "mtime_ns": 1791204935174406380,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.positions.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.positions.json",
+      "size_bytes": 331,
+      "sha256": "815728cfb0e84c28a2e30d9797c31a8c180ea5acffdaf0ce0a3b598ca6223fae",
+      "mtime_ns": 1791204935174472850,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/19b5f2b3.question.txt",
+      "size_bytes": 116,
+      "sha256": "3048926fcedc62548c19cc5f091defd716244b2971f7215a55c2f18be3472592",
+      "mtime_ns": 1791204935174350285,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/RESULT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/RESULT.json",
+      "size_bytes": 9604,
+      "sha256": "d3ab28628d7991ca56de197b085ad38610edbc8e46f44b4b7aa81cfbee25b161",
+      "mtime_ns": 1791204935206832848,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/START.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/START.json",
+      "size_bytes": 654,
+      "sha256": "d741dbe0f7b07f1257c911b765073c325f9f8fcbf576fbe4534ed0cbfbd295ba",
+      "mtime_ns": 1791204934497830570,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/author_prepare_prompt_span.py.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/author_prepare_prompt_span.py.txt",
+      "size_bytes": 15185,
+      "sha256": "a1205bda0079598d1af602583f0d283977a6bec2bff7abf815f75b3564012e17",
+      "mtime_ns": 1791204935076363268,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.chat.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.chat.txt",
+      "size_bytes": 27238,
+      "sha256": "77caa3e586db0b2ded788613b969d1546afce7221511db3cba6cf2652abd731f",
+      "mtime_ns": 1791204935133745998,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.ids.json",
+      "size_bytes": 49182,
+      "sha256": "499edb595be7b3f5bb1130f731f6ed19422bf2378dcb0760459473f3bd09da5b",
+      "mtime_ns": 1791204935129517243,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.positions.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.positions.json",
+      "size_bytes": 50701,
+      "sha256": "4b6cfd79803679c6c00974052ce7e0167d71c94852ce146acde4373a86217d49",
+      "mtime_ns": 1791204935131012010,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.history.txt",
+      "size_bytes": 27074,
+      "sha256": "de304522727ebfdc23a7e49a30a3f04e361ec85bb6a27929a306c245f8351477",
+      "mtime_ns": 1791204935129148099,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.ids.json",
+      "size_bytes": 49542,
+      "sha256": "4a996e42256b4846b544543d3e9126b6424a245c5d7527af4b59321bf5ab35ad",
+      "mtime_ns": 1791204935134038057,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.prompt.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.prompt.txt",
+      "size_bytes": 27188,
+      "sha256": "ed63d079869d1cf53a53e707b081501b96a27968b6bf07a927347a404d8238b3",
+      "mtime_ns": 1791204935133541230,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.ids.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.ids.json",
+      "size_bytes": 363,
+      "sha256": "a343739a94d5da68168ffc94c216b2ecf2542d25f1278a239e277be9773738c4",
+      "mtime_ns": 1791204935133174780,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.positions.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.positions.json",
+      "size_bytes": 403,
+      "sha256": "3c4deb1b5a701bec3cd5f21cbdc4cab592535a1b5f7d2d77a1a3dc11ae132382",
+      "mtime_ns": 1791204935133243693,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/edced276.question.txt",
+      "size_bytes": 164,
+      "sha256": "30fb21ecb4174cb44ccf843d2c625a9aa570d7e770ab9a77ec6dc40bda95dee3",
+      "mtime_ns": 1791204935133109762,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/official_chat_template.jinja",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/author_trimkv_tokenizer_prep_20261005/run_01/official_chat_template.jinja",
+      "size_bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "mtime_ns": 1791204935087565722,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/reuse_cost_frontier_screen_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/reuse_cost_frontier_screen_20261005/REPORT.md",
+      "size_bytes": 20839,
+      "sha256": "7340769830b59949ab2c14e4a35bcbb02def472c558952619e9ef914f56e32a0",
+      "mtime_ns": 1791203115510161138,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/reuse_cost_frontier_screen_20261005/SOURCE_INDEX.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/reuse_cost_frontier_screen_20261005/SOURCE_INDEX.json",
+      "size_bytes": 5326,
+      "sha256": "979fc3e16df841e6700005667894841adb96c4d631ecabb93fc05cde299abc25",
+      "mtime_ns": 1791203096965926244,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/pins_and_licenses.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/pins_and_licenses.json",
+      "size_bytes": 2103,
+      "sha256": "ca2116b8f25be947d6fd03ad625f476d3b2a81c25f22b6bd7891dcf7581d13ba",
+      "mtime_ns": 1791118566925034973,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/source_receipts.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/source_receipts.json",
+      "size_bytes": 17961,
+      "sha256": "80f57d2dfacdbc4f1d31556cafe326df7a0ed06df1ecca1b6786dd6cc407bc33",
+      "mtime_ns": 1791118369866180009,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/qwen_LICENSE",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/qwen_LICENSE",
+      "size_bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "mtime_ns": 1791118566920067042,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/qwen_config.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/qwen_config.json",
+      "size_bytes": 727,
+      "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+      "mtime_ns": 1791118566919706620,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/static_trim_config.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/static_trim_config.json",
+      "size_bytes": 2102,
+      "sha256": "8c3482ca125ccc2c0b5319b3bf9c02d319afc2e8198b0fe0f44fbecfff88d7f0",
+      "mtime_ns": 1791118027388028495,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/transformers_4_57_1__src__transformers__integrations__flash_attention.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/transformers_4_57_1__src__transformers__integrations__flash_attention.py",
+      "size_bytes": 3125,
+      "sha256": "850aa63f9473391188c357454cfb6a89339394d26f6024ccbe246f00f6344144",
+      "mtime_ns": 1791118153954804462,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_LICENSE",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mtime_ns": 1791118566923443753,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__requirements.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__requirements.txt",
+      "size_bytes": 241,
+      "sha256": "5825e80659e29916f971706420706b7a84246f07b619c361f7333b7951b101b5",
+      "mtime_ns": 1791117960865563490,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__attn____init__.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__attn____init__.py",
+      "size_bytes": 1679,
+      "sha256": "0e319bd5314aa81a4af499ce1ec9e0f7408a36063a8aa1bee21150eb5cf2dd3d",
+      "mtime_ns": 1791118029445698721,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__attn__eager_attn.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__attn__eager_attn.py",
+      "size_bytes": 4199,
+      "sha256": "bfab7315962034164328edf815e84eb109ea765aac1782495e6267c9967e6e1f",
+      "mtime_ns": 1791118029437659998,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__models__qwen3__configuration_trimkv_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv__src__trimkv__models__qwen3__configuration_trimkv_qwen3.py",
+      "size_bytes": 1456,
+      "sha256": "62a29da7bc23a90ad77d36c64984af438993377dd66d97bff2970c92619c33d1",
+      "mtime_ns": 1791117953981791871,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_cache_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_cache_utils.py",
+      "size_bytes": 52019,
+      "sha256": "bb3013d5ff53a8264218b48bafa513c608ad3919d2c6d4172fb248a8b656cae5",
+      "mtime_ns": 1791118566922840457,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_load_model.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_load_model.py",
+      "size_bytes": 13120,
+      "sha256": "12f4e30b6081e42a9eece9fdd8a24b4a9956e0d2b25c8e4effaf09c44f1a19cc",
+      "mtime_ns": 1791118566923056281,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_modeling_qwen3.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_baseline_contracts_20261004/sources/trimkv_modeling_qwen3.py",
+      "size_bytes": 44642,
+      "sha256": "9fdec3ee6e28177e6805715df41663d30f6662cb600cbee6f401a6c51dc7486c",
+      "mtime_ns": 1791118566920179250,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/longmemeval__LICENSE",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/longmemeval__LICENSE",
+      "size_bytes": 1062,
+      "sha256": "d3c4b9aa54759df6ded337978a6f3b55b75615e5e4525c3b82d7e2627d4b9732",
+      "mtime_ns": 1791115720241979630,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/longmemeval__README.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/longmemeval__README.md",
+      "size_bytes": 15970,
+      "sha256": "c4ff45676683d9e2f7cf7d9099d26426f14635ec110dbb1da818d1019a142573",
+      "mtime_ns": 1791115720141771218,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__generation_utils.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__generation_utils.py",
+      "size_bytes": 20485,
+      "sha256": "cf416f3697ba9280e30822d32123d3618a95aec91eca6decd3d25b337bf4aaee",
+      "mtime_ns": 1791115708307731571,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__run_eval.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__run_eval.py",
+      "size_bytes": 9179,
+      "sha256": "2f644c2a62306c2889c54f25a121e708c2cd73a915579d48f8062124c070cfdd",
+      "mtime_ns": 1791115714114677062,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__run_longmemeval.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__run_longmemeval.py",
+      "size_bytes": 12669,
+      "sha256": "815c8924ae49207b1152a1309fb9eae55636634382e32e65c4037a836f86f7f1",
+      "mtime_ns": 1791115708050260080,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__scripts__run_trimkv.sh",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_sensitive_kv_sources_20261004/trimkv__experiments__longmemeval__scripts__run_trimkv.sh",
+      "size_bytes": 801,
+      "sha256": "64e73c5af1c125913859c8d37633748e8b83136320fa23d8a884e5b44723797f",
+      "mtime_ns": 1791115714245962159,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/revision_serving_holdout_v1_20261004/exclusion_audit.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/revision_serving_holdout_v1_20261004/exclusion_audit.json",
+      "size_bytes": 23380,
+      "sha256": "125914d6f99611e8ca0fd1d89ef6159cf470c6aaea9d9d0e37e5f22ca67f76d5",
+      "mtime_ns": 1791144596222720287,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/README.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/README.md",
+      "size_bytes": 4520,
+      "sha256": "a160b3f19b30a4775bb1ad2065a09cf88cf9ddea94d951711dd34020bd551453",
+      "mtime_ns": 1791098133218200403,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/cpu_python.sh",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/cpu_python.sh",
+      "size_bytes": 280,
+      "sha256": "25e542354aa0cea3bd6cb61dd8ab509ba0d1e72003ac7c47ba6b1e95b6b7e346",
+      "mtime_ns": 1791097918135574355,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/installation_commands.sh",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/installation_commands.sh",
+      "size_bytes": 1768,
+      "sha256": "121fe7fb21f8e28fb4a759050d006ff25a948c8e56345d44b9f10b062c27713b",
+      "mtime_ns": 1791098133846208136,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/logs/recovery_verification.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/logs/recovery_verification.json",
+      "size_bytes": 469290,
+      "sha256": "153a06cc41890d781ff42f51d53a3a84677e0195e0c554ca492ac06326345d5b",
+      "mtime_ns": 1791097945215909776,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/provenance.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/provenance.json",
+      "size_bytes": 15353,
+      "sha256": "06fa5fb92cd6f8b997635cf53d23042cdb7b42476edfd98a76f7d1b288dcd93f",
+      "mtime_ns": 1791098132475947198,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/requirements.actual.freeze.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/requirements.actual.freeze.txt",
+      "size_bytes": 851,
+      "sha256": "358b132725e5de61940a46e6fbc528b1dafccc63c626bc0b397bfbfedb12216c",
+      "mtime_ns": 1791097946267922774,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/requirements.cpython312-linux_x86_64.lock",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/requirements.cpython312-linux_x86_64.lock",
+      "size_bytes": 8033,
+      "sha256": "326b82057537fb2a7c51979fb9ff07f5eb6c687e0eb465328c8a1886506a7422",
+      "mtime_ns": 1791098132399670863,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/requirements.dependencies.txt",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/requirements.dependencies.txt",
+      "size_bytes": 521,
+      "sha256": "c5e22a1e97cc7489c0a8192f57274770994e472bbb4ea2e51f5bcc4e7d917616",
+      "mtime_ns": 1791097727694990506,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/runtime_recovery_20261004/verify_recovered_runtime.py",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/verify_recovered_runtime.py",
+      "size_bytes": 5408,
+      "sha256": "811bfadf4f5152b0f780754504128bc4bfce3539a234dec65fddec9b942bfbad",
+      "mtime_ns": 1791097917515566659,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/ADAPTER_CONTRACT.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/ADAPTER_CONTRACT.json",
+      "size_bytes": 6150,
+      "sha256": "f0caf7603a415e9bc5c82c63661c97125f22d1afb3116549ec71261a6b4e9e89",
+      "mtime_ns": 1791202756662579667,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/AUTHOR_RECEIPT_CHECKS.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/AUTHOR_RECEIPT_CHECKS.tsv",
+      "size_bytes": 3604,
+      "sha256": "656f7b13cf96579f3dd9a1e9a47394d9151f50fbbcb880c09aa08b8be8587bf3",
+      "mtime_ns": 1791202831714557023,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/REPORT.md",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/REPORT.md",
+      "size_bytes": 22323,
+      "sha256": "37e811fa5a70cdfcda9418d5e9b3869c1752ad830a385d72f4ff6fac354b8394",
+      "mtime_ns": 1791202849034781732,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/SHA256SUMS",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/SHA256SUMS",
+      "size_bytes": 516,
+      "sha256": "9e2c57e84388c9bc8d4f096039c7a02cd503585ff721b9e07b6ffa199a01e215",
+      "mtime_ns": 1791202849040406435,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/SOURCE_ARCHIVE_CHECKS.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/SOURCE_ARCHIVE_CHECKS.tsv",
+      "size_bytes": 1021,
+      "sha256": "0ad5df9783e662a5b1c60ec3f4cf20277cacee77f514caba37eb125f913140a4",
+      "mtime_ns": 1791202759721643515,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/SOURCE_MANIFEST.tsv",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/SOURCE_MANIFEST.tsv",
+      "size_bytes": 5415,
+      "sha256": "e9ff865d5e0668b2cde2cc438db21e47bf32b40587520561576a3b904ceef15b",
+      "mtime_ns": 1791202759721643515,
+      "mode": 420
+    },
+    {
+      "archive_path": "repository/research/reconstructed/trimkv_layer_replay_contract_20261005/VALIDATION.json",
+      "source_path": "/workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/trimkv_layer_replay_contract_20261005/VALIDATION.json",
+      "size_bytes": 606,
+      "sha256": "6bc8f839da27f74903ba4c88754de152372a3bb846bc65ffbd876650c370614d",
+      "mtime_ns": 1791202831719877657,
+      "mode": 420
+    },
+    {
+      "archive_path": "EXTERNAL_DEPENDENCIES.json",
+      "size_bytes": 40412,
+      "sha256": "416facf13e19d707044928843ba03e20b3927b6f1f4cd197486fbd869158ee73",
+      "kind": "archive_metadata"
+    },
+    {
+      "archive_path": "COST_AND_RESOURCE_ACCOUNTING.json",
+      "size_bytes": 6148,
+      "sha256": "0e14d4e5d055a117c667eb225b7753295d6b368535a5753348375dcf65538758",
+      "kind": "archive_metadata"
+    },
+    {
+      "archive_path": "ARCHIVE_SCOPE.json",
+      "size_bytes": 4517,
+      "sha256": "fc5194a2e76d53dc938dea5d2598054ab9485947eca9250e85eb8ddfabbf7131",
+      "kind": "archive_metadata"
+    },
+    {
+      "archive_path": "SUMMARY_AND_RESTORE.md",
+      "size_bytes": 10652,
+      "sha256": "b801a5a0e41bf0e0cd5562c4bde6770d1e8eb560e9c9794a491f53b3b343fe54",
+      "kind": "archive_metadata"
+    },
+    {
+      "archive_path": "VERIFY_ARCHIVE.py",
+      "size_bytes": 2086,
+      "sha256": "2e556270b5b6cd20ac481fbcb8dc4b15cd5d5d6fc1ac572d2470a52c8cc8380e",
+      "kind": "archive_metadata"
+    },
+    {
+      "archive_path": "ARCHIVE_BUILDER.py",
+      "size_bytes": 13396,
+      "sha256": "b153b15668034b772feff1c557a9d92bb4fce4f68ce596501df584dfaf5cb39c",
+      "kind": "archive_metadata"
+    }
+  ],
+  "self_hash_note": "This manifest does not include its own hash. The final archive/Library verification receipt pins the complete archive bytes and this manifest hash."
+}

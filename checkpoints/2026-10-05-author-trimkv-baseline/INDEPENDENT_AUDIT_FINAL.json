@@ -1,0 +1,139 @@
+{
+  "status": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+  "scope": "bounded stdlib read-only evidence/source audit; no numerical rerun",
+  "bounds": {
+    "wall_seconds": 15,
+    "cpu_hard_seconds": 8,
+    "address_space_bytes": 268435456,
+    "new_receipt_bytes": 1048576
+  },
+  "manifest_sha256": "173a928ab6c852a705a0a71738f98cec3c197f8a8a9831b1c05a2d16a6ba2150",
+  "frozen_manifest_entries_checked": 172,
+  "byte_exact_repository_entries": 171,
+  "derived_cache_exceptions": 1,
+  "cache_exception_provenance_sha256": "aa8c5f5d349dd56f25c4e8919ee76bafa7079ab10c6e8a9f95f39c58d22d92a6",
+  "readonly_stdlib_pins_verified": 2,
+  "same_run_output_binding": true,
+  "groups": [
+    "A1_source_oracle",
+    "A2_boundaries",
+    "A3_age_and_membership",
+    "A8_fail_closed_abi",
+    "A5_gate_and_positions",
+    "A4_call_boundaries",
+    "A6_closed_loop_cpu",
+    "A7_bounded_attention"
+  ],
+  "negative_controls_verified": 59,
+  "continuous_errors_verified": 272,
+  "error_summary": {
+    "torch.float32": {
+      "count": 136,
+      "maximum_absolute_error": 3.814697265625e-06,
+      "maximum_reported_rms_error": 6.88080604049901e-07,
+      "maximum_reported_relative_error": 5.999160202918574e-05
+    },
+    "torch.bfloat16": {
+      "count": 136,
+      "maximum_absolute_error": 0.0,
+      "maximum_reported_rms_error": 0.0,
+      "maximum_reported_relative_error": 0.0
+    }
+  },
+  "trace": {
+    "bytes": 4314510,
+    "sha256": "5434e0f4d5240db16a53f301ba5570c9ad05eb05b1f27cf17e8c54c457a20acd",
+    "events": 1621,
+    "event_counts": {
+      "source_receipt": 1,
+      "cache_before": 80,
+      "global_post_call": 216,
+      "cache_after": 80,
+      "scalar_scores": 28,
+      "native_topk": 28,
+      "adapter_prune": 44,
+      "negative_control": 59,
+      "unequal_layer_api": 1,
+      "full_shape_gate": 2,
+      "tiny_schedule": 2,
+      "continuous_error": 272,
+      "tiny_layer": 536,
+      "tiny_post_norm_prune_then_head": 268,
+      "attention_arrays": 4
+    },
+    "tensors": 1949,
+    "chunks": 9705,
+    "frames": 13276,
+    "inventory_complete": true,
+    "all_array_hashes_and_finite_flags_verified": true
+  },
+  "resources": {
+    "guard_wall_seconds": 6.787701619992731,
+    "own_cpu_seconds": 8.176753999999999,
+    "conservative_cumulative_cpu_seconds": 41.769318999999996,
+    "peak_sampled_guard_plus_child_rss_bytes": 384397312,
+    "summed_guard_child_os_hwm_upper_bound_bytes": 387313664,
+    "samples_verified": 261,
+    "maximum_sample_gap_seconds": 0.027548131009098142,
+    "final_logical_output_including_claim_bytes": 5017984
+  },
+  "cleanup": {
+    "owned_processes_absent": true,
+    "terminal_scratch_checked_empty": true,
+    "live_scratch_empty": true
+  },
+  "previous_artifacts_preserved": 40,
+  "output_files": [
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/child_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "allocated_bytes": 0
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/child_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "allocated_bytes": 0
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/guard_receipt.json",
+      "sha256": "8d41ca213f57a18454e93b01b920792923f4101cd5a7f873d0e14c6a37828571",
+      "bytes": 12708,
+      "allocated_bytes": 16384
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/resource_samples.jsonl",
+      "sha256": "7dc4ae760324bda9dc3b181ede35a435eaf14dd8b32c51085065fe3630a08866",
+      "bytes": 583748,
+      "allocated_bytes": 585728
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/result.json",
+      "sha256": "e6818865f68cd616928b90d038a13e5640f214283b6671346b65964caf8a0520",
+      "bytes": 61490,
+      "allocated_bytes": 65536
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/trace.tkv3",
+      "sha256": "5434e0f4d5240db16a53f301ba5570c9ad05eb05b1f27cf17e8c54c457a20acd",
+      "bytes": 4314510,
+      "allocated_bytes": 4317184
+    },
+    {
+      "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/verified_inputs.json",
+      "sha256": "ff3aa4466288c99ff295a7213940b4479fe759da11f0ac2bd0778d7cff3aab2f",
+      "bytes": 40159,
+      "allocated_bytes": 40960
+    }
+  ],
+  "numerical_reruns": 0,
+  "numerical_library_imports": 0,
+  "limitation": "Synthetic restricted author-method/current-ABI CPU port only; no trained4B, full author loader, FA2, real long-prefill admission or PhaseB grant",
+  "audit_resources": {
+    "wall_seconds": 1.1659857490012655,
+    "total_process_cpu_seconds": 1.226972,
+    "os_maxrss_bytes": 27156480,
+    "separate_from_main_run": true
+  }
+}

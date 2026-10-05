@@ -41,3 +41,5 @@ This pass concerns unchanged author class bodies plus a restricted synthetic CPU
 ## Separate later source-only screen
 
 The [headwise no-copy source screen](POST_ARCHIVE_HEADWISE_SOURCE_SCREEN.md) and [source ledger](POST_ARCHIVE_HEADWISE_SOURCES.tsv) were finalized after the full-archive freeze. They are included separately in this GitHub checkpoint and are not members of that archive or the 158-member source ZIP. This is a source-only no-go finding, with no experiment, promising-method claim or execution authorization.
+
+The [archival placement exception](ARCHIVAL_PLACEMENT_EXCEPTION.json) allows a bounded real-file workspace copy solely for private delivery. It changes no completed experiment gate and grants no future execution-limit change; copies are retained.

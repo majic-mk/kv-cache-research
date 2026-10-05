@@ -1,0 +1,579 @@
+{
+  "scope": "Dependencies only; no automatic download/install or execution authorized",
+  "entries": [
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/bin/python",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+      "bytes": 30894944,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/functional.py",
+      "sha256": "5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa",
+      "bytes": 244561,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py",
+      "sha256": "63fb3cae2a1561fec5e183e45c171d177080113a3996f1046eea35530cd33247",
+      "bytes": 12000,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/version.py",
+      "sha256": "1f11d022311106326d68591dacb5f86ba859bb6fa4d05e19b18490a072ce77f6",
+      "bytes": 277,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch-2.9.1+cpu.dist-info/METADATA",
+      "sha256": "8c7548e1ac8ff4459eb2e8e71e3a8cd7345215fb49bc7d08368fa427666af1ed",
+      "bytes": 29103,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/__init__.py",
+      "sha256": "177433fc0648157babeb9f2116870964139bf27f7f5bd9aebcdf6af355080e60",
+      "bytes": 42011,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/activations.py",
+      "sha256": "5b20c0a3625edc0001a98f09ce3c6b5baa1100e1d7ad8dee649e4d45c8468665",
+      "bytes": 13477,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/cache_utils.py",
+      "sha256": "2d2ab17aa02c9d2a993587ec58d1745b03595b6028c401cc6c976bb720ad6638",
+      "bytes": 105435,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/configuration_utils.py",
+      "sha256": "2f85c43a79770f43dfb98acb1f47e6fb35657c5dbe86325e21672640413d5f84",
+      "bytes": 74661,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/masking_utils.py",
+      "sha256": "af3d84dfe82a0b57c40625c89fb32b2cd6bf7351432ee5e76a9e8eac4289575b",
+      "bytes": 80642,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/modeling_rope_utils.py",
+      "sha256": "ca1038b2f550a72a90ade70585b2e1f033a1440ba1ef7f2d627665ea3c064a7f",
+      "bytes": 62715,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/configuration_qwen3.py",
+      "sha256": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "bytes": 3624,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py",
+      "sha256": "2b768b0eb0aacf1478bba1dc84318126c6c68fecb0ac9465f70154f24da4a80d",
+      "bytes": 22403,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers-5.19.0.dev0.dist-info/METADATA",
+      "sha256": "1f8d42cf585ec928645745e27f91cdf5c22c1bbc7e77356951ebd99550eb241e",
+      "bytes": 32349,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/bin/python",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+      "bytes": 30894944,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/api/remote_module.py",
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "bytes": 31286,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/instantiator.py",
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "bytes": 5510,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/templates/remote_module_template.py",
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "bytes": 3463,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/functional.py",
+      "sha256": "5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa",
+      "bytes": 244561,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py",
+      "sha256": "63fb3cae2a1561fec5e183e45c171d177080113a3996f1046eea35530cd33247",
+      "bytes": 12000,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/version.py",
+      "sha256": "1f11d022311106326d68591dacb5f86ba859bb6fa4d05e19b18490a072ce77f6",
+      "bytes": 277,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch-2.9.1+cpu.dist-info/METADATA",
+      "sha256": "8c7548e1ac8ff4459eb2e8e71e3a8cd7345215fb49bc7d08368fa427666af1ed",
+      "bytes": 29103,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/__init__.py",
+      "sha256": "177433fc0648157babeb9f2116870964139bf27f7f5bd9aebcdf6af355080e60",
+      "bytes": 42011,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/activations.py",
+      "sha256": "5b20c0a3625edc0001a98f09ce3c6b5baa1100e1d7ad8dee649e4d45c8468665",
+      "bytes": 13477,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/cache_utils.py",
+      "sha256": "2d2ab17aa02c9d2a993587ec58d1745b03595b6028c401cc6c976bb720ad6638",
+      "bytes": 105435,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/configuration_utils.py",
+      "sha256": "2f85c43a79770f43dfb98acb1f47e6fb35657c5dbe86325e21672640413d5f84",
+      "bytes": 74661,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/masking_utils.py",
+      "sha256": "af3d84dfe82a0b57c40625c89fb32b2cd6bf7351432ee5e76a9e8eac4289575b",
+      "bytes": 80642,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/modeling_rope_utils.py",
+      "sha256": "ca1038b2f550a72a90ade70585b2e1f033a1440ba1ef7f2d627665ea3c064a7f",
+      "bytes": 62715,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/configuration_qwen3.py",
+      "sha256": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "bytes": 3624,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py",
+      "sha256": "2b768b0eb0aacf1478bba1dc84318126c6c68fecb0ac9465f70154f24da4a80d",
+      "bytes": 22403,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers-5.19.0.dev0.dist-info/METADATA",
+      "sha256": "1f8d42cf585ec928645745e27f91cdf5c22c1bbc7e77356951ebd99550eb241e",
+      "bytes": 32349,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/tempfile.py",
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "bytes": 32386,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v2_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py",
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "bytes": 56198,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/bin/python",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+      "bytes": 30894944,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/api/remote_module.py",
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "bytes": 31286,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/instantiator.py",
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "bytes": 5510,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/templates/remote_module_template.py",
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "bytes": 3463,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/functional.py",
+      "sha256": "5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa",
+      "bytes": 244561,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py",
+      "sha256": "63fb3cae2a1561fec5e183e45c171d177080113a3996f1046eea35530cd33247",
+      "bytes": 12000,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/version.py",
+      "sha256": "1f11d022311106326d68591dacb5f86ba859bb6fa4d05e19b18490a072ce77f6",
+      "bytes": 277,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch-2.9.1+cpu.dist-info/METADATA",
+      "sha256": "8c7548e1ac8ff4459eb2e8e71e3a8cd7345215fb49bc7d08368fa427666af1ed",
+      "bytes": 29103,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/__init__.py",
+      "sha256": "177433fc0648157babeb9f2116870964139bf27f7f5bd9aebcdf6af355080e60",
+      "bytes": 42011,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/activations.py",
+      "sha256": "5b20c0a3625edc0001a98f09ce3c6b5baa1100e1d7ad8dee649e4d45c8468665",
+      "bytes": 13477,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/cache_utils.py",
+      "sha256": "2d2ab17aa02c9d2a993587ec58d1745b03595b6028c401cc6c976bb720ad6638",
+      "bytes": 105435,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/configuration_utils.py",
+      "sha256": "2f85c43a79770f43dfb98acb1f47e6fb35657c5dbe86325e21672640413d5f84",
+      "bytes": 74661,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/masking_utils.py",
+      "sha256": "af3d84dfe82a0b57c40625c89fb32b2cd6bf7351432ee5e76a9e8eac4289575b",
+      "bytes": 80642,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/modeling_rope_utils.py",
+      "sha256": "ca1038b2f550a72a90ade70585b2e1f033a1440ba1ef7f2d627665ea3c064a7f",
+      "bytes": 62715,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/configuration_qwen3.py",
+      "sha256": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "bytes": 3624,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py",
+      "sha256": "2b768b0eb0aacf1478bba1dc84318126c6c68fecb0ac9465f70154f24da4a80d",
+      "bytes": 22403,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers-5.19.0.dev0.dist-info/METADATA",
+      "sha256": "1f8d42cf585ec928645745e27f91cdf5c22c1bbc7e77356951ebd99550eb241e",
+      "bytes": 32349,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/tempfile.py",
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "bytes": 32386,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py",
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "bytes": 56198,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/bin/python",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7",
+      "bytes": 30894944,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/api/remote_module.py",
+      "sha256": "d51779fdbafb1ca1d99d002e6f32cf17bc1fef730a6251e3ef0278d8078bd112",
+      "bytes": 31286,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/instantiator.py",
+      "sha256": "567d1314ee27ff0b3bd22e7c4d1157246469de25e7a3183d96debe167b193615",
+      "bytes": 5510,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/distributed/nn/jit/templates/remote_module_template.py",
+      "sha256": "0ff1856bbd031b5298d46c06c0502abc20bd804f42c1949ed4127e8c773660cc",
+      "bytes": 3463,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/functional.py",
+      "sha256": "5e96bb0880a4c6f4c0ae34c00a894e152412e68f6ffd073d2b442907eedeb5fa",
+      "bytes": 244561,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py",
+      "sha256": "63fb3cae2a1561fec5e183e45c171d177080113a3996f1046eea35530cd33247",
+      "bytes": 12000,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch/version.py",
+      "sha256": "1f11d022311106326d68591dacb5f86ba859bb6fa4d05e19b18490a072ce77f6",
+      "bytes": 277,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/torch-2.9.1+cpu.dist-info/METADATA",
+      "sha256": "8c7548e1ac8ff4459eb2e8e71e3a8cd7345215fb49bc7d08368fa427666af1ed",
+      "bytes": 29103,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/__init__.py",
+      "sha256": "177433fc0648157babeb9f2116870964139bf27f7f5bd9aebcdf6af355080e60",
+      "bytes": 42011,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/activations.py",
+      "sha256": "5b20c0a3625edc0001a98f09ce3c6b5baa1100e1d7ad8dee649e4d45c8468665",
+      "bytes": 13477,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/cache_utils.py",
+      "sha256": "2d2ab17aa02c9d2a993587ec58d1745b03595b6028c401cc6c976bb720ad6638",
+      "bytes": 105435,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/configuration_utils.py",
+      "sha256": "2f85c43a79770f43dfb98acb1f47e6fb35657c5dbe86325e21672640413d5f84",
+      "bytes": 74661,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/masking_utils.py",
+      "sha256": "af3d84dfe82a0b57c40625c89fb32b2cd6bf7351432ee5e76a9e8eac4289575b",
+      "bytes": 80642,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/modeling_rope_utils.py",
+      "sha256": "ca1038b2f550a72a90ade70585b2e1f033a1440ba1ef7f2d627665ea3c064a7f",
+      "bytes": 62715,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/configuration_qwen3.py",
+      "sha256": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "bytes": 3624,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py",
+      "sha256": "2b768b0eb0aacf1478bba1dc84318126c6c68fecb0ac9465f70154f24da4a80d",
+      "bytes": 22403,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "research/reconstructed/runtime_recovery_20261004/.venv/lib/python3.12/site-packages/transformers-5.19.0.dev0.dist-info/METADATA",
+      "sha256": "1f8d42cf585ec928645745e27f91cdf5c22c1bbc7e77356951ebd99550eb241e",
+      "bytes": 32349,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/tempfile.py",
+      "sha256": "2eea4401f4f29d0d3647ed6fc8bcf6aa1daf879c8aa407a8ea310edac9dfc317",
+      "bytes": 32386,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    },
+    {
+      "referenced_by": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/frozen_manifest.json",
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/shutil.py",
+      "sha256": "53496e06742fe008fee2bccc8caeac77473e69923bec05358bd43eea467db1f8",
+      "bytes": 56198,
+      "bundle_status": "PINNED_EXTERNAL_NOT_BUNDLED",
+      "verification_note": "Hash preserved from original frozen manifest; archive process did not load or rehash external binary payloads"
+    }
+  ],
+  "runtime_package_urls_and_archive_hashes": "repository/research/reconstructed/runtime_recovery_20261004/provenance.json",
+  "tokenizer_and_dataset_pins": "repository/research/reconstructed/author_trimkv_tokenizer_prep_20261005/EXECUTION_PINS.json",
+  "source_urls_and_hashes": "repository/research/reconstructed/author_trimkv_cpu_reproduction_prep_20261005/SOURCE_MANIFEST.tsv",
+  "raw_dataset_bundled": false,
+  "trained_weights_or_gates_bundled": false,
+  "runtime_installation_bundled": false
+}

@@ -1,0 +1,2610 @@
+{
+  "status": "PASS",
+  "scope": "synthetic CPU only; no FA2 or trained-model claim",
+  "groups": [
+    "A1_source_oracle",
+    "A2_boundaries",
+    "A3_age_and_membership",
+    "A8_fail_closed_abi",
+    "A5_gate_and_positions",
+    "A4_call_boundaries",
+    "A6_closed_loop_cpu",
+    "A7_bounded_attention"
+  ],
+  "negative_controls": {
+    "wrong_age_torch.float32": true,
+    "protected_recent_torch.float32": true,
+    "wrong_global_clock_torch.float32": true,
+    "early_prune_current_attention_torch.float32": true,
+    "wrong_age_torch.bfloat16": true,
+    "protected_recent_torch.bfloat16": true,
+    "wrong_global_clock_torch.bfloat16": true,
+    "early_prune_current_attention_torch.bfloat16": true,
+    "buffer128": true,
+    "reject_cache_class_DynamicBudgetTrimKVCache": true,
+    "reject_cache_class_PagedTrimKVCache": true,
+    "reject_training_True": true,
+    "reject_dropout_0.1": true,
+    "reject_batch_2": true,
+    "reject_padding_True": true,
+    "reject_packing_True": true,
+    "reject_gate_rg10": true,
+    "reject_rope_dynamic": true,
+    "reject_lookahead_steps_2": true,
+    "reject_buffer_size_128": true,
+    "reject_position_policy_compact": true,
+    "reject_schedule_history_only": true,
+    "missing_positions": true,
+    "missing_gates": true,
+    "premature_prune": true,
+    "author_integer_mask_abi": true,
+    "author_layer_seq_abi": true,
+    "prune_before_upper_layer": true,
+    "actual_training": true,
+    "actual_dropout": true,
+    "actual_dynamic_rope": true,
+    "unsupported_reference_api_batch_split": true,
+    "unsupported_reference_api_batch_select_indices": true,
+    "unsupported_reference_api_copy_to_device": true,
+    "unsupported_reference_api_get_mask_sizes": true,
+    "unsupported_reference_api_get_query_offset": true,
+    "unsupported_reference_api_reorder_cache": true,
+    "raw_hidden_gate_torch.float32": true,
+    "kv_gate_dimension_1024_torch.float32": true,
+    "kv_gate_dimension_128_torch.float32": true,
+    "raw_hidden_gate_torch.bfloat16": true,
+    "kv_gate_dimension_1024_torch.bfloat16": true,
+    "kv_gate_dimension_128_torch.bfloat16": true,
+    "stale_all_dense_upper_gate_torch.float32": true,
+    "retained_length_rope_torch.float32": true,
+    "history_only_freeze_torch.float32": true,
+    "extra_history_boundary_torch.float32": true,
+    "stale_all_dense_upper_gate_torch.bfloat16": true,
+    "retained_length_rope_torch.bfloat16": true,
+    "history_only_freeze_torch.bfloat16": true,
+    "extra_history_boundary_torch.bfloat16": true,
+    "top_left_mask_torch.float32_1": true,
+    "wrong_gqa_torch.float32_1": true,
+    "top_left_mask_torch.float32_11": true,
+    "wrong_gqa_torch.float32_11": true,
+    "top_left_mask_torch.bfloat16_1": true,
+    "wrong_gqa_torch.bfloat16_1": true,
+    "top_left_mask_torch.bfloat16_11": true,
+    "wrong_gqa_torch.bfloat16_11": true
+  },
+  "continuous_errors": [
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 3.814697265625e-06,
+      "rms": 6.88080604049901e-07,
+      "max_relative": 2.6999828151019756e-06,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 1.9073486328125e-06,
+      "rms": 4.970329996467626e-07,
+      "max_relative": 1.1754093065974303e-05,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "native Full vs gate-loaded no-crop",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "full-head last row vs last-only head",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "query tiled 1",
+      "dtype": "torch.float32",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "query tiled 11",
+      "dtype": "torch.float32",
+      "max": 2.384185791015625e-07,
+      "rms": 4.3881907885179317e-08,
+      "max_relative": 5.999160202918574e-05,
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    {
+      "label": "query tiled 1",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    },
+    {
+      "label": "query tiled 11",
+      "dtype": "torch.bfloat16",
+      "max": 0.0,
+      "rms": 0.0,
+      "max_relative": 0.0,
+      "atol": 0.03125,
+      "rtol": 0.02
+    }
+  ],
+  "operation_seconds": {
+    "evidence": 0.6873350445384858,
+    "append": 0.0068951819848734885,
+    "check": 0.38248048874083906,
+    "score": 0.0008691969705978408,
+    "topk": 0.00042395698255859315,
+    "sort": 0.0006538569723488763,
+    "gather": 0.002577968014520593,
+    "mask": 0.02723219413019251,
+    "gate": 0.021676748016034253,
+    "attention": 0.018572831933852285,
+    "attention_and_decoder": 0.12568023407948203,
+    "attention_tiled": 0.0005518999969353899
+  },
+  "logical_bytes": {
+    "append": 56049424,
+    "check": 169687044,
+    "score": 379264,
+    "topk": 91904,
+    "sort": 72192,
+    "gather": 13057728,
+    "mask": 934144,
+    "gate": 1233168,
+    "attention": 5430848,
+    "attention_and_decoder": 8701584,
+    "attention_tiled": 91280
+  },
+  "records": 1621,
+  "logical_bytes_definition": "Modeled tensor reads/writes or working-set touches, including gate parameters and major intermediates; not measured DRAM traffic. Nested decoder/gate/cache totals overlap and must not be summed as exclusive costs.",
+  "wall_seconds": 5.841482753006858,
+  "limitations": [
+    "Sampled RSS is not a hard kernel memory cap",
+    "Current CPU port only; no FlashAttention2 parity",
+    "No trained checkpoint, tokenizer, 4B quality or long-prefill-fit claim",
+    "Native topk ties are pinned-backend only"
+  ],
+  "native_import_scratch": {
+    "import_phase": false,
+    "owned_scratch": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/scratch",
+    "per_file_import_kernel_cap": 65536,
+    "lifetime_reserved_bytes": 135168,
+    "actual_source_verified_write_bytes": 2359,
+    "scratch_partition_bytes": 1000000,
+    "inherited_fsize": [
+      31744000,
+      31744000
+    ],
+    "probe_deleted": true,
+    "generated_verified_before_import": true,
+    "generated_deleted": false,
+    "native_directory_deleted": false,
+    "events": [
+      {
+        "operation": "exclusive_tempfile_probe",
+        "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/scratch/cgvs924s",
+        "reserved_bytes": 65536
+      },
+      {
+        "operation": "owned_probe_unlinked",
+        "bytes": 4
+      },
+      {
+        "operation": "native_temporary_directory",
+        "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/scratch/tmpfjm6tzp5",
+        "reserved_bytes": 4096
+      },
+      {
+        "operation": "native_generated_source",
+        "path": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4/scratch/tmpfjm6tzp5/_remote_module_non_scriptable.py",
+        "reserved_bytes": 65536
+      },
+      {
+        "operation": "generated_bytes_verified_before_import",
+        "bytes": 2355,
+        "sha256": "8205b16956fb264841ecd8644784a0d157f87df79b17c16825dc1163433ce5d8"
+      },
+      {
+        "operation": "scratch_writes_sealed",
+        "restored_soft": 31744000,
+        "unchanged_hard": 31744000,
+        "writable_scratch_fds": 0
+      }
+    ],
+    "cleanup_note": "This result snapshot precedes interpreter atexit. Guard terminal scratch scan records remaining entries."
+  }
+}

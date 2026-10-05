@@ -1,0 +1,16 @@
+{
+  "scope": "Prospectively authorized archival packaging and private delivery only; no research execution",
+  "authorized_utc": "2026-10-05T15:35:37Z",
+  "maximum_new_physical_workspace_staging_bytes": 16000000,
+  "minimum_remaining_workspace_free_bytes": 4900000000,
+  "completed_experiment_gate_changed": false,
+  "future_experiment_resource_limits_changed": false,
+  "no_deletion_or_overwrite": true,
+  "original_sources_outputs_preserved": true,
+  "full_archive_workspace_copies_authorized": 1,
+  "reason": "Browser uploader accepts actual workspace files but cannot read this execution task /tmp files or workspace symlinks targeting them. Library readback transfer is independently blocked HTTP502.",
+  "workspace_free_before_staging_bytes": 4999282688,
+  "full_archive_bytes": 14454096,
+  "full_archive_sha256": "f6e7c405c811591c8acc7f0de56bb9a5f7e5d2e267ecb476e990091c14a0da31",
+  "copy_retained_after_delivery": true
+}

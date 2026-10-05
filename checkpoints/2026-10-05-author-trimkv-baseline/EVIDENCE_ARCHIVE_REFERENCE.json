@@ -1,0 +1,20 @@
+{
+  "library_file_id": "libfile_3ebc5db3bed081919366ddb8934000f2",
+  "file_id": "file_0000000016b48209bf0510afab28a22c",
+  "version": 0,
+  "filename": "TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+  "bytes": 14454096,
+  "sha256": "f6e7c405c811591c8acc7f0de56bb9a5f7e5d2e267ecb476e990091c14a0da31",
+  "manifest_sha256": "2bc638683699d1110309d61568a5309be19cdb4cee1b57bce66e8e803dbc5939",
+  "archive_members": 355,
+  "access": "Existing private Library item; repository fallback remains majic-mk/kv-cache-research Private, same authorized user. No permission changes.",
+  "Library_save_status": "succeeded and listed",
+  "Library_roundtrip_verified": false,
+  "Library_transfer_failure": "HTTP502 for three supported transfer attempts; no readback bytes",
+  "local_archive_validation": "All archive/member hashes passed, byte-for-byte original source/evidence retained",
+  "GitHub_fallback": {
+    "repository_path": "checkpoints/2026-10-05-author-trimkv-baseline/TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+    "same_local_archive_exact_bytes": true,
+    "remote_verification": "To be established from committed GitHub readback; this reference does not itself prove that step."
+  }
+}

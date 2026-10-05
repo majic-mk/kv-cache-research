@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-05",
+  "repository": "majic-mk/kv-cache-research",
+  "visibility": "private",
+  "path": "checkpoints/2026-10-05-author-trimkv-baseline",
+  "baseline_commit": "cf6a11cd313a91c7e23d76deaa9b30e987378307",
+  "files_except_this_manifest": [
+    {
+      "file": "ARCHIVAL_PLACEMENT_EXCEPTION.json",
+      "bytes": 929,
+      "sha256": "462653dd13d978d35d966d1f1372a3e3cc7669d8b77475aadbf4dc2d93476670"
+    },
+    {
+      "file": "ARCHIVE_SCOPE.json",
+      "bytes": 4517,
+      "sha256": "fc5194a2e76d53dc938dea5d2598054ab9485947eca9250e85eb8ddfabbf7131"
+    },
+    {
+      "file": "CACHE_PROVENANCE.json",
+      "bytes": 33460,
+      "sha256": "aa8c5f5d349dd56f25c4e8919ee76bafa7079ab10c6e8a9f95f39c58d22d92a6"
+    },
+    {
+      "file": "COST_AND_RESOURCE_ACCOUNTING.json",
+      "bytes": 6148,
+      "sha256": "0e14d4e5d055a117c667eb225b7753295d6b368535a5753348375dcf65538758"
+    },
+    {
+      "file": "EVIDENCE_ARCHIVE_REFERENCE.json",
+      "bytes": 1222,
+      "sha256": "37b377a043b81bfb75e59e4f4a6c1e490dcd578a5cf4536ce6c2cb012143f92e"
+    },
+    {
+      "file": "EXTERNAL_DEPENDENCIES.json",
+      "bytes": 40412,
+      "sha256": "416facf13e19d707044928843ba03e20b3927b6f1f4cd197486fbd869158ee73"
+    },
+    {
+      "file": "FULL_ARCHIVE_MANIFEST.json",
+      "bytes": 173143,
+      "sha256": "2bc638683699d1110309d61568a5309be19cdb4cee1b57bce66e8e803dbc5939"
+    },
+    {
+      "file": "INDEPENDENT_AUDIT_FINAL.json",
+      "bytes": 4833,
+      "sha256": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491"
+    },
+    {
+      "file": "LIBRARY_VERIFICATION_RECEIPT.json",
+      "bytes": 4173,
+      "sha256": "bca5c28d5d0e13eaa5478b530287ac5a5f1758252d6c8659e05d4317e6b73009"
+    },
+    {
+      "file": "PHASE_A_COMPLETION_REPORT.md",
+      "bytes": 3856,
+      "sha256": "daea4e6833d806af4476b8b4ea41ed36ebcbb9a4e2b2bde074f15f2df4f9307f"
+    },
+    {
+      "file": "PHASE_A_GUARD_RECEIPT.json",
+      "bytes": 12708,
+      "sha256": "8d41ca213f57a18454e93b01b920792923f4101cd5a7f873d0e14c6a37828571"
+    },
+    {
+      "file": "PHASE_A_RESULT.json",
+      "bytes": 61490,
+      "sha256": "e6818865f68cd616928b90d038a13e5640f214283b6671346b65964caf8a0520"
+    },
+    {
+      "file": "POST_ARCHIVE_HEADWISE_SOURCES.tsv",
+      "bytes": 3949,
+      "sha256": "2c4e98d08c33ff42339933f913909fd457e478f576736c63f338bb5130d9c005"
+    },
+    {
+      "file": "POST_ARCHIVE_HEADWISE_SOURCE_SCREEN.md",
+      "bytes": 19791,
+      "sha256": "d2cbb537e4fe2ed151240699ba667969c502a7f974583cd7295d5968265b9a6a"
+    },
+    {
+      "file": "POST_RUN_BYTECODE_ADDENDUM.md",
+      "bytes": 1988,
+      "sha256": "7d875fe55ce8b733c1621cc547767b33b39eeb8ed0d3faf007985a79b5a731d6"
+    },
+    {
+      "file": "PROVENANCE_CORRECTION.json",
+      "bytes": 6299,
+      "sha256": "da22cbffdef56b8683cbb920a55460ddac66d5c61a68a5814e38caa91beeb266"
+    },
+    {
+      "file": "PROVENANCE_CORRECTION.md",
+      "bytes": 1898,
+      "sha256": "f7a2f2581b2976fd3c8887f440aa748b20543f6a15f6b824b18ae239cd5d2b21"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6125,
+      "sha256": "c1a608805f48aac367815c725c542b8029c672ad2a69288c31a3d63a6ebeea0a"
+    },
+    {
+      "file": "RESTORATION_MAP.json",
+      "bytes": 87670,
+      "sha256": "0098493b489ecc322654526404e6dcfd915f40d99f95673ae91513447382e3d1"
+    },
+    {
+      "file": "RESTORE_AND_SCOPE.md",
+      "bytes": 3686,
+      "sha256": "247215c7061a9dbf02df7c2de077223c398dfe2f8c8fe334ca81d86223827ae9"
+    },
+    {
+      "file": "SOURCE_SELECTION_MANIFEST.json",
+      "bytes": 44072,
+      "sha256": "1837779ed6fda15072828c68d55848c86ce6a4e921272c48ca404762b0f871cf"
+    },
+    {
+      "file": "TERMINAL_AUDIT_REPORT.md",
+      "bytes": 11365,
+      "sha256": "a881e6a75ebc817bbee536798a753fbecf924b87638879ce5913ec5c68a11349"
+    },
+    {
+      "file": "TERMINAL_VERDICT.json",
+      "bytes": 4215,
+      "sha256": "a2189b310fc05441bcf92710507043fcf0bca7d2e71f99a1853d8da8ac6a57fa"
+    },
+    {
+      "file": "TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+      "bytes": 14454096,
+      "sha256": "f6e7c405c811591c8acc7f0de56bb9a5f7e5d2e267ecb476e990091c14a0da31"
+    },
+    {
+      "file": "TRIMKV_PhaseA_Baseline_Source_2026-10-05.zip",
+      "bytes": 600118,
+      "sha256": "8957529cdb66a9ecfb3832a464096f050228f4a7b79677541a4b4bced8628544"
+    },
+    {
+      "file": "VERIFIED_COMPLETION.json",
+      "bytes": 10163,
+      "sha256": "a4f4ebb4a9cf7d899c5af9f1f4fce3bf9df9a9de8dba0cc121381d58e7d7da90"
+    },
+    {
+      "file": "verify_checkpoint.py",
+      "bytes": 1054,
+      "sha256": "4043f51fd7a6e844aa65cf42ec4e6796fe86e3511af72623e12ec6485b609747"
+    }
+  ],
+  "decision": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+  "validation": {
+    "exact_original_source_bytes": "PASS",
+    "Python_AST_parse": "PASS",
+    "JSON_parse": "PASS",
+    "ZIP_CRC_and_member_SHA256": "PASS",
+    "common_credential_and_signed_URL_scan": "PASS"
+  },
+  "research_rerun": false,
+  "CI_pass_claimed": false,
+  "old_repository_files": "All 135 prior remote files, including root README, remain unchanged.",
+  "post_archive_addition": "POST_ARCHIVE_HEADWISE_SOURCE_SCREEN.md and POST_ARCHIVE_HEADWISE_SOURCES.tsv: source-only no-go, outside frozen archive/source ZIP"
+}

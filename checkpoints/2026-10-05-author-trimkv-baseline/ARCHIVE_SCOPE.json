@@ -1,0 +1,79 @@
+{
+  "classification": "PRIVATE_ENGINEERING_BASELINE_PROVENANCE_NOT_PAPER_RESULT",
+  "freeze_utc": "2026-10-05T15:11:34.941854+00:00",
+  "final_implementation_confirmed": true,
+  "independent_terminal_audit": {
+    "terminal_audit_final": true,
+    "status": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+    "relative_directory": "research/reconstructed/author_trimkv_phase_a_terminal_review_20261005",
+    "file_sha256": {
+      "TERMINAL_AUDIT_REPORT.md": "a881e6a75ebc817bbee536798a753fbecf924b87638879ce5913ec5c68a11349",
+      "TERMINAL_VERDICT.json": "a2189b310fc05441bcf92710507043fcf0bca7d2e71f99a1853d8da8ac6a57fa",
+      "SHA256SUMS": "2474450e0c09d921dc361ae5ca3e8edd2bef2ce2623abdc1b1cfc041128a3889",
+      "AUDIT_COST_LEDGER.json": "3a7a82638916a8daaedb8157517288338f616de995aa49ab30bfaafd2ae6eeeb",
+      "INDEPENDENT_AUDIT_FINAL.json": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491"
+    },
+    "repository_pins_byte_exact": 171,
+    "repository_pins_total": 172,
+    "derived_bytecode_exceptions": 1,
+    "independent_reported_process_cpu_seconds": 2.293522,
+    "audit_cost_ledger": {
+      "status": "READ_ONLY_AUDIT_COSTS_SEPARATE_FROM_NUMERICAL_RUN",
+      "independent_audits": [
+        {
+          "receipt": "INDEPENDENT_AUDIT.json",
+          "sha256": "d67f1ba0f2ab789c9418deb5b7a4a96a384a3c43ddc3a21c1127e2eeeb6db90d",
+          "status": "AUDIT_FAILED",
+          "classification": "Stopped on real post-run derived-cache hash drift, before decoder import",
+          "wall_seconds": 0.00684989700675942,
+          "total_process_cpu_seconds": 0.037301,
+          "os_maxrss_bytes": 11272192,
+          "separate_from_main_run": true
+        },
+        {
+          "receipt": "INDEPENDENT_AUDIT_RESOLVED.json",
+          "sha256": "0a167b7c825bb8795acd4025f965747de85b32b96232613cdb43de47acfa1c15",
+          "status": "AUDIT_FAILED",
+          "classification": "Decoder verification completed; auditor then referenced an obsolete resource-field name",
+          "wall_seconds": 1.00327273599396,
+          "total_process_cpu_seconds": 1.0292489999999999,
+          "os_maxrss_bytes": 22728704,
+          "separate_from_main_run": true
+        },
+        {
+          "receipt": "INDEPENDENT_AUDIT_FINAL.json",
+          "sha256": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491",
+          "status": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+          "classification": "Complete source-bound decoder/resource/provenance audit PASS with disclosed cache exception",
+          "wall_seconds": 1.1659857490012655,
+          "total_process_cpu_seconds": 1.226972,
+          "os_maxrss_bytes": 27156480,
+          "separate_from_main_run": true
+        }
+      ],
+      "independent_reported_process_cpu_seconds": 2.293522,
+      "owner_exhaustive_verification_reported_cpu_seconds": 0.905617,
+      "owner_completion_receipt_sha256": "a4f4ebb4a9cf7d899c5af9f1f4fce3bf9df9a9de8dba0cc121381d58e7d7da90",
+      "numerical_run_reported_guard_cpu_cumulative_seconds": 41.769318999999996,
+      "caveat": "CPU measurements are process totals at receipt time; receipt/exit tails and source-inspection commands are not a performance benchmark. No numerical tests were retried by these audits. Read-only correction attempts are retained, not erased."
+    }
+  },
+  "archive_process_modified_originals": false,
+  "prior_failed_attempts_preserved": true,
+  "numerical_arrays": "Every original attempt/check file is retained byte-for-byte; v2 incomplete gzip remains incomplete and is not claimed as a completed dataset",
+  "source_only_rejected_topic_reports": [
+    "reuse_cost_frontier_screen_20261005",
+    "research/hybrid_cache_source_screen_20261005.md"
+  ],
+  "excluded": [
+    "trained checkpoint/model/gate binary payloads",
+    "runtime installations and wheel archives",
+    "full copyrighted papers",
+    "unnecessary full upstream repositories",
+    "Git history/security branch",
+    "secrets",
+    "new Phase B work after this freeze"
+  ],
+  "postrun_bytecode_note": "The saved v4 evidence_codec pyc may differ from its frozen pre-execution pin; the explicit independent terminal audit adjudicates this. The archived current-byte hash must not be mistaken for the original expected pin.",
+  "reference_source_policy": "Exact class/function spans and small source files used by immutable manifests are preserved with their full-source hashes, URLs and licenses. No upstream repository snapshot is bundled."
+}

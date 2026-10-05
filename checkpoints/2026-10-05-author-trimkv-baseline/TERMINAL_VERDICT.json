@@ -1,0 +1,99 @@
+{
+  "verdict": "ACCEPTED_RESTRICTED_PHASE_A_PARITY_WITH_DISCLOSED_POSTRUN_DERIVED_BYTECODE_EXCEPTION",
+  "date_utc": "2026-10-05",
+  "numerical_run": "v4_attempt4",
+  "admitted_manifest_sha256": "173a928ab6c852a705a0a71738f98cec3c197f8a8a9831b1c05a2d16a6ba2150",
+  "output": "/tmp/trimkv_phase_a_author_parity_20261005_attempt4",
+  "same_run_binding_verified": true,
+  "groups_passed": 8,
+  "negative_controls_detected": 59,
+  "continuous_error_records_verified": 272,
+  "trace": {
+    "bytes": 4314510,
+    "sha256": "5434e0f4d5240db16a53f301ba5570c9ad05eb05b1f27cf17e8c54c457a20acd",
+    "events": 1621,
+    "event_counts": {
+      "source_receipt": 1,
+      "cache_before": 80,
+      "global_post_call": 216,
+      "cache_after": 80,
+      "scalar_scores": 28,
+      "native_topk": 28,
+      "adapter_prune": 44,
+      "negative_control": 59,
+      "unequal_layer_api": 1,
+      "full_shape_gate": 2,
+      "tiny_schedule": 2,
+      "continuous_error": 272,
+      "tiny_layer": 536,
+      "tiny_post_norm_prune_then_head": 268,
+      "attention_arrays": 4
+    },
+    "tensors": 1949,
+    "chunks": 9705,
+    "frames": 13276,
+    "inventory_complete": true,
+    "all_array_hashes_and_finite_flags_verified": true
+  },
+  "result_sha256": "e6818865f68cd616928b90d038a13e5640f214283b6671346b65964caf8a0520",
+  "guard_sha256": "8d41ca213f57a18454e93b01b920792923f4101cd5a7f873d0e14c6a37828571",
+  "independent_audit_sha256": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491",
+  "terminal_report_sha256": "a881e6a75ebc817bbee536798a753fbecf924b87638879ce5913ec5c68a11349",
+  "source_provenance": {
+    "repository_entries_byte_exact": 171,
+    "repository_entries_total": 172,
+    "external_stdlib_entries_byte_exact": 2,
+    "only_exception": "v4/__pycache__/evidence_codec.cpython-312.pyc rewritten after numerical completion",
+    "frozen_before_sha256": "2378944d3a76fa0f5b3eae296b5a0ce2a233302a6ae6e3c125778c0b54d1a55b",
+    "observed_after_sha256": "02945da0a1b2c4cad3b0bddfbb3739e637b7eba0d82b5739d0c2283355b11af4",
+    "all27_code_objects_equal_except_filenames": true,
+    "authoritative_source_unchanged": true,
+    "initial_failed_audit_and_both_states_preserved": true,
+    "exception_explicitly_accepted_by_root": true,
+    "never_claim_all_frozen_files_unchanged": true
+  },
+  "resources": {
+    "guard_wall_seconds": 6.787701619992731,
+    "own_cpu_seconds": 8.176753999999999,
+    "conservative_cumulative_cpu_seconds": 41.769318999999996,
+    "peak_sampled_guard_plus_child_rss_bytes": 384397312,
+    "summed_guard_child_os_hwm_upper_bound_bytes": 387313664,
+    "samples_verified": 261,
+    "maximum_sample_gap_seconds": 0.027548131009098142,
+    "final_logical_output_including_claim_bytes": 5017984
+  },
+  "cleanup": {
+    "owned_processes_absent": true,
+    "terminal_scratch_checked_empty": true,
+    "live_scratch_empty": true
+  },
+  "independent_readonly_audit_process_cpu_seconds": 2.293522,
+  "final_independent_decoder_audit_cpu_seconds": 1.226972,
+  "owner_exhaustive_verification_cpu_seconds": 0.905617,
+  "numerical_tests_rerun_by_terminal_audit": 0,
+  "torch_or_model_imports_by_terminal_audit": 0,
+  "prior_attempts_preserved": true,
+  "phase_b": {
+    "execution_authorized": false,
+    "cleared_prerequisites": [
+      "Restricted source/actual PhaseA semantics gate",
+      "Tiny CPU attention/head parity gate"
+    ],
+    "remaining_gates": [
+      "Independent source/integration review of real trained-model CPU/pager runner",
+      "Fresh trained base/gate payload identity checks",
+      "Input-specific physical memory/CPU/read/evidence admission and guard",
+      "Fresh resource preflight and explicit actual-model authorization",
+      "Disclosed prospective PhaseB evidence amendment must be in approved execution contract"
+    ]
+  },
+  "scope_exclusions": [
+    "Trained4B quality or loaded trained gate",
+    "Original full author loader",
+    "FlashAttention2 or GPU parity",
+    "Real long-prefill memory fit",
+    "Throughput/general accuracy/novelty/publication claims",
+    "Automatic PhaseB/model/GPU execution"
+  ],
+  "final_artifact_recheck": "Only disclosed cache exception; all authoritative sources and original numerical outputs unchanged"
+}

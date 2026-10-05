@@ -1,0 +1,90 @@
+{
+  "status": "ADDITIVE_PROVENANCE_CORRECTION_ORIGINALS_PRESERVED",
+  "date_utc": "2026-10-05",
+  "corrects_without_replacing": [
+    "VERIFIED_COMPLETION.json same_run_binding_verified assertion all frozen/prior/check file hashes unchanged",
+    "REPORT.md and earlier parent update implying all pins remained unchanged after post-run verification"
+  ],
+  "statement": "All checked pins matched before the post-run import. That verification was not fully read-only: it could and did rewrite one derived bytecode cache. No substantive codec/numerical source or numerical output change was found; restricted acceptance must carry this explicit exception.",
+  "attribution": "The implementation worker used an unprotected plain Python import for its post-run decoder verification.",
+  "exact_execution_route": "functions.exec -> tools.exec_command -> shell heredoc headed python -; no -B and no sys.dont_write_bytecode/PYTHONDONTWRITEBYTECODE set by the command",
+  "relevant_command_lines": [
+    "python - <<'PY'",
+    "for row in manifest[\"files\"]: assert hashlib.sha256((root/row[\"path\"]).read_bytes()).hexdigest()==row[\"sha256\"]",
+    "sys.path.insert(0,str(base));from evidence_codec import Reader,EXPECTED_EVENTS",
+    "reader=Reader(out/\"trace.tkv3\")",
+    "for event in reader.records(require_complete=True): ..."
+  ],
+  "chronology": [
+    {
+      "time_utc": "2026-10-05T13:50:42.159000Z",
+      "event": "v3 codec source written; SHA03ff37ed..."
+    },
+    {
+      "time_utc": "2026-10-05T14:11:45.546859Z",
+      "event": "Earlier post-v3 verification used python without-B and imported v3 evidence_codec; original2378944d...cache created"
+    },
+    {
+      "time_utc": "2026-10-05T14:18:37.192328Z",
+      "event": "v4 preparation copied v3 source and incidental __pycache__ bytes using Path.write_bytes; source received new mtime but copied cache header retained v3 source timestamp"
+    },
+    {
+      "time_utc": "2026-10-05T14:33:42Z",
+      "event": "v4 freeze included copied pyc pin2378944d... because generic file inventory did not exclude derived caches"
+    },
+    {
+      "time_utc": "2026-10-05T14:40:49.549564Z",
+      "event": "Guarded v4 numerical run completed under-B and PYTHONDONTWRITEBYTECODE=1; original frozen pin had matched before launch"
+    },
+    {
+      "time_utc": "2026-10-05T14:43:27.268977Z",
+      "event": "Post-run exhaustive verification used python without-B, checked pins before import, then imported evidence_codec from v4; Python rewrote derived cache to02945da0..."
+    },
+    {
+      "time_utc": "2026-10-05T15:00Z",
+      "event": "Independent terminal audit detected the cache-only divergence before its decoder import"
+    }
+  ],
+  "frozen_pin": {
+    "path": "research/reconstructed/author_trimkv_phase_a_implementation_v4_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+    "sha256": "2378944d3a76fa0f5b3eae296b5a0ce2a233302a6ae6e3c125778c0b54d1a55b",
+    "bytes": 24552
+  },
+  "current_cache_sha256": "02945da0a1b2c4cad3b0bddfbb3739e637b7eba0d82b5739d0c2283355b11af4",
+  "exact_original_cache_path": "research/reconstructed/author_trimkv_phase_a_implementation_v3_20261005/__pycache__/evidence_codec.cpython-312.pyc",
+  "exact_original_cache_sha256": "2378944d3a76fa0f5b3eae296b5a0ce2a233302a6ae6e3c125778c0b54d1a55b",
+  "source_sha256": "03ff37ede9adb969eadc11c59ac5ac9e3aa3b96912b8c8656de1feca0f596d69",
+  "codeobjects_compared": 27,
+  "differences_except_co_filename": [],
+  "codeobject_filename_change_only": "v3/evidence_codec.py -> v4/evidence_codec.py",
+  "old_cache_header": {
+    "flags": 0,
+    "source_mtime": 1791208242,
+    "source_size": 16195
+  },
+  "current_cache_header": {
+    "flags": 0,
+    "source_mtime": 1791209917,
+    "source_size": 16195
+  },
+  "unchanged_v4_source_stat": {
+    "mtime_ns": 1791209917192327620,
+    "size": 16195
+  },
+  "cache_use_assessment": "-B disables bytecode writing, not bytecode reading. The copied frozen cache was timestamp-invalid for the unchanged v4 source, so the standard CPython source-file loader rejects it. No import-loader execution trace was recorded during the main run; this is a source/header inference. Independently, the prior/current cache code objects are identical except filenames.",
+  "stdlib_validation_source": {
+    "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/importlib/_bootstrap_external.py",
+    "sha256": "e6ad72f3f0f9b65c99ab52598cd02ab748511dcdce1dd51f18dace9be9a680c6",
+    "function": "_validate_timestamp_pyc",
+    "start_line": 703,
+    "end_line": 728,
+    "exact_source_span": "def _validate_timestamp_pyc(data, source_mtime, source_size, name,\n                            exc_details):\n    \"\"\"Validate a pyc against the source last-modified time.\n\n    *data* is the contents of the pyc file. (Only the first 16 bytes are\n    required.)\n\n    *source_mtime* is the last modified timestamp of the source file.\n\n    *source_size* is None or the size of the source file in bytes.\n\n    *name* is the name of the module being imported. It is used for logging.\n\n    *exc_details* is a dictionary passed to ImportError if it raised for\n    improved debugging.\n\n    An ImportError is raised if the bytecode is stale.\n\n    \"\"\"\n    if _unpack_uint32(data[8:12]) != (source_mtime & 0xFFFFFFFF):\n        message = f'bytecode is stale for {name!r}'\n        _bootstrap._verbose_message('{}', message)\n        raise ImportError(message, **exc_details)\n    if (source_size is not None and\n        _unpack_uint32(data[12:16]) != (source_size & 0xFFFFFFFF)):\n        raise ImportError(f'bytecode is stale for {name!r}', **exc_details)"
+  },
+  "all_original_numerical_output_hashes_rechecked": true,
+  "original_completion_receipt_sha256": "a4f4ebb4a9cf7d899c5af9f1f4fce3bf9df9a9de8dba0cc121381d58e7d7da90",
+  "original_completion_report_sha256": "daea4e6833d806af4476b8b4ea41ed36ebcbb9a4e2b2bde074f15f2df4f9307f",
+  "numerical_reruns": 0,
+  "original_cache_or_report_rewrites_for_this_correction": 0,
+  "inspection": "python -I -S -B; read/hash/AST/marshal metadata only, no target module import or execution",
+  "acceptance": "Use independent terminal audit with explicit disclosed post-run cache exception; do not repeat the earlier unqualified all-pins-unchanged statement."
+}

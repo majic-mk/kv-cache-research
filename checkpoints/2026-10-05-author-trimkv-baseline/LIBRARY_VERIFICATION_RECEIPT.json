@@ -1,0 +1,90 @@
+{
+  "status": "SAVED_TO_PRIVATE_LIBRARY_ROUNDTRIP_BLOCKED_HTTP_502",
+  "recorded_utc": "2026-10-05T15:18:24.271371+00:00",
+  "library_create": {
+    "operation": "create_library_file",
+    "status": "succeeded",
+    "path": "/TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+    "file_id": "file_0000000016b48209bf0510afab28a22c",
+    "library_file_id": "libfile_3ebc5db3bed081919366ddb8934000f2",
+    "file_name": "TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+    "current_version_number": 0,
+    "restored_from_version_number": null,
+    "directory_id": "libdir_54f80222bcd481918063ac20e64ae601",
+    "mime_type": "application/x-tar",
+    "library_artifact_type": "other",
+    "file_size_bytes": 14454096,
+    "external_connectors_accessed": false
+  },
+  "archive": {
+    "archive_path": "/tmp/trimkv_baseline_archive_20261005/TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+    "size_bytes": 14454096,
+    "sha256": "f6e7c405c811591c8acc7f0de56bb9a5f7e5d2e267ecb476e990091c14a0da31",
+    "manifest_sha256": "2bc638683699d1110309d61568a5309be19cdb4cee1b57bce66e8e803dbc5939",
+    "member_count": 355,
+    "source_file_count": 347,
+    "source_logical_bytes": 37160364,
+    "archive_cpu_seconds": 0.981193424,
+    "minimum_observed_tmp_free_bytes": 5047734272,
+    "minimum_observed_host_available_bytes": 5600747520,
+    "workspace_free_after_bytes": 5001678848,
+    "tmp_free_after_bytes": 5047734272,
+    "later_phase_b_reserve_bytes": 16000000,
+    "source_files_unchanged_post_stream": true,
+    "compression": "gzip lossless over tar; all inner files unchanged",
+    "no_numerical_import_or_run": true
+  },
+  "local_archive_verification": {
+    "status": "EXACT_ARCHIVE_AND_MEMBER_HASH_PASS",
+    "archive_path": "/tmp/trimkv_baseline_archive_20261005/TRIM-KV_restricted_PhaseA_engineering_archive_20261005.tar.gz",
+    "archive_bytes": 14454096,
+    "archive_sha256": "f6e7c405c811591c8acc7f0de56bb9a5f7e5d2e267ecb476e990091c14a0da31",
+    "manifest_sha256": "2bc638683699d1110309d61568a5309be19cdb4cee1b57bce66e8e803dbc5939",
+    "members": 355,
+    "hashed_manifest_members": 353,
+    "hashed_member_logical_bytes": 37237575,
+    "attempt2_inner_gzip": "preserved byte-for-byte, not repaired or treated as complete",
+    "archived_code_executed": false,
+    "files_extracted": false
+  },
+  "original_local_identity_metadata": {
+    "user.library-file-version": "0",
+    "user.library-file-id": "libfile_3ebc5db3bed081919366ddb8934000f2"
+  },
+  "library_listing_confirmed": true,
+  "library_listing_file_id": "file_0000000016b48209bf0510afab28a22c",
+  "library_listing_size_bytes": 14454096,
+  "library_listing_version_id": null,
+  "authoritative_create_current_version_number": 0,
+  "roundtrip_verified": false,
+  "roundtrip_attempts": [
+    {
+      "number": 1,
+      "time_utc": "2026-10-05T15:12:50Z",
+      "route": "resolved-reference prepared signed transfer via current official Library helper",
+      "result": "HTTP 502; no destination file created"
+    },
+    {
+      "number": 2,
+      "time_utc": "2026-10-05T15:13:21Z",
+      "route": "refreshed official materialization transfer, same saved item and pinned file ID",
+      "result": "HTTP 502; no destination file created"
+    },
+    {
+      "number": 3,
+      "time_utc": "2026-10-05T15:17:01Z",
+      "route": "authorized workspace destination linked to owned /tmp; API accepted destination but returned signed transfer",
+      "result": "HTTP 502; no destination file created"
+    }
+  ],
+  "readback_file_exists": false,
+  "current_workspace_free_bytes": 5001666560,
+  "current_tmp_free_bytes": 5047447552,
+  "reserved_future_phase_b_bytes": 16000000,
+  "readback_reservation_still_available": true,
+  "no_duplicate_upload": true,
+  "originals_and_archive_preserved": true,
+  "new_numerical_runs_or_trained_model_loads": 0,
+  "external_sharing_or_github_writes_by_archiver": false,
+  "next_step": "Retry supported Library materialization of the same existing item when byte transfer recovers, then run VERIFY_ARCHIVE.py against the exact pinned archive SHA256. Do not overwrite the saved archive or claim roundtrip success from listing alone."
+}

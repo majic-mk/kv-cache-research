@@ -1,0 +1,127 @@
+{
+  "money": {
+    "new_gpu_rentals_or_paid_services_in_this_phase": false,
+    "project_cumulative_amount": null,
+    "currency": "CNY",
+    "historical_autodl_fees": "unknown_pending_invoice_attribution",
+    "authorized_rental_total_limit_cny": 100,
+    "initialization_ledger_zero_is_not_project_total": true,
+    "historical_context_library_file_id": "libfile_d296e06df8a48191aa86f96d9597ef66",
+    "historical_context_version": 1,
+    "scoped_receipts_not_present_here": [
+      "/workspace/shared/kv_autodl_operator_20261004.json",
+      "/workspace/shared/kv_autodl_scoped_statement_20261004.json"
+    ]
+  },
+  "cpu_scope": "Recorded gate/check receipt accounting, not a bill or complete project CPU total",
+  "main_guard_resources": {
+    "aggregate_cpu_seconds_final": 8.176753999999999,
+    "child_wait4_cpu_seconds": 6.646863,
+    "child_wait4_maxrss_bytes": 369750016,
+    "cumulative_aggregate_cpu_seconds_final": 41.769318999999996,
+    "cumulative_cpu_seconds_with_measured_checks_cpu_final": 28.928499,
+    "guard_cpu_seconds": 1.529997,
+    "guard_wait4_self_maxrss_bytes": 17563648,
+    "guard_wall_seconds": 6.787701619992731,
+    "helper_check_reserved_cpu_seconds": 8,
+    "limits": {
+      "attempts": 1,
+      "child_cpu_hard_seconds": 90,
+      "combined_cpu_budget_seconds": 100,
+      "free_disk_floor_bytes": 5000000000,
+      "gpu": false,
+      "guard_cpu_hard_seconds": 5,
+      "guarded_wall_seconds": 120,
+      "installs": false,
+      "interop_threads": 1,
+      "intraop_threads": 1,
+      "minimum_host_available_bytes": 1500000000,
+      "network": false,
+      "new_evidence_bytes": 32000000,
+      "paid_calls": 0,
+      "process_tree_rss_bytes": 1073741824,
+      "rss_sample_interval_seconds": 0.025,
+      "start_host_available_bytes": 3000000000,
+      "trained_checkpoint_reads_bytes": 0
+    },
+    "maximum_observed_sample_gap_seconds": 0.027548131009098142,
+    "minimum_observed_disk_free_bytes": 5062578176,
+    "minimum_observed_host_available_bytes": 5626736640,
+    "minimum_observed_source_filesystem_disk_free_bytes": 5003780096,
+    "peak_sampled_guard_plus_tree_rss_bytes": 384397312,
+    "prior_aggregate_cpu_seconds": 18.592565,
+    "prior_cpu_seconds_charged_to_gate": 33.592565,
+    "prior_cpu_seconds_with_measured_checks_cpu": 20.751745,
+    "process_high_water_marks": [
+      {
+        "max_cpu_seconds": 6.61,
+        "max_observed_os_hwm_bytes": 369750016,
+        "max_sampled_rss_bytes": 367968256,
+        "pid": 6,
+        "start_ticks": 11711686
+      }
+    ],
+    "readonly_verification_observed_cpu_seconds": 0.98312,
+    "readonly_verification_reserved_cpu_seconds": 2.0,
+    "sample_count": 261,
+    "serializer_check_reserved_cpu_seconds": 5
+  },
+  "implementer_final_readonly_decode_cpu_seconds": 0.905617,
+  "terminal_independent_audit": {
+    "terminal_audit_final": true,
+    "status": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+    "relative_directory": "research/reconstructed/author_trimkv_phase_a_terminal_review_20261005",
+    "file_sha256": {
+      "TERMINAL_AUDIT_REPORT.md": "a881e6a75ebc817bbee536798a753fbecf924b87638879ce5913ec5c68a11349",
+      "TERMINAL_VERDICT.json": "a2189b310fc05441bcf92710507043fcf0bca7d2e71f99a1853d8da8ac6a57fa",
+      "SHA256SUMS": "2474450e0c09d921dc361ae5ca3e8edd2bef2ce2623abdc1b1cfc041128a3889",
+      "AUDIT_COST_LEDGER.json": "3a7a82638916a8daaedb8157517288338f616de995aa49ab30bfaafd2ae6eeeb",
+      "INDEPENDENT_AUDIT_FINAL.json": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491"
+    },
+    "repository_pins_byte_exact": 171,
+    "repository_pins_total": 172,
+    "derived_bytecode_exceptions": 1,
+    "independent_reported_process_cpu_seconds": 2.293522,
+    "audit_cost_ledger": {
+      "status": "READ_ONLY_AUDIT_COSTS_SEPARATE_FROM_NUMERICAL_RUN",
+      "independent_audits": [
+        {
+          "receipt": "INDEPENDENT_AUDIT.json",
+          "sha256": "d67f1ba0f2ab789c9418deb5b7a4a96a384a3c43ddc3a21c1127e2eeeb6db90d",
+          "status": "AUDIT_FAILED",
+          "classification": "Stopped on real post-run derived-cache hash drift, before decoder import",
+          "wall_seconds": 0.00684989700675942,
+          "total_process_cpu_seconds": 0.037301,
+          "os_maxrss_bytes": 11272192,
+          "separate_from_main_run": true
+        },
+        {
+          "receipt": "INDEPENDENT_AUDIT_RESOLVED.json",
+          "sha256": "0a167b7c825bb8795acd4025f965747de85b32b96232613cdb43de47acfa1c15",
+          "status": "AUDIT_FAILED",
+          "classification": "Decoder verification completed; auditor then referenced an obsolete resource-field name",
+          "wall_seconds": 1.00327273599396,
+          "total_process_cpu_seconds": 1.0292489999999999,
+          "os_maxrss_bytes": 22728704,
+          "separate_from_main_run": true
+        },
+        {
+          "receipt": "INDEPENDENT_AUDIT_FINAL.json",
+          "sha256": "e6c36ad7a2dd2d4aa3fb8b59e6672d2816d1c8271bcb9ddc6b4a95129e1d5491",
+          "status": "PASS_RESTRICTED_PHASE_A_WITH_DISCLOSED_POSTRUN_CACHE_EXCEPTION",
+          "classification": "Complete source-bound decoder/resource/provenance audit PASS with disclosed cache exception",
+          "wall_seconds": 1.1659857490012655,
+          "total_process_cpu_seconds": 1.226972,
+          "os_maxrss_bytes": 27156480,
+          "separate_from_main_run": true
+        }
+      ],
+      "independent_reported_process_cpu_seconds": 2.293522,
+      "owner_exhaustive_verification_reported_cpu_seconds": 0.905617,
+      "owner_completion_receipt_sha256": "a4f4ebb4a9cf7d899c5af9f1f4fce3bf9df9a9de8dba0cc121381d58e7d7da90",
+      "numerical_run_reported_guard_cpu_cumulative_seconds": 41.769318999999996,
+      "caveat": "CPU measurements are process totals at receipt time; receipt/exit tails and source-inspection commands are not a performance benchmark. No numerical tests were retried by these audits. Read-only correction attempts are retained, not erased."
+    }
+  },
+  "archival_work": "Byte hashing/compression/Library transfer verification only. Archive processing CPU is separate from the frozen Phase A numerical gate; no new numerical run."
+}
