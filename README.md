@@ -1,5 +1,15 @@
 # KV Cache Research
 
+## Latest completed experiment (2026-10-05)
+
+The [joint-value local-operator CPU checkpoint](checkpoints/2026-10-05-joint-value-operator) records a valid, complete run whose frozen usefulness gate **FAILED**: mean nearest-normalized holdout SSE was 0.808809 for full-joint, 0.828325 for headwise and 0.804669 for projected-block GPTQ. Full-joint won 2/6 layers and its worst query reached 1.541 times nearest (cap: 1.25). This exact proposal is closed without retuning. The checkpoint includes authored source/protocol/test evidence, a final independent audit and exact restoration references to the private full-evidence archive.
+
+These are isolated-layer CPU operator results on one teacher-forced passage, not generated-answer/QA quality, a new GPU/native speed result or a paper-ready method. Archive delivery is not a CI pass or portable full inference. [Earlier October 5 CPU screens](checkpoints/2026-10-05-cpu-topic-screens) and all older checkpoints remain preserved.
+
+### Historical status below
+
+The dated October 4 status and scaffold below are retained verbatim as historical records. They are not the latest experiment status; their closed/locked branches remain closed/locked.
+
 ## Current status (2026-10-04)
 
 Current source and reproducibility records are preserved in [the held-out model-free contract checkpoint](checkpoints/2026-10-04-heldout-model-free-contract/). The latest contract/backend remains **source-only, locked and STOP-for-now**; the constructed cohort has no model outcome. The exact 82-file minimal source ZIP passed all 73 standard-library tests in a fresh, bounded reconstruction. That verification is not inference readiness, a GPU result or a validated new method.
