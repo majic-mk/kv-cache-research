@@ -1,0 +1,1207 @@
+{
+  "date": "2026-10-05",
+  "source_member_count": 200,
+  "source_uncompressed_bytes": 1321392,
+  "files": [
+    {
+      "path": "historical_restoration/attempt_01/prep_runner.py",
+      "bytes": 16505,
+      "sha256": "5c8b2ffc5057499bf1e853d2389337b361104e95f7e5f12036b42f89c56be58c",
+      "copy": "separately labeled historical exact-hash restoration"
+    },
+    {
+      "path": "repository/outputs/joint_value_W_segment_verification_20261005/FINALIZATION.json",
+      "bytes": 863,
+      "sha256": "2add4ed1d3a33c79bede513387642613be79ff0f563b67ae7726c262b40d4e1a",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/outputs/joint_value_W_segment_verification_20261005/W_SEGMENTS_CANDIDATE.json",
+      "bytes": 10815,
+      "sha256": "bcc1ce107a70b865f5d741866497305999a39f884e96cb48b9ad232b4ffc9eb6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/outputs/joint_value_W_segment_verification_20261005/W_SEGMENTS_VERIFIED.json",
+      "bytes": 11305,
+      "sha256": "71f2b0055d0650da94383d66fc82fb74231be848b7c682b956b72b1d9e6598ed",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/outputs/joint_value_W_segment_verification_20261005/guard_result.json",
+      "bytes": 703,
+      "sha256": "a8f8728644fc338512833bd8e6afae192af79e4206e8b72702c20606e5e9dfe3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/outputs/joint_value_W_segment_verification_20261005/launch.json",
+      "bytes": 2119,
+      "sha256": "6ed1746ba78bbb38be9dac1681ebeaa916416afccfa6e42fe84583176f4903d7",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/capture.py",
+      "bytes": 1363,
+      "sha256": "3d953623c2344f94547381f413b784e1f736ac65047abef39f9bdc43285e7810",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/capture_runner.py",
+      "bytes": 8248,
+      "sha256": "78d349356cdaf3d5eb61458a856b0be82f36910e1e01d9a63b59ee9ec7e1bb1f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/common.py",
+      "bytes": 3277,
+      "sha256": "02300898cf520832c108ff070414d5229a3249fd9dabe73fd16f74c4e5ffb2e0",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/cpu_release.py",
+      "bytes": 485,
+      "sha256": "de0350e2d29f2fc70361a34cad223ba66c0bc452a368ddb40e63761bb707beaf",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/file_pager.py",
+      "bytes": 9995,
+      "sha256": "c7e429287d0377427207efe7ac8e9f39469ed61eb390676c360cce57aa5f3ca6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/guard.py",
+      "bytes": 6917,
+      "sha256": "200c67817dc3deba8a29cdd5856526f1d6080c0ce3e1f4031c6544007e6102c1",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/legacy_cpu_release.py",
+      "bytes": 371,
+      "sha256": "4d7cc63bde77d6e509287537f70b82386c3a243e5a74749b07f55068cb6e5534",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/prepare_input.py",
+      "bytes": 1368,
+      "sha256": "70c05f0aa306f4122a760e79e95d098b02a51c523cb2c93e73b59d15e176bde7",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/selector_replay.py",
+      "bytes": 32200,
+      "sha256": "3e5578cd7186f1c5d22599c980a8e1d24b3ecdf997afddbc83b9649318645a89",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/test_capture.py",
+      "bytes": 3948,
+      "sha256": "b5c718fc52e5157d7e7966f401ca1422803a633c2118dd0a8ae0cd582927954e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/test_guard.py",
+      "bytes": 3296,
+      "sha256": "fea3759bba0b4c8313bdac7966813034b7ce5884fd48dc230da7541c72685506",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/certified_selector_screen_20261005/temporal_packet/test_selector_replay.py",
+      "bytes": 8785,
+      "sha256": "b8d175e207e43a9be91d59cce8bf3a392fceb4d7735febe5713330e6f92327d4",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/PREREGISTRATION.md",
+      "bytes": 886,
+      "sha256": "9b116e13b375e00069214579a0750d1d262cfee5f245e55b991cd0627b20b456",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/REPORT.md",
+      "bytes": 5836,
+      "sha256": "92d44f4ca883245b723205aa677a9c237f0f96593822bfb415aee9eb45053564",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/SOURCE_AND_STRUCTURE.md",
+      "bytes": 13182,
+      "sha256": "65e3e6c23f05cfb948954c966307075bf5e02675fb14bcb0ddffe8c9384a7156",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/VERIFICATION.json",
+      "bytes": 4472,
+      "sha256": "0775b15bb90549ad6a19c7707e530401ca167ffdb9d9c38c67173dcf48984bac",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/config.json",
+      "bytes": 5720,
+      "sha256": "a251ddfeddf9ee9ea4148ed4b70bb9936afc6bf19689ac797a8d48607728cd7e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/results/manifest.json",
+      "bytes": 3741,
+      "sha256": "33e483d79c1a4c47409914153918cf6b0e9347173c47b1dea79c0907ee598343",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/results/result.json",
+      "bytes": 1042,
+      "sha256": "19c0c6a6c1f476f7997fb87f7c859029b2d65a51e3155225d3317927d9859e3c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/results/start_receipt.json",
+      "bytes": 261,
+      "sha256": "df17d9d5de49e5c3f0232e201afc8fa5f0ea78097812f3c78f37bf886b3ef1a2",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/run.log",
+      "bytes": 7380,
+      "sha256": "0b0c247065da6926150285ccb37b52adfaaf76b4a967c13ec1a4bdff434c3a34",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/run_compact_cd.py",
+      "bytes": 13994,
+      "sha256": "de1881d78bc8d2bb98671da3276508eaa03ee73d4d6c20976b10f3a2e7956511",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/ASSET_METADATA.json",
+      "bytes": 5538,
+      "sha256": "47c24cf85854962c992feff579ba81140be27e94254ae8d64ee13001aad1bc20",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/BLOCK_CONTROL_AUDIT.md",
+      "bytes": 5429,
+      "sha256": "35f64c50ad2c90519b8ec9035f53dc470e7138c5e43980a3bb5c130c453056cb",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/FINAL_INDEPENDENT_RELEASE_REVIEW.json",
+      "bytes": 6279,
+      "sha256": "a5b43f7f5aed2d6a03d25178104b0f16bcab478b808c3bfce6f31234f77ea005",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/FINAL_INDEPENDENT_RESULT_AUDIT.json",
+      "bytes": 5546,
+      "sha256": "e253d399d41b074edd8202bd2520fe5e25a6a73ad7489b0a2146093c90a1cf0a",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/INDEPENDENT_PROTOCOL_REVIEW.md",
+      "bytes": 25248,
+      "sha256": "9a3342b1e3a96a540825f3aa159c78d58c7784cf99eb53cf54a6ebc461b0f57c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/PLAN.md",
+      "bytes": 13605,
+      "sha256": "a6f8b8bfddaaf310cb857a4d06067599e173bccf9a2165ff41b0a137647a2809",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/PROPOSED_CONFIG.json",
+      "bytes": 9171,
+      "sha256": "a24b20825813b7b3f195585f19ab878ca0afde2db6445d3037ab17eed83b28f9",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/TWO_STAGE_PROPOSAL.md",
+      "bytes": 21768,
+      "sha256": "13e9accfc36a054a4935f00e77f24efc05d65dad22260ae02b955fc5f8350ef3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/historical_review_recovery/INDEPENDENT_PROTOCOL_REVIEW.stage_a_admission.reconstructed.md",
+      "bytes": 22558,
+      "sha256": "5cf438b70d5193a280cc19fd7be2eacbf3d94a3ee59f8d22805e2aae2e80c3e8",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/historical_review_recovery/RECONSTRUCTION_PROVENANCE.json",
+      "bytes": 4008,
+      "sha256": "aaafb1a600d667f803ae4ef5e21af7c53e9665b2b720cfd5dc7f284fef0c50c2",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/historical_review_recovery/reconstruct_admission_review.py",
+      "bytes": 3436,
+      "sha256": "51f52fb334781000e7976ad71d7a11ce24d397567160e02041c4959b380a8e58",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/ADMISSION.json",
+      "bytes": 1813,
+      "sha256": "1feebd521ffe3acfeaaac6655ad25412a4140cebd14cb3fda20277ee4c18cc71",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/ARTIFACT_CONTRACT.json",
+      "bytes": 2635,
+      "sha256": "e8dc619d352124359dc186e876e114f142776b6e11ae2ba54e8c7fa645d2e356",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/ENVIRONMENT_AMENDMENT.json",
+      "bytes": 978,
+      "sha256": "16f1a16db465ad3a968389ae67de61d9bbd82ba4a9740c36177b142dcf4dc59f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/EXTERNAL_PINS.json",
+      "bytes": 12131,
+      "sha256": "6ba26ef1695f5d1054c0c12a3730f5e1167b49637752ff8b5f126886466d3104",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/FROZEN_FILES.json",
+      "bytes": 3519,
+      "sha256": "c6b2221b0797889cf22fb032911f7902207f33ef1926cb9f27d65582fc77bce9",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/LAUNCH_FINALIZATION.json",
+      "bytes": 2073,
+      "sha256": "0257f36f8cd65fec81215610eaf90dd2aa7d6fbb447b69d9311f5e8bfba18b8e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/OLD_TENSOR_PINS.json",
+      "bytes": 1953,
+      "sha256": "77c1c5062f7a06cf6d6e2e70c7191f6161728d41e3b29c8d011398ca66ab3ae9",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/README.md",
+      "bytes": 5705,
+      "sha256": "80270c2a007e6b0b96440b938f97e26ed09f1098ff368792456df38883f7f8ec",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/RUN_CLAIM.json",
+      "bytes": 176,
+      "sha256": "396e7b60d5433a7fc1ac82d876a93b8eaa93b1c0cdf4c0f6fe08d54e65db73bc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/asset_expected.json",
+      "bytes": 1155,
+      "sha256": "08e77916807f03ea7e9a4714a6e997a7d6cb0909f77f793a967d36049eb51c68",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/capture.py",
+      "bytes": 1363,
+      "sha256": "3d953623c2344f94547381f413b784e1f736ac65047abef39f9bdc43285e7810",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/capture_runner.py",
+      "bytes": 9492,
+      "sha256": "1a50b927be981d12bcf251fce025706bac5e6fd3474ce23b2f112203d33bf072",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/checks/preparation_metadata.json",
+      "bytes": 1196,
+      "sha256": "948707d9c42537060c0cf8f6a44f7994e05a5664926951fe6a1abc3a5c2369b0",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/collector.py",
+      "bytes": 4507,
+      "sha256": "d7a3d945572216f6e45b0d60b8ed89e912fa3e6571de708142080414ecedf342",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/common.py",
+      "bytes": 6231,
+      "sha256": "92a4f07bcd46117368df02b35d3104e897ecbda1bac40f0ac724d8701c99ad18",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/cpu_release.py",
+      "bytes": 403,
+      "sha256": "bf9ee5a657323cc93b8b21cd224c2abed9059de0b4f141f7e13033a6dcb060fa",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/file_pager.py",
+      "bytes": 9995,
+      "sha256": "c7e429287d0377427207efe7ac8e9f39469ed61eb390676c360cce57aa5f3ca6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/guard.py",
+      "bytes": 10261,
+      "sha256": "7dd14851d7764d388a0d45c8e5b58cdde354a53ac462dc9c907100c39b0496c3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/input_lock.json",
+      "bytes": 992,
+      "sha256": "c5205700b129a1ea85d8f82a63ad00f72406f64566cdd4f283deae2d244ac04c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/completion.json",
+      "bytes": 518,
+      "sha256": "ed219026d9a05c68a06e7c325c7762b1386a8e1a083dd10d124a629330ce79d1",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/extraction.json",
+      "bytes": 3483,
+      "sha256": "31de0437caefa93d374d2cb0966ac51c4393e19f37ba2b519bbc81350b1faff4",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/guard_result.json",
+      "bytes": 707,
+      "sha256": "c08c777983d10cd72274fdaeed07665c8ea1ca7c5ceca1c63eb429d05d1272a4",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/launch.json",
+      "bytes": 2720,
+      "sha256": "6abec3157bad51ed934017c066654182d806e2548711b4f70088fe25f869e0ff",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/runner.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/run/tensor_manifest.json",
+      "bytes": 39980,
+      "sha256": "cdc60a65bda8247e1cf0615a5afd71c37cd916cecaebb2e1d287a4a3a85c03e6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/tensor_io.py",
+      "bytes": 1645,
+      "sha256": "451d904db3d76a1580c2a8ee21068d62cf56df97dcb167e380b22b470b505e86",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/test_capture.py",
+      "bytes": 6640,
+      "sha256": "b3f91c47066576141b221318c2f408e086897865e1fddfc8d57510eef15a3203",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/test_guard.py",
+      "bytes": 5960,
+      "sha256": "851de0e79f54b970306c5ac5b46b147d08206b0a200b5f915c0d6a63eb409b8f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/token_ids.json",
+      "bytes": 2437,
+      "sha256": "27d8af446010f34bc39a8f16d63ae97e1857e5e61aba2398b10b197f5479966b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/ADMISSION.json",
+      "bytes": 1106,
+      "sha256": "c4a0537c3110a1cd81ecad19ff904be35a637e3066d475424688943b7147d81f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/CONFIG.json",
+      "bytes": 725,
+      "sha256": "ed6f3f7e28a01dd8513a6d2313085d463b9f7e85d59865c8f352b102e6089650",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/EXPECTED_PINS.json",
+      "bytes": 6134,
+      "sha256": "4d7d33aaa811bd658c220494eba921052ef202b8465e50ed36e6b6210f544448",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/FROZEN_FILES.json",
+      "bytes": 1504,
+      "sha256": "0cfdf92a7456542f0effd3e813942be38f17a56563ee3c697c5fed68760b8590",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/INDEPENDENT_SOURCE_REVIEW.json",
+      "bytes": 2462,
+      "sha256": "641d90d88dff854981855b1c8e7853cdaf5f05023cbb6b6518e587a6ae2fb008",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/PROTOCOL.md",
+      "bytes": 3309,
+      "sha256": "ebef773cf791a6388d67f2933d3205b4bdf2942452ff81f99cbd63639587c421",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/RUN_CLAIM.json",
+      "bytes": 272,
+      "sha256": "de1cce2d4b53dd0690a0f0662da04089c66abe5adb412ff0c5ddd256c67c7e53",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/launch.py",
+      "bytes": 9319,
+      "sha256": "accd4f5e1d3087a76691e2f2e3fe24e9484a56e4f68e112b7a91ad950cdf912c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/reviewed_supervisor/common.py",
+      "bytes": 6231,
+      "sha256": "92a4f07bcd46117368df02b35d3104e897ecbda1bac40f0ac724d8701c99ad18",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/reviewed_supervisor/guard.py",
+      "bytes": 10261,
+      "sha256": "7dd14851d7764d388a0d45c8e5b58cdde354a53ac462dc9c907100c39b0496c3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/test_verifier.py",
+      "bytes": 4958,
+      "sha256": "4f4d4b084f11b5e11ba5f3c43a2d6d234f3e7527a2c402956dd51f0230eb3363",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_W_segment_verification_20261005/verifier.py",
+      "bytes": 10144,
+      "sha256": "edee60a2f4c8a7b0a0a4b675acc8a2fa299d3cbc7abfe39a6f176bac37a6bddc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/DELIVERY_MANIFEST.json",
+      "bytes": 25975,
+      "sha256": "93013c9abf72df11db0520bfa0c5ad2c8a035847e5a620199732c8acb50b1f86",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/FIXTURE_SPEC.md",
+      "bytes": 10337,
+      "sha256": "ed83a99923c50f94d8c678409513c10dd3cf05275553c830b82dd12a4662807e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/FROZEN_PREP_FILES.json",
+      "bytes": 4841,
+      "sha256": "f6f384d09b4090a3ff5f63376778f314415a81ef4102100c1b03090b16a2c32b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/KERNEL_API.md",
+      "bytes": 21063,
+      "sha256": "0fafa9feae79ffd292428a1071dc58c8bb96b2c52cbd49aba309bd730ff4bc54",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/PREPARATION_PROTOCOL.md",
+      "bytes": 4003,
+      "sha256": "32c99135e8faa5381ccd348fdb06a7c97de3826e6460896cb15da956f47f33f6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/PREP_FIXES.json",
+      "bytes": 295,
+      "sha256": "346be6e98adde3432b77a1cc3b7e04fa2c89fdfadcf4ca293dd4b337fca68304",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/REPORT.md",
+      "bytes": 8621,
+      "sha256": "d940eb1c1dc4e397f3214ea382db0b5bf22ca7d9628fa7907031d18a72c0732e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/SAVED_VERIFICATION.json",
+      "bytes": 3122,
+      "sha256": "020012a89187567673e60a4bcbb81b4ed342fe4ce7888e11633ed95d7e2968fc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/V2_WORK_BUDGET_AMENDMENT.json",
+      "bytes": 3231,
+      "sha256": "5fdc5ea57a86f33f191938737751fee5869f3f9c0a10a9d0bced67be054440f2",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/artifact_contract.py",
+      "bytes": 3373,
+      "sha256": "1dc854e08a0ec8e80aec0733d624d630b50942f9613660c8bddbfc3fdfeab221",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/FROZEN_PREP_FILES.json",
+      "bytes": 1865,
+      "sha256": "3a868ca2de9ed8a0a217fbe52115d12c3d2e0f3414fa6ff5ce0dec3a6d06bdb9",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/compile.json",
+      "bytes": 701,
+      "sha256": "d6feec18774782035338cd5f7dcc416e3de3e9629438ff62046c4ae2b78a5ada",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/guard_result.json",
+      "bytes": 710,
+      "sha256": "7eab53c4149dcc6633654c9af3c5debcaf528570d5cc34afa40edc327bb990bc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/manifest.json",
+      "bytes": 4654,
+      "sha256": "d32f516656e6741c9a267fed3c79dd637cada7469c6beb3379126931216c6eca",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/runner.log",
+      "bytes": 1975,
+      "sha256": "562ea63a334b73f0b2e70b4bb4c490cba616092a15904a4726db31925bba6fc8",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/synthetic_contract/encoding_lock.json",
+      "bytes": 15592,
+      "sha256": "bb4eb7c2845e13b2263f2a0051ab52258b3adae5914d5fe95c08649727e568bd",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/terminal.json",
+      "bytes": 1647,
+      "sha256": "71cf173817366f9249b8177914654f4cff98b9905493ea9bddf3c1c394a20694",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/unit_results.json",
+      "bytes": 5850,
+      "sha256": "dc34b341e5f6ce5e186c7023770109345b418777e163f8e584ddc8a49e3ad584",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/FROZEN_PREP_FILES.json",
+      "bytes": 2014,
+      "sha256": "754ea6b64f4b0abf9e83f8064594447249d7fe28d47b6fd8ab49f8b5f42d55dd",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/compile.json",
+      "bytes": 701,
+      "sha256": "e8bc356401c0c891897afa5453bc8473079194ba2ec61287eb3c8deebe10a833",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/guard_result.json",
+      "bytes": 698,
+      "sha256": "568d052604d811e3693d199f08712957423c3b72b2ba54e6b6bc3c84bf3c65d5",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/manifest.json",
+      "bytes": 5627,
+      "sha256": "641a6f6f99ca24f17a513e63d3de278704838c5f8328f057274050b5dd1f248d",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/runner.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/FIXTURE_SPEC.md",
+      "bytes": 10337,
+      "sha256": "ed83a99923c50f94d8c678409513c10dd3cf05275553c830b82dd12a4662807e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/KERNEL_API.md",
+      "bytes": 17956,
+      "sha256": "0ed7e801c56830df59266f6cd037d7cc48b4e8b002ad268744ac4c74cac0d00b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/PREPARATION_PROTOCOL.md",
+      "bytes": 3388,
+      "sha256": "e7a7e1a29150afee7ce28c7c19934fbad3b3a02cfe476809c257903aec931f02",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/PREP_FIXES.json",
+      "bytes": 295,
+      "sha256": "346be6e98adde3432b77a1cc3b7e04fa2c89fdfadcf4ca293dd4b337fca68304",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/artifact_contract.py",
+      "bytes": 3373,
+      "sha256": "1dc854e08a0ec8e80aec0733d624d630b50942f9613660c8bddbfc3fdfeab221",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/engine.py",
+      "bytes": 15381,
+      "sha256": "c65d00aed09601959fee8ab51ca0def35ef974e9a41bf923be0df87b0ac7ba89",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/guard.py",
+      "bytes": 2288,
+      "sha256": "71163a56ae6033f89cfccc3791c0a75233d5d8913f018df738c9123983371e98",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/kernels.c",
+      "bytes": 25083,
+      "sha256": "839c14047a1327c21edb8c2ca54970dfc47eaa94feb13e5b0ec089f40d562bdc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/kernels_v1.c",
+      "bytes": 25083,
+      "sha256": "839c14047a1327c21edb8c2ca54970dfc47eaa94feb13e5b0ec089f40d562bdc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/prep_config.json",
+      "bytes": 1860,
+      "sha256": "6ea5ecbf3527269afe5c7f5e26c2b4bba22da6b142a85e4520fab3a9149747ca",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/prep_runner.py",
+      "bytes": 16771,
+      "sha256": "e427130ff4227ca54987d9b44642ecad09c9f3600045bd2c0cd0592434ab6be8",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/reference.py",
+      "bytes": 25553,
+      "sha256": "49b6dc4def150eb172a3e95c7133c1f9136d41ee7165d1041389f28178d17341",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/supervisor_common.py",
+      "bytes": 2371,
+      "sha256": "dca98578964521d78937587b3dd95186f0abd4885cecf6be23e96e1cd25342fe",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/supervisor_core.py",
+      "bytes": 7465,
+      "sha256": "a6a6bdf8b48554826e1ff82884c4a32c8581c65bf60d0e1735846b0ae69b2003",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/synthetic_contract/encoding_lock.json",
+      "bytes": 15592,
+      "sha256": "128f49ef570d54c5cca7f928ab2b7ee1235ac20173d365a435c14d003602ba32",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/terminal.json",
+      "bytes": 199,
+      "sha256": "a8d0280106b40e1f1ae25aa8fc34114ab15c0de83914f10ed1c4bb9c6425782b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/unit_results.json",
+      "bytes": 5850,
+      "sha256": "dc34b341e5f6ce5e186c7023770109345b418777e163f8e584ddc8a49e3ad584",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/FROZEN_PREP_FILES.json",
+      "bytes": 4841,
+      "sha256": "f6f384d09b4090a3ff5f63376778f314415a81ef4102100c1b03090b16a2c32b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/compile.json",
+      "bytes": 701,
+      "sha256": "25fd1093290813130da33182e1645ccca02d91f517f357af46078419139a7766",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/guard_result.json",
+      "bytes": 689,
+      "sha256": "52c070eea9f017157a114cbdd0d21dd987f0073ce8bbad28959f2198ee40f2cc",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/manifest.json",
+      "bytes": 5628,
+      "sha256": "cec8833021a321eb54714439b56acf8ef7a5b1254b6774900d88525823467c05",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/runner.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/FIXTURE_SPEC.md",
+      "bytes": 10337,
+      "sha256": "ed83a99923c50f94d8c678409513c10dd3cf05275553c830b82dd12a4662807e",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/KERNEL_API.md",
+      "bytes": 21063,
+      "sha256": "0fafa9feae79ffd292428a1071dc58c8bb96b2c52cbd49aba309bd730ff4bc54",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/PREPARATION_PROTOCOL.md",
+      "bytes": 4003,
+      "sha256": "32c99135e8faa5381ccd348fdb06a7c97de3826e6460896cb15da956f47f33f6",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/PREP_FIXES.json",
+      "bytes": 295,
+      "sha256": "346be6e98adde3432b77a1cc3b7e04fa2c89fdfadcf4ca293dd4b337fca68304",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/V2_WORK_BUDGET_AMENDMENT.json",
+      "bytes": 3231,
+      "sha256": "5fdc5ea57a86f33f191938737751fee5869f3f9c0a10a9d0bced67be054440f2",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/artifact_contract.py",
+      "bytes": 3373,
+      "sha256": "1dc854e08a0ec8e80aec0733d624d630b50942f9613660c8bddbfc3fdfeab221",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/engine.py",
+      "bytes": 16227,
+      "sha256": "d766dc3d3e034ee1cfe2265779069b14ce04c28459cbbf4a24fb05bbb3a26d55",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/guard.py",
+      "bytes": 2487,
+      "sha256": "81ffe92877282ef4884130978a2bf2a23b98004145b22d69afaa5b93fe5f2181",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/kernels.c",
+      "bytes": 26749,
+      "sha256": "4b3a62a4001d122a8b8979d9660aca857f1cebcddeb9e1f7093e59b7b74261c7",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/prep_config.json",
+      "bytes": 2029,
+      "sha256": "bbdc16e78e643db6cf51173e0ca9fddff083b5f36c63d40a43b009240e953842",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/prep_runner.py",
+      "bytes": 18054,
+      "sha256": "e78b69eae9ca422f18ed43ea3366789ff85e565aa2b44d7472d2d60008fcb201",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/reference.py",
+      "bytes": 25553,
+      "sha256": "49b6dc4def150eb172a3e95c7133c1f9136d41ee7165d1041389f28178d17341",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/supervisor_common.py",
+      "bytes": 2371,
+      "sha256": "dca98578964521d78937587b3dd95186f0abd4885cecf6be23e96e1cd25342fe",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/sources/supervisor_core.py",
+      "bytes": 7465,
+      "sha256": "a6a6bdf8b48554826e1ff82884c4a32c8581c65bf60d0e1735846b0ae69b2003",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/synthetic_contract/encoding_lock.json",
+      "bytes": 15592,
+      "sha256": "03c5b73fc164c5aa3103ec688aea5ad21cf31df08cee40370d42b253942489ad",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/terminal.json",
+      "bytes": 206,
+      "sha256": "8b7a4c6f01fb1bd7fbd0b1c43106904946692cdbc39c4afbb3a3808e5dae7a06",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_03/unit_results.json",
+      "bytes": 6429,
+      "sha256": "76ef4f8ff2446e1b8e74184d96c0932896536cc4dc52cfb501c12b32c0fac876",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/engine.py",
+      "bytes": 16227,
+      "sha256": "d766dc3d3e034ee1cfe2265779069b14ce04c28459cbbf4a24fb05bbb3a26d55",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/guard.py",
+      "bytes": 2487,
+      "sha256": "81ffe92877282ef4884130978a2bf2a23b98004145b22d69afaa5b93fe5f2181",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/kernels.c",
+      "bytes": 26749,
+      "sha256": "4b3a62a4001d122a8b8979d9660aca857f1cebcddeb9e1f7093e59b7b74261c7",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/prep_config.json",
+      "bytes": 2029,
+      "sha256": "bbdc16e78e643db6cf51173e0ca9fddff083b5f36c63d40a43b009240e953842",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/prep_runner.py",
+      "bytes": 18054,
+      "sha256": "e78b69eae9ca422f18ed43ea3366789ff85e565aa2b44d7472d2d60008fcb201",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/reference.py",
+      "bytes": 25553,
+      "sha256": "49b6dc4def150eb172a3e95c7133c1f9136d41ee7165d1041389f28178d17341",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/supervisor_common.py",
+      "bytes": 2371,
+      "sha256": "dca98578964521d78937587b3dd95186f0abd4885cecf6be23e96e1cd25342fe",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_solver_prep_20261005/supervisor_core.py",
+      "bytes": 7465,
+      "sha256": "a6a6bdf8b48554826e1ff82884c4a32c8581c65bf60d0e1735846b0ae69b2003",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/ACTUAL_RESULT_REPORT.md",
+      "bytes": 5747,
+      "sha256": "9f672d9e3f2817af087abf528e947a1c9e5f54f2d1934f8b91d08ee5065ccf99",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/ACTUAL_RUN_DELIVERY.json",
+      "bytes": 1674,
+      "sha256": "9df9027ff972f36a0c74a57d7f4021ef209cc340119cc961b4d72ab23a96db38",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/ADMISSION.json",
+      "bytes": 2415,
+      "sha256": "c0e4ad352378d3e39a7f8aae60a0de28d8be0d10f07366cd82b7a372901310c1",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/ALLOCATION_PLAN.json",
+      "bytes": 1287,
+      "sha256": "47bcb7bb276b43b72c424049d4f217ea9dfa27f2038c45ecd3097249c70d3628",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/DELIVERY_MANIFEST.json",
+      "bytes": 9045,
+      "sha256": "34ab7980322fce3af1580d7a61af467ceb61787d57a11ccf9460269f3b2491f3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/FROZEN_RUNNER_FILES.json",
+      "bytes": 5637,
+      "sha256": "d9ad52fb6ec8aa585939fe9f9fc8c6d921a3588f5b0429b290e992a9fb0d740b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/PENDING_STAGE_B_BINDINGS.json",
+      "bytes": 2291,
+      "sha256": "369d02ccde767588a27aa6e187071f4d21fde3eba783c6e5a5bac5930b10a9ff",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/PRE_ADMISSION_METADATA_CHECK.json",
+      "bytes": 11833,
+      "sha256": "5702b2b7e5a012619f34d919fb43a282ca485aa5f86f31c84a455f09b9f89579",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/README.md",
+      "bytes": 7288,
+      "sha256": "45c29d104d7dddbb3359e7f3d83e076dfd5057cc343b01cbb54ffd4626fdf767",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/RUN_CLAIM.json",
+      "bytes": 206,
+      "sha256": "0ee2d55fba2fad0836fa7cf0fa257039c41289504e289a70f952d9ba56393c72",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/contracts.py",
+      "bytes": 14421,
+      "sha256": "1687edbce07633bcd4c201be82f335207c849b1a08b4b5cb45f4dfbc1b594956",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/launch.py",
+      "bytes": 12018,
+      "sha256": "667894150fce7a3041d148bce8ae6ccc1a13b4e897da3a2958cf983a39892408",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/run/FINAL_MANIFEST.json",
+      "bytes": 56503,
+      "sha256": "b13decf01a380c192324d03cad8a75ae0e6c24ee8e0e231c35ee9c4eb6084b69",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/run/completion.json",
+      "bytes": 218,
+      "sha256": "fdccd08f089f8a0c87bed3895356db8af3d81a72f48305bf3c9e71f2d912816b",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/run/guard_result.json",
+      "bytes": 702,
+      "sha256": "756ec96f69edec54cd80b909b7fd9114b89512574e0c80c3595e7d194072ebfa",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/run/launch.json",
+      "bytes": 13931,
+      "sha256": "0f7875039575e00539467458022c86d2b7460fb3cc98cd1ef918917d514bc12f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/run/runner.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/runner.py",
+      "bytes": 15429,
+      "sha256": "7fd38dbbb6399959b1f80cd22d0976361a30d00ecd9ac9af0de08ff89e0746c0",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_01/guard_fixture_receipts.json",
+      "bytes": 1188,
+      "sha256": "3319516b833d5d08829bccf98ac9ae8cbcec21e8801ee8ee21353db05e408e37",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_01/guard_result.json",
+      "bytes": 686,
+      "sha256": "c84b90aec5a7770d32c88b570850114e34c8778088ea23a2db28eb600b952aab",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_01/runner.log",
+      "bytes": 1135,
+      "sha256": "a14f1c82c76ed06484cc04927692d4c01f99a07e6ac959443d0a578149f087ca",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_02/guard_fixture_receipts.json",
+      "bytes": 1209,
+      "sha256": "09fea0e10ec4934ef45c088df6108bdeab759ccbb0308a13ce35cb52d48500f0",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_02/guard_result.json",
+      "bytes": 697,
+      "sha256": "21cfeb010e1d352f5974be099bbdc0fa55e95c9a5ef4f412017c3efd34b0589c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_02/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_02/runner.log",
+      "bytes": 1399,
+      "sha256": "9c97eceec88f68d3bbcaabf04fed88eec74b8c9e4be32a8387d5d123c70ea6e3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_03/guard_fixture_receipts.json",
+      "bytes": 1208,
+      "sha256": "eebf62f00af467ab5e31aebdfa2decfaffb4bb00e230988c77ecbe5808a2b876",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_03/guard_result.json",
+      "bytes": 697,
+      "sha256": "525d7e0b0382a590ae5961512a2828b9380224174cff4adc5e734213f08608a3",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_03/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_03/runner.log",
+      "bytes": 1613,
+      "sha256": "2901fd15528141d5cd3073c78c2a92b7a959825a05662e55bb64c4e27cb59a35",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_04/guard_fixture_receipts.json",
+      "bytes": 1242,
+      "sha256": "d731e037555e9ebf51abf329f5280b1b7e0315a9ceb47c59c259701754c929f5",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_04/guard_result.json",
+      "bytes": 686,
+      "sha256": "dcb1be78d3b636fecfd263364dd26d255711a68e5e67c9f4a3de2c545f916235",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_04/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_04/runner.log",
+      "bytes": 1745,
+      "sha256": "221dd65050c5a01a954e5561fac88057fabfaa3f8d97d1bcd4ef957a1cc82e98",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_05/guard_fixture_receipts.json",
+      "bytes": 1209,
+      "sha256": "3932d0c549bb1377e30c409492c48ec072d6270ecf7b94edaefdad1a77390cda",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_05/guard_result.json",
+      "bytes": 687,
+      "sha256": "64a31e5050a668196dab0debb7c430c27c1c2b8192169045e55609b95d00cbcb",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_05/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_05/runner.log",
+      "bytes": 1745,
+      "sha256": "e3ae4c6be53250fd4b91cba228e06790e0eef2f4a1d9ea52ebbfc5486b0d065c",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_06/guard_fixture_receipts.json",
+      "bytes": 1190,
+      "sha256": "a1ee3eea16f811d1de8c73144964da52b1a4ec80ab4aca92245b9afb15dad67a",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_06/guard_result.json",
+      "bytes": 706,
+      "sha256": "b8b484eec4ab40254bc1a804e6599cb55b283baaf63f64d5e4ce705f92a0ce65",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_06/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_06/runner.log",
+      "bytes": 1855,
+      "sha256": "1098cd800cab8b7c0f287afdbedd414b77899a12577d8338cba9805f136eddb1",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_07/guard_fixture_receipts.json",
+      "bytes": 1211,
+      "sha256": "d038fb03d622abd86fcbe06ad7c697a080ec1a7e1cd6e3cc079324fea8fdf678",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_07/guard_result.json",
+      "bytes": 697,
+      "sha256": "633561daae76b9fb4f2454217441257f1e10fdf67eec4275650be7c1c3a32890",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_07/native_output_bound.json",
+      "bytes": 416,
+      "sha256": "97828c8e9d35ba49041e980f2a320bdfd4cf328fdabe26a7d47964dd303b5108",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_attempt_07/runner.log",
+      "bytes": 1855,
+      "sha256": "6c029d1cd921e6fdaddae6edb8427bb80e9d42545df7d64b6f078b7ce1084951",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_runner.py",
+      "bytes": 16596,
+      "sha256": "0314539daaed2e49c0396a143f19e04c11a736da670229bd582bd46df2a2bd4a",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/joint_value_stage_b_runner_v1_20261005/test_supervisor.py",
+      "bytes": 1717,
+      "sha256": "55c6d8f883ef17888db4bfb77d1505210099f87b29ac06bb59528d31cc5cee6f",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/revision_temporal_scope_diagnostic_20261004/actual_runner.py",
+      "bytes": 22158,
+      "sha256": "1279365eceff5a975d913c36827ad8ad99c0d7bd6d83a86c7e93c53ca49bb942",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/revision_temporal_scope_diagnostic_20261004/cpu_release.py",
+      "bytes": 371,
+      "sha256": "4d7cc63bde77d6e509287537f70b82386c3a243e5a74749b07f55068cb6e5534",
+      "copy": "verbatim original"
+    },
+    {
+      "path": "repository/research/reconstructed/revision_temporal_scope_diagnostic_20261004/file_pager.py",
+      "bytes": 9995,
+      "sha256": "c7e429287d0377427207efe7ac8e9f39469ed61eb390676c360cce57aa5f3ca6",
+      "copy": "verbatim original"
+    }
+  ]
+}

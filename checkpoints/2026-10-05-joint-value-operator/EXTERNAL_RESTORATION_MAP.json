@@ -1,0 +1,378 @@
+{
+  "scope": "Precise restoration locators and byte identities. No dependency packages, installed environment, model weights, or selected weight copies are archived.",
+  "model": {
+    "repository": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "required_original_directory": "outputs/revision_cpu_model_assets_20261004",
+    "files": [
+      {
+        "path": "config.json",
+        "bytes": 727,
+        "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+        "git_blob_sha1_computed": "6988f134db143052042f2bd6e0c897bc6a605189",
+        "identity_basis": "git_blob_sha1"
+      },
+      {
+        "path": "generation_config.json",
+        "bytes": 238,
+        "sha256": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+        "git_blob_sha1_computed": "432531a002c181a19de338313d2375e9d7494d7e",
+        "identity_basis": "git_blob_sha1"
+      },
+      {
+        "path": "merges.txt",
+        "bytes": 1671839,
+        "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+        "git_blob_sha1_computed": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+        "identity_basis": "git_blob_sha1"
+      },
+      {
+        "path": "model-00001-of-00003.safetensors",
+        "bytes": 3957900840,
+        "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+        "git_blob_sha1_computed": "2fdce189fff249008444465355571ec6b77759ed",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "model-00002-of-00003.safetensors",
+        "bytes": 3987450520,
+        "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+        "git_blob_sha1_computed": "c4a9581805bd78129aceb754dca54b09c88aee50",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "model-00003-of-00003.safetensors",
+        "bytes": 99630640,
+        "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+        "git_blob_sha1_computed": "6f6c4827af5d2429e4957e3bdb482fd94c86ebe3",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "bytes": 32819,
+        "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+        "git_blob_sha1_computed": "4747b0297d3109f14db49886972e3369c9a00b2a",
+        "identity_basis": "git_blob_sha1"
+      },
+      {
+        "path": "tokenizer.json",
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "git_blob_sha1_computed": "949e1ec83f61520a25c75426edc4a43acc36f29a",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "bytes": 9377,
+        "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+        "git_blob_sha1_computed": "51c1be0d9192e7f6e6596de71d0f07d58fbc32ac",
+        "identity_basis": "git_blob_sha1"
+      },
+      {
+        "path": "vocab.json",
+        "bytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "git_blob_sha1_computed": "4783fe10ac3adce15ac8f358ef5462739852c569",
+        "identity_basis": "git_blob_sha1"
+      }
+    ],
+    "weight_files_omitted": [
+      {
+        "path": "model-00001-of-00003.safetensors",
+        "bytes": 3957900840,
+        "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+        "git_blob_sha1_computed": "2fdce189fff249008444465355571ec6b77759ed",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "model-00002-of-00003.safetensors",
+        "bytes": 3987450520,
+        "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+        "git_blob_sha1_computed": "c4a9581805bd78129aceb754dca54b09c88aee50",
+        "identity_basis": "sha256"
+      },
+      {
+        "path": "model-00003-of-00003.safetensors",
+        "bytes": 99630640,
+        "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+        "git_blob_sha1_computed": "6f6c4827af5d2429e4957e3bdb482fd94c86ebe3",
+        "identity_basis": "sha256"
+      }
+    ],
+    "selected_weight_segment_provenance": "repository/outputs/joint_value_W_segment_verification_20261005/W_SEGMENTS_VERIFIED.json"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux x86_64; exact original environment details and identities are retained in runtime provenance",
+    "source_archive": {
+      "start_utc": "2026-10-04T07:08:05.718950+00:00",
+      "source_url": "https://codeload.github.com/huggingface/transformers/tar.gz/02d8fb9784e8f14a1251e4c992cd82a5762417c6",
+      "expected_sha256": "e61a3b05ba4fc95ad588147bcc04723f8ee25687b33141fcd89b255ef0e2c1ad",
+      "python": "3.12.14",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+      "initial_disk_free_bytes": 31602683904,
+      "http_status": 200,
+      "final_url": "https://codeload.github.com/huggingface/transformers/tar.gz/02d8fb9784e8f14a1251e4c992cd82a5762417c6",
+      "actual_sha256": "e61a3b05ba4fc95ad588147bcc04723f8ee25687b33141fcd89b255ef0e2c1ad",
+      "bytes": 21424438,
+      "path": "research/reconstructed/runtime_recovery_20261004/downloads/transformers-02d8fb9784e8f14a1251e4c992cd82a5762417c6.tar.gz",
+      "status": "verified"
+    },
+    "packages": [
+      {
+        "name": "torch",
+        "version": "2.9.1+cpu",
+        "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.9.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+        "sha256": "7417d8c565f219d3455654cb431c6d892a3eb40246055e14d645422de13b9ea1",
+        "report": "logs/install_torch.report.json"
+      },
+      {
+        "name": "annotated-doc",
+        "version": "0.0.5",
+        "url": "https://files.pythonhosted.org/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl",
+        "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "anyio",
+        "version": "4.15.1",
+        "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+        "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22",
+        "url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl",
+        "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "click",
+        "version": "8.5.0",
+        "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+        "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "filelock",
+        "version": "4.0.9",
+        "url": "https://files.pythonhosted.org/packages/01/4f/83454fafd628e1e7e1726d74e44fb2332be5969d04c6182ca1fecb6c580e/filelock-4.0.9-py3-none-any.whl",
+        "sha256": "9287fd61b99a806e5202be29a83034c0808a1b9830e820537c2f5773981f7eeb",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "fsspec",
+        "version": "2026.9.0",
+        "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+        "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "h11",
+        "version": "0.16.0",
+        "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+        "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "hf-xet",
+        "version": "1.6.0",
+        "url": "https://files.pythonhosted.org/packages/67/4e/a28359bf1c1ecf11eba22123168c138698f7cb576ac678f5a2e16cd5da08/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+        "sha256": "d62671bb130879cef0ee4c9ebe47a14af6c66ec53e6d84dc15936e5ffdfac82f",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.9",
+        "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+        "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "httpx",
+        "version": "0.28.1",
+        "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+        "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "huggingface_hub",
+        "version": "1.33.0",
+        "url": "https://files.pythonhosted.org/packages/fc/16/963096d224b80909432dc16561a615fd33d2d13beef3ce4c63fa25e40867/huggingface_hub-1.33.0-py3-none-any.whl",
+        "sha256": "04e434b06e100eddbce9a6e817d72693a7884b10a79bd67ab48080d5c07eb899",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "idna",
+        "version": "3.20",
+        "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+        "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6",
+        "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+        "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0",
+        "url": "https://files.pythonhosted.org/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+        "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.3",
+        "url": "https://files.pythonhosted.org/packages/3c/2e/8d0c2ab90a8c1d9a24f0399058ab8519a3279d1bd4289511d74e909f060e/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2",
+        "url": "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+        "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0",
+        "url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+        "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1",
+        "url": "https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl",
+        "sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "numpy",
+        "version": "2.2.6",
+        "url": "https://files.pythonhosted.org/packages/8c/3d/1e1db36cfd41f895d266b103df00ca5b3cbe965184df824dec5c08c6b803/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "fd83c01228a688733f1ded5201c678f0c53ecc1006ffbc404db9f7a899ac6249",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3",
+        "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+        "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.21.0",
+        "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+        "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3",
+        "url": "https://files.pythonhosted.org/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "regex",
+        "version": "2026.9.29",
+        "url": "https://files.pythonhosted.org/packages/26/83/d2fbd2e4e3afb1167daa825187d196f313cbaa1a4768f311fb041bb0e3d2/regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "39ab5894d971f9ac68baa6eca5c50387db579cfcacf36ae8df3feceb1815e6d0",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "rich",
+        "version": "15.0.0",
+        "url": "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+        "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "safetensors",
+        "version": "0.8.0",
+        "url": "https://files.pythonhosted.org/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "setuptools",
+        "version": "78.1.0",
+        "url": "https://files.pythonhosted.org/packages/54/21/f43f0a1fa8b06b32812e0975981f4677d28e0f3271601dc88ac5a5b83220/setuptools-78.1.0-py3-none-any.whl",
+        "sha256": "3e386e96793c8702ae83d17b853fb93d3e09ef82ec62722e61da5cd22376dcd8",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "shellingham",
+        "version": "1.5.4",
+        "url": "https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl",
+        "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "sympy",
+        "version": "1.14.0",
+        "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+        "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.23.2",
+        "url": "https://files.pythonhosted.org/packages/2c/ca/ca6b93c7820df123b2662a9469e8facc826ccc94e98fdd0d615f6431e73a/tokenizers-0.23.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "sha256": "41c2f84d172449b4dadb9cdc508e3e364076613c35b16e76ecfe47a60d1e3305",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.70.1",
+        "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+        "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "typer",
+        "version": "0.27.2",
+        "url": "https://files.pythonhosted.org/packages/dc/bf/205d0004930ede8f542fb58f601526fccf4ae7626075ca1e6c4de5d3d652/typer-0.27.2-py3-none-any.whl",
+        "sha256": "b3a5fc4342d5fc8fda8fc3010b1cf117e9249aab7fae800c2eff62fd3842d97d",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0",
+        "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+        "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+        "report": "logs/install_dependencies.report.json"
+      },
+      {
+        "name": "transformers",
+        "version": "5.19.0.dev0",
+        "url": "file:///workspace/scratch/a95be92193c8/kv_recovery_20261004_h7Ob9Y/restored/kv-cache-research/research/reconstructed/runtime_recovery_20261004/downloads/transformers-02d8fb9784e8f14a1251e4c992cd82a5762417c6.tar.gz",
+        "sha256": "e61a3b05ba4fc95ad588147bcc04723f8ee25687b33141fcd89b255ef0e2c1ad",
+        "report": "logs/install_transformers.report.json"
+      }
+    ],
+    "locked_requirements": "repository/research/reconstructed/runtime_recovery_20261004/requirements.cpython312-linux_x86_64.lock",
+    "complete_source_file_hashes": "repository/research/reconstructed/runtime_recovery_20261004/logs/recovery_verification.json",
+    "installed_source_pins": "repository/research/reconstructed/joint_headwise_quality_plan_20261005/stage_a_packet/EXTERNAL_PINS.json",
+    "identity_limit": "Pinned source and package reconstruction, not proof of byte-identical whole runtime or portable launcher permissions"
+  },
+  "third_party_research_source_snippets": {
+    "directory": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/sources",
+    "source_mapping": "repository/research/reconstructed/gqa_compact_cd_cpu_20261005/SOURCE_AND_STRUCTURE.md",
+    "policy": "Existing small research source snippets and commit-response provenance are preserved verbatim as supplied evidence. No full papers or repositories were fetched. Retain original notices and consult the pinned upstream license before redistribution."
+  },
+  "replay_limits": [
+    "Archive preservation is not permission to execute any runner or obtain assets.",
+    "Admissions and RUN_CLAIM files are one-use historical evidence and remain consumed. Do not remove or edit them to bypass checks.",
+    "Absolute paths, source hashes, process/resource supervision, environment acceptance and model locators bind the original environment.",
+    "A separately approved replay must preserve original evidence and document an explicit new environment/path amendment; it cannot be called the same execution.",
+    "Holdout is now observed. No rerun, retuning, layer/query exclusion, checkpoint selection or budget extension is authorized by this archive."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "decision": "COMPLETE_VALID_POPULATION_FROZEN_USEFULNESS_GATE_FAILED",
+  "reviewed_utc": "2026-10-05T11:10:00Z",
+  "scope": "Independent terminal metadata, manifest, work/IO and reported-metric audit. No model rerun, encoding rerun, raw capture payload or weight payload read by reviewer",
+  "stage_A": {
+    "tensor_manifest_sha256": "cdc60a65bda8247e1cf0615a5afd71c37cd916cecaebb2e1d287a4a3a85c03e6",
+    "completion_sha256": "ed219026d9a05c68a06e7c325c7762b1386a8e1a083dd10d124a629330ce79d1",
+    "guard_sha256": "c08c777983d10cd72274fdaeed07665c8ea1ca7c5ceca1c63eb429d05d1272a4",
+    "launcher_finalization_sha256": "0257f36f8cd65fec81215610eaf90dd2aa7d6fbb447b69d9311f5e8bfba18b8e",
+    "launcher_exit_code": 0,
+    "all_six_exact_old_Q_K_parity": true,
+    "native_model_calls": 5,
+    "model_and_cache_released": true,
+    "aggregate_CPU_seconds": 106.762549,
+    "guard_wall_seconds": 40.209164757994586,
+    "sampled_tree_RSS_bytes": 2111180800,
+    "minimum_host_available_bytes": 3882860544,
+    "output_bytes": 14845886,
+    "source_hash_plus_pager_logical_read_bytes": 45156444912,
+    "metadata_only_Stage_B_Capture_contract_validation": "PASS",
+    "all_36_capture_artifact_sizes_and_22_frozen_source_files_verified": true
+  },
+  "stage_B": {
+    "runner_manifest_sha256": "d9ad52fb6ec8aa585939fe9f9fc8c6d921a3588f5b0429b290e992a9fb0d740b",
+    "result_sha256": "214f69f7c41ee3f0cc9068f1800643bcb711f869b4031da5638263a4d0f9f09e",
+    "encoding_lock_sha256": "3b07c0187b569c9832a1125d2efbdf425f7e8b6944cfbffa476f2b1f17367f39",
+    "guard_sha256": "756ec96f69edec54cd80b909b7fd9114b89512574e0c80c3595e7d194072ebfa",
+    "final_manifest_sha256": "b13decf01a380c192324d03cad8a75ae0e6c24ee8e0e231c35ee9c4eb6084b69",
+    "launcher_exit_code_reported": 0,
+    "final_status": "COMPLETE_VALID_POPULATION",
+    "guard_exit_code": 0,
+    "guard_termination": null,
+    "all_owned_processes_reaped_and_absent": true,
+    "guard_CPU_seconds": 37.709725,
+    "CPU_seconds_including_parent_finalization": 37.932891,
+    "guard_wall_seconds": 35.34798289900937,
+    "sampled_tree_RSS_bytes": 208621568,
+    "child_high_water_RSS_bytes": 195977216,
+    "minimum_host_available_bytes": 6159855616,
+    "final_output_bytes_including_final_manifest": 185308476,
+    "final_manifest_artifact_count_excluding_itself": 301,
+    "all_final_file_sizes_match": true,
+    "all_36_locked_encoding_records_complete_cap_feasible_and_at_least_one_sweep": true,
+    "all_locked_artifact_hashes_and_sizes_agree_with_final_manifest": true,
+    "prelock_holdout_payload_read_events": 0,
+    "W_payload_read_events": 12,
+    "W_payload_read_bytes_encode_plus_evaluate": 251658240,
+    "instrumented_child_logical_read_bytes": 651233361,
+    "instrumented_parent_cumulative_logical_read_bytes_including_prelaunch": 185847945,
+    "instrumented_combined_logical_read_bytes": 837081306,
+    "parent_prelaunch_read_bytes_already_in_parent_total": 595972,
+    "read_counts_are_not_storage_device_traffic_or_downloads": true,
+    "summed_charged_MAC_equivalent_work_all_encoders_all_layers": 33806546880,
+    "maximum_signed_decomposition_recombination_discrepancy": 1.3877787807814457e-17
+  },
+  "work_units_per_layer": {
+    "nearest": 0,
+    "headwise_cd": 1299791872,
+    "group_joint_cd": 1298661376,
+    "full_joint_cd": 1298661376,
+    "guarded_token_gptq_raw_and_guarded_charged_together": 440598528,
+    "projected_block_gptq": 1296711328
+  },
+  "independently_recomputed_holdout_mean_of_six_layerwise_nearest_normalized_SSE": {
+    "nearest": 1.0,
+    "headwise_cd": 0.8283247490113856,
+    "group_joint_cd": 0.8219144586627335,
+    "full_joint_cd": 0.808808818067349,
+    "guarded_token_gptq": 0.9665941798124394,
+    "projected_block_gptq": 0.80466936589841
+  },
+  "full_joint_relative_improvement_percent": {
+    "versus_nearest": 19.119118193265106,
+    "versus_headwise": 2.356072418134214,
+    "versus_group_joint": 1.5945261039339353,
+    "versus_guarded_token_GPTQ": 16.32384769539038,
+    "versus_projected_block_GPTQ": -0.5144289498727472
+  },
+  "gate_failures": {
+    "ten_percent_better_than_each_control": false,
+    "failed_ten_percent_comparators": ["headwise_cd", "group_joint_cd", "projected_block_gptq"],
+    "layers_better_than_headwise": [0, 35],
+    "required_layer_wins": 4,
+    "actual_layer_wins": 2,
+    "pointwise_error_guard_violations": [
+      {"layer": 7, "position": 520, "full_joint_over_nearest_SSE": 1.5414383978716244, "allowed_maximum": 1.25}
+    ],
+    "exploratory_usefulness_gate_pass": false
+  },
+  "interpretation": [
+    "The implementation and fixed-population run are valid; the prespecified quality claim failed",
+    "Full-joint fitting improved calibration full-output SSE versus headwise in all six layers, but beat headwise on held-out SSE in only two",
+    "The strongest eligible mean-error control was projected blocked GPTQ, which slightly outperformed full-joint CD",
+    "A 19.1-percent improvement versus nearest does not meet the stronger frozen controls and pointwise guard",
+    "Raw token GPTQ cap violations are recorded and it remains ineligible for same-cap superiority claims",
+    "Close this exact proposal; do not drop layers/queries/controls, retry, retune, or extend budgets from these holdout results",
+    "One reused public passage, correlated layers/positions and teacher-forced isolated-layer operator error do not establish autoregressive quality, generality, full OptR superiority, novelty or serving speed",
+    "Earlier failed toy and temporal experiments remain unchanged"
+  ]
+}

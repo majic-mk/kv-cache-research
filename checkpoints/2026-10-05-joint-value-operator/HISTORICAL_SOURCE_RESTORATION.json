@@ -1,0 +1,18 @@
+{
+  "status": "EXACT_HISTORICAL_SOURCE_BYTES_RESTORED_BY_SHA256_MATCH",
+  "original_manifest": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_01/FROZEN_PREP_FILES.json",
+  "source_used": "repository/research/reconstructed/joint_value_solver_prep_20261005/attempt_02/sources/prep_runner.py",
+  "source_sha256": "e427130ff4227ca54987d9b44642ecad09c9f3600045bd2c0cd0592434ab6be8",
+  "restored_file": "historical_restoration/attempt_01/prep_runner.py",
+  "restored_bytes": 16505,
+  "restored_sha256": "5c8b2ffc5057499bf1e853d2389337b361104e95f7e5f12036b42f89c56be58c",
+  "recipe": [
+    "Remove the two assertion lines containing Synthetic weight dtype/shape and Synthetic BF16 weights.",
+    "Replace the separate in-place float32 normalization with the original raw=rng.standard_normal((k,G,d,p),dtype=np.float32)/np.sqrt(p) expression.",
+    "Require the exact archived byte length and SHA-256 before accepting recovery."
+  ],
+  "original_repository_unchanged": true,
+  "original_manifests_unchanged": true,
+  "no_research_execution": true,
+  "other_attempt_01_sources": "Every other source hash resolves to included exact bytes in attempt_02/sources, including kernels_v1.c when applicable; SOURCE_PIN_CLOSURE.json gives exact mappings."
+}

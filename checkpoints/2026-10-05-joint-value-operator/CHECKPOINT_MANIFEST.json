@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-05",
+  "repository": "majic-mk/kv-cache-research",
+  "visibility": "private",
+  "path": "checkpoints/2026-10-05-joint-value-operator",
+  "baseline_commit": "342aea8545c1374600eca59f61c95d1908aaca87",
+  "files_except_this_manifest": [
+    {
+      "file": "ACTUAL_RESULT_REPORT.md",
+      "bytes": 5747,
+      "sha256": "9f672d9e3f2817af087abf528e947a1c9e5f54f2d1934f8b91d08ee5065ccf99"
+    },
+    {
+      "file": "COMPACT_RESULT_SUMMARY.json",
+      "bytes": 4830,
+      "sha256": "1d0f498cb51925da44cafd3822afd8418422277b81bdc4e9d30c973f833e42fe"
+    },
+    {
+      "file": "EVIDENCE_ARCHIVE_REFERENCE.json",
+      "bytes": 1297,
+      "sha256": "c1d80b9e8e02ccf0232dd86b5f8a8a25128a1946f8e284e0b360f53b17a727e0"
+    },
+    {
+      "file": "EXTERNAL_RESTORATION_MAP.json",
+      "bytes": 20257,
+      "sha256": "996c9fed800f3c79d86d63ac779f2ed64341812181353306fbccef8d4ffa133b"
+    },
+    {
+      "file": "FINAL_INDEPENDENT_RESULT_AUDIT.json",
+      "bytes": 5546,
+      "sha256": "e253d399d41b074edd8202bd2520fe5e25a6a73ad7489b0a2146093c90a1cf0a"
+    },
+    {
+      "file": "HISTORICAL_SOURCE_RESTORATION.json",
+      "bytes": 1269,
+      "sha256": "f78e596e31f2f0e69ec38a8003358daf71cd7f34473736721d286547776b349f"
+    },
+    {
+      "file": "Joint_Value_Operator_Source_2026-10-05.zip",
+      "bytes": 488522,
+      "sha256": "db985d264011fe431991b4263abd3145ff3847f9707f320b75c38c3a9f08a601"
+    },
+    {
+      "file": "MANIFEST_HISTORY_AND_LIMITATIONS.json",
+      "bytes": 2546,
+      "sha256": "cda07be55ad03251cdd84c875473564886a69b74530c138a2c6dbdbfb66623db"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2993,
+      "sha256": "3a5e411bd881c0d3adb26887d1e6014fada344a4e4712a7f90960c9af4bfb6cc"
+    },
+    {
+      "file": "RESTORATION_MANIFEST.json",
+      "bytes": 223213,
+      "sha256": "e74266393dc875bd74e1e03d03506bcb1c0a80f96fc3c95cccf5c952e04f00bf"
+    },
+    {
+      "file": "RESTORE_AND_SCOPE.md",
+      "bytes": 3003,
+      "sha256": "4280f03c067f865edf1bde9d477b841821bb88a50a91a09ceac034943391b619"
+    },
+    {
+      "file": "SOURCE_SELECTION_MANIFEST.json",
+      "bytes": 53535,
+      "sha256": "601e6807c43407d3170a63e0d08bf9d9074759f78cb572939140bad489912f44"
+    },
+    {
+      "file": "verify_checkpoint.py",
+      "bytes": 986,
+      "sha256": "bddb015e62ed7393b1c852654d2c64af2584ba66467b16f147c0f48afbe27848"
+    }
+  ],
+  "scientific_decision": "COMPLETE_VALID_POPULATION_FROZEN_USEFULNESS_GATE_FAILED",
+  "validation": {
+    "exact_original_source_bytes": "PASS",
+    "python_AST_parse": "PASS",
+    "JSON_parse": "PASS",
+    "ZIP_CRC_and_member_SHA256": "PASS",
+    "actual_result_and_independent_audit_summary_agree": "PASS",
+    "common_credential_and_signed_URL_scan": "PASS"
+  },
+  "research_rerun": false,
+  "CI_pass_claimed": false,
+  "paper_ready_claimed": false,
+  "GPU_or_native_speed_claimed": false,
+  "old_repository_files": "Preserve all bytes. Root README receives only an additive dated status and historical marker."
+}

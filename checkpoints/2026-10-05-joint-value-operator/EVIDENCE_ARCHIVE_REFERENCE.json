@@ -1,0 +1,26 @@
+{
+  "full_evidence": {
+    "library_file_id": "libfile_0103037ee494819185f3b1abd5da0120",
+    "version": 0,
+    "filename": "Joint_Value_CPU_Full_Evidence_20261005.tar.gz",
+    "bytes": 529181000,
+    "sha256": "2b83815d15c0cb49b6b98bb6d120fcbd0ac719b7a778afe40df5147cb2fd77af"
+  },
+  "comparison_figures": {
+    "library_file_id": "libfile_328f7c994a488191977a19804343e9e2",
+    "version": 1,
+    "filename": "Joint_Value_CPU_\u56fe\u8868\u4e0e\u590d\u73b0\u5305_20261005.zip",
+    "bytes": 2167282,
+    "sha256": "340d20ce434e8917c50e6dbf8f91495c19618507b57eafe40ac9d90c033c1f92"
+  },
+  "access": "Existing private Library identities; this checkpoint changes no sharing permissions. Identifiers are not public download links.",
+  "history": "The full archive retains a historical reference to the figure bundle version 0; the figure bundle latest documentation-only revision is version 1 above.",
+  "full_archive_verification": {
+    "files": 750,
+    "verbatim_original_sources": 737,
+    "uncompressed_verified_bytes": 788156353,
+    "all_original_source_hashes_unchanged": true,
+    "readback": "all archived member hashes verified before Library upload"
+  },
+  "exclusions": "No weights, installed dependencies, full third-party papers, signed URLs, credentials or stopped security work."
+}

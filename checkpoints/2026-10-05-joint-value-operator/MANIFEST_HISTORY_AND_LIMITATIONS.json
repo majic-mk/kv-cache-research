@@ -1,0 +1,44 @@
+{
+  "policy": "Original source and result files are immutable copies. Historical child-time manifests are not edited to describe later finalized logs.",
+  "child_prefixes": [
+    {
+      "manifest": "research/reconstructed/joint_value_solver_prep_20261005/attempt_03/manifest.json",
+      "recorded_path": "resource_samples.jsonl",
+      "expected_sha256": "77bf5cac7a108ee937aecb7560b7147a836fca14a0e64113f182beaa2b14938c",
+      "expected_bytes": 37848,
+      "status": "CHILD_TIME_PREFIX_PRESERVED_IN_FINAL_LOG",
+      "current_bytes": 38453,
+      "current_sha256": "2e7c09c45e48744e9b87961ac15ccba257c3c0646957799e07420f16b7a2e8ee"
+    },
+    {
+      "manifest": "research/reconstructed/joint_value_solver_prep_20261005/attempt_02/manifest.json",
+      "recorded_path": "resource_samples.jsonl",
+      "expected_sha256": "3b0dbd244f2f87dff440b45cc9d16e4319a6cd19183e9009b999b9a04024feba",
+      "expected_bytes": 32724,
+      "status": "CHILD_TIME_PREFIX_PRESERVED_IN_FINAL_LOG",
+      "current_bytes": 33330,
+      "current_sha256": "a9056173ac8d093234b4daf88af134b2999d8dd33183e159d7ef5e7914975520"
+    },
+    {
+      "manifest": "research/reconstructed/joint_value_solver_prep_20261005/attempt_01/manifest.json",
+      "recorded_path": "resource_samples.jsonl",
+      "expected_sha256": "5a3db162bf13931a3b9c433db00c999d817d653da05afca5eee649fe15656abb",
+      "expected_bytes": 8453,
+      "status": "CHILD_TIME_PREFIX_PRESERVED_IN_FINAL_LOG",
+      "current_bytes": 8743,
+      "current_sha256": "b1d95d8982f39581b98e04d8528b5e690d1d558bbb821e290792bdc0bb083393"
+    },
+    {
+      "manifest": "research/reconstructed/joint_value_solver_prep_20261005/attempt_01/manifest.json",
+      "recorded_path": "runner.log",
+      "expected_sha256": "23f0b6bcaad06505ea3c8ff23e6a4f51ea733871daec6082e745f6b338bb7f59",
+      "expected_bytes": 292,
+      "status": "CHILD_TIME_PREFIX_PRESERVED_IN_FINAL_LOG",
+      "current_bytes": 1975,
+      "current_sha256": "562ea63a334b73f0b2e70b4bb4c490cba616092a15904a4726db31925bba6fc8"
+    }
+  ],
+  "terminal_source": "repository/research/reconstructed/joint_value_solver_prep_20261005/SAVED_VERIFICATION.json",
+  "historical_unresolved_pins": [],
+  "historical_review_recovery": "The review author reversed the known final append/decision replacement and proved the earlier bytes by the admission-pinned SHA-256. The historical copy and restoration recipe are separately labeled under the requested proposal packet. Current text, original admissions, source manifests and results were left unchanged."
+}
